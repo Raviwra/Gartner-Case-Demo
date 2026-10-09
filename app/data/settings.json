@@ -23,5 +23,5 @@
   ],
   "model": "claude-sonnet-5-5",
   "cleanup_model": "claude-haiku-5-5",
-  "active_case": "harborline"
+  "active_case": "larkspur"
 }
