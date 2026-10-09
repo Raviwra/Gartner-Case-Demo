@@ -1,0 +1,101 @@
+{
+  "duration_api_ms": 54113,
+  "stop_reason": "end_turn",
+  "session_id": "90736fb1-77eb-4d63-ae7d-43ba5b5a7b1e",
+  "total_cost_usd": 0.39751625,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7231,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 5051,
+    "output_tokens_details": {
+      "thinking_tokens": 1598
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7231,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 5051,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7231,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7231
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 5051,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7231,
+      "webSearchRequests": 0,
+      "costUSD": 0.39751625,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 1598,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\n## Covenant Extraction: Draft Amended and Restated Credit Agreement (D2, draft of Sept 22, 2026)\n\n| # | Covenant | Type | Requirement as written | Test frequency | Source | Confidence | Reason |\n|---|---|---|---|---|---|---|---|\n| 1 | Maximum Total Leverage Ratio | Financial | \"The Borrower shall not permit the Total Leverage Ratio, as of the last day of any fiscal quarter, to exceed 3.25 to 1.00; provided that for each fiscal quarter ending on or after December 31, 2027, the maximum shall be 3.00 to 1.00.\" | Quarterly (last day of each fiscal quarter) | [D2, \u00a77.1]; definitions [D2, \u00a71.1] | High | Threshold, step-down date and ratio definition are stated with figures and defined terms; note \"Equipment Notes\" (within Total Funded Debt) is capitalized but not defined in the excerpt. |\n| 2 | Minimum Debt Service Coverage Ratio | Financial | \"The Borrower shall not permit the Debt Service Coverage Ratio to be less than 1.25 to 1.00 as of the last day of any fiscal quarter.\" | Quarterly (last day of each fiscal quarter) | [D2, \u00a77.2]; definitions [D2, \u00a71.1] | High | Threshold stated explicitly; DSCR, EBITDA and Unfinanced Capital Expenditures are all defined in \u00a71.1. |\n| 3 | Capital Expenditures cap | Financial | \"Unfinanced Capital Expenditures shall not exceed $2,500,000 in any fiscal year; provided that capital expenditures for the Expansion Project, not exceeding $6,000,000 in the aggregate, shall be excluded.\" | Per fiscal year (explicit test date and certificate mechanism not stated) | [D2, \u00a77.3]; definitions [D2, \u00a71.1] | Medium | \"Expansion Project\" is defined by reference to Schedule 1.1, which is not included in the excerpt [D2, \u00a71.1]; the Compliance Certificate in \u00a77.4(c) covers \u00a77.1 and \u00a77.2 only. |\n| 4 | Annual audited financial statements | Reporting | \"within 120 days after the end of each fiscal year, annual consolidated financial statements audited by an independent accounting firm acceptable to the Lender\" | Annual | [D2, \u00a77.4(a)] | High | Deadline and deliverable stated explicitly; \"acceptable to the Lender\" is a lender-discretion term, flagged below. |\n| 5 | Quarterly financial statements | Reporting | \"within 45 days after the end of each fiscal quarter, internally prepared quarterly consolidated financial statements\" | Quarterly | [D2, \u00a77.4(b)] | High | Deadline and deliverable stated explicitly. |\n| 6 | Compliance Certificate | Reporting | \"together with each delivery under clause (b), a Compliance Certificate signed by a financial officer of the Borrower, showing the calculations of the Total Leverage Ratio under \u00a77.1 and the Debt Service Coverage Ratio under \u00a77.2 for the period then ended\" | Quarterly (with each \u00a77.4(b) delivery) | [D2, \u00a77.4(c)] | High | Timing, signatory and content stated explicitly; \"Compliance Certificate\" is capitalized but its form is not reproduced in the excerpt. |\n| 7 | Negative pledge | Negative | \"The Borrower shall not create, incur or permit to exist any Lien on any of its assets, except Permitted Liens.\" Permitted Liens: \"(i) Liens in favor of the Lender; (ii) Liens securing the Equipment Notes, limited to the equipment financed by those notes; (iii) purchase-money Liens securing indebtedness in an aggregate amount not exceeding $1,000,000 at any time outstanding; and (iv) Liens for taxes not yet due and payable.\" | Continuous (\"permit to exist\"; \"at any time outstanding\") | [D2, \u00a77.5(a)], [D2, \u00a77.5(b)]; \"Lien\" defined [D2, \u00a71.1] | High | Prohibition and exceptions stated with a figure and defined terms; \"Equipment Notes\" is not defined in the excerpt. |\n| 8 | Change of Control | Default trigger | \"It shall be an Event of Default if the Founders cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" | Continuous (no test date stated) | [D2, \u00a77.6]; \"Founders\" defined [D2, \u00a71.1] | Low | \"Meaningful portion\" and \"actively involved in the management\" are not defined or quantified; reasonable readers could disagree on when the trigger is met. |\n| 9 | Use of proceeds | Negative (restriction on use) | \"The Borrower shall use the proceeds of the Term Loan and the revolving loans only to refinance the existing term loan owed to the Lender, to fund the Expansion Project, and to pay fees and expenses in connection with this Agreement.\" | Not stated (applies at and after funding) | [D2, \u00a72.1(c)] | Medium | Stated explicitly, but \"Expansion Project\" depends on Schedule 1.1, which is not provided [D2, \u00a71.1]. |\n\n**Sources used:** [D2, \u00a71.1], [D2, \u00a72.1(c)], [D2, \u00a77.1], [D2, \u00a77.2], [D2, \u00a77.3], [D2, \u00a77.4(a)-(c)], [D2, \u00a77.5(a)-(b)], [D2, \u00a77.6]. Context items below also cite [D1, \u00a72 Table 2], [D1, \u00a73 Table 3], [D1, \u00a77], [D4, \u00a74.2.1-4.2.2], [D5, \u00b61], [D5, \u00b63], [D5, \u00b65].\n\n### Items for legal and underwriter review\n\n1. **\u00a77.6 Change of Control, ambiguous terms (Low confidence).** \"Meaningful portion\" and \"actively involved in the management\" are quoted without interpretation; referred to legal and the underwriter [D2, \u00a77.6]. Related cited facts: Ownership is Erik Halvorsen 55%, Maria Halvorsen 25%, Anders Halvorsen (COO) 20% [D5, \u00b61]. Erik Halvorsen (64) plans to hand the CEO role to Anders within three years, and the family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, \u00b65]. \"Founders\" means Erik Halvorsen and Maria Halvorsen [D2, \u00a71.1].\n\n2. **Schedule 1.1 not provided.** \"Expansion Project\" has the meaning given in Schedule 1.1, which is not included in the excerpt [D2, \u00a71.1]. This affects \u00a77.3 and \u00a72.1(c). Not in provided documents: Schedule 1.1 (full draft credit agreement).\n\n3. **\"Equipment Notes\" undefined in excerpt.** The term appears in the definitions of Total Funded Debt and Unfinanced Capital Expenditures and in Permitted Liens [D2, \u00a71.1], [D2, \u00a77.5(b)]. D1 shows \"Equipment notes (Prairie Equipment Finance)\" of 11,000 in FY2025 [D1, \u00a74] but the contractual definition is not in the provided documents.\n\n4. **\u00a77.3 testing mechanics.** The capex covenant is expressed \"in any fiscal year\" [D2, \u00a77.3], but the Compliance Certificate requirement references only \u00a77.1 and \u00a77.2 [D2, \u00a77.4(c)]. Legal to confirm how and when \u00a77.3 compliance is certified.\n\n5. **\u00a77.4(a) lender discretion.** Auditor must be \"acceptable to the Lender\" [D2, \u00a77.4(a)]. FY2023-FY2025 statements were audited by Hartwell & Lo LLP with unqualified opinions [D1, header]. Underwriter to confirm acceptability.\n\n6. **Change in covenant levels versus existing agreement (facts only, no evaluation).** Existing 2023 agreement: maximum total leverage 3.50x, minimum DSCR 1.20x [D1, \u00a77], [D3, Part B \u00a74]. Draft agreement: maximum Total Leverage Ratio 3.25x, stepping to 3.00x for quarters ending on or after December 31, 2027; minimum DSCR 1.25x [D2, \u00a77.1], [D2, \u00a77.2]. Pro forma figures on an FY2025 basis: total leverage 2.52x, DSCR 1.38x [D1, Table 3: Total leverage, Pro forma], [D1, Table 3: DSCR, Pro forma]. Policy minimums: pro forma total leverage not exceeding 3.50x, pro forma DSCR at least 1.25x [D4, \u00a74.2.1], [D4, \u00a74.2.2].\n\n7. **Definitional alignment between spread and agreement.** The D1 spread defines DSCR using \"unfunded capex\" [D1, \u00a72, Definitions as spread]; the draft agreement uses \"Unfinanced Capital Expenditures,\" which excludes capex financed with indebtedness (including the Equipment Notes) or Term Loan proceeds [D2, \u00a71.1]. Underwriter to confirm whether the spread calculation matches the contractual definition. Not calculated here.\n\n8. **Prior reporting covenant history.** The Q4 2024 compliance certificate arrived 18 days late and Credit Administration waived the reporting covenant (waiver W-25-0117); all later certificates arrived on time [D5, \u00b63]. Relevant to covenants #5 and #6.\n\n9. **Terms not reproduced in excerpt.** \"Closing Date,\" \"Compliance Certificate,\" \"Permitted Liens\" form, and any other covenants, events of default or cure periods outside \u00a7\u00a72.1, 2.2, 7.1-7.6 are not in the provided documents (full draft credit agreement would contain them) [D2, header note].",
+  "ttft_ms": 20643,
+  "type": "result",
+  "duration_ms": 55266,
+  "uuid": "937fc479-260f-4bc5-8290-de69100c694e",
+  "ttft_stream_ms": 1113,
+  "time_to_request_ms": 113,
+  "first_content_frame_ms": 1113,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0
+}

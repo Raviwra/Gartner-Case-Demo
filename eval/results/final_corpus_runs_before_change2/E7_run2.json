@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 9716,
+  "stop_reason": "end_turn",
+  "session_id": "b790e04b-6609-492d-9acc-26596b0d8c4d",
+  "total_cost_usd": 0.043583,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7357,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 1389,
+    "output_tokens_details": {
+      "thinking_tokens": 504
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7357,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1389,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7357,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7357
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1389,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7357,
+      "webSearchRequests": 0,
+      "costUSD": 0.043583,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 504,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\n**This cannot be answered from D1-D5, and I will not interpret it.** Whether a 30% sale triggers \u00a77.6 turns on ambiguous legal wording, so it is referred to the underwriter and legal.\n\n**Clause as written**\n- \u00a77.6 reads: \"It shall be an Event of Default if the Founders cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" [D2, \u00a77.6]\n- \"Founders\" means Erik Halvorsen and Maria Halvorsen. [D2, \u00a71.1]\n- The clause has two separate limbs: ownership (\"a meaningful portion of the voting equity interests\") and management (\"actively involved in the management\"). [D2, \u00a77.6]\n\n**Relevant facts in the documents**\n- Current ownership is Erik Halvorsen 55%, Maria Halvorsen 25% and Anders Halvorsen (COO) 20%. [D5, \u00b61]\n- Anders Halvorsen is not named in the \"Founders\" definition. [D2, \u00a71.1]\n- The family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI. [D5, \u00b65]\n- Erik Halvorsen plans to hand the CEO role to Anders within three years. [D5, \u00b65]\n\n**Flagged for legal and underwriter review**\n1. \"Meaningful portion\" is not defined in the excerpt and no percentage threshold is stated. [D2, \u00a77.6] Whether any given holding is \"meaningful\" is a legal interpretation.\n2. \"Actively involved in the management\" is not defined, and the draft does not say whether a CEO transition satisfies it. [D2, \u00a77.6]\n3. Not in provided documents: who would sell the 30% (which holder or holders), whether the stake is voting equity, and the structure of the sale. The sale terms would normally be in a term sheet or LOI, and none exists. [D5, \u00b65]\n4. Not in provided documents: any definition of \"meaningful portion\" or \"actively involved\" elsewhere in the draft. The full draft agreement would normally contain it. [D2, preamble]\n5. The clause has no stated cure period, consent right or carve-out for permitted transfers in this excerpt. That point is for legal to confirm against the full draft.\n\n**Underwriter to complete:** Legal's reading of \u00a77.6 for the scenario above. Section 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 4334,
+  "type": "result",
+  "duration_ms": 10752,
+  "uuid": "b2cf3687-8fc8-45be-a5bb-3f0aabee6a87",
+  "ttft_stream_ms": 862,
+  "time_to_request_ms": 97,
+  "first_content_frame_ms": 862,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

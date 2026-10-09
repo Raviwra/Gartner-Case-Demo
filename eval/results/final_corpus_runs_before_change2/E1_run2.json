@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 13427,
+  "stop_reason": "end_turn",
+  "session_id": "214e8bb0-08c2-4729-aac5-2ddbd5e214e9",
+  "total_cost_usd": 0.050103,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7352,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 2043,
+    "output_tokens_details": {
+      "thinking_tokens": 856
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7352,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 2043,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7352,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7352
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2043,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7352,
+      "webSearchRequests": 0,
+      "costUSD": 0.050103,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 856,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\n## Section 2: Borrower Overview and Relationship History\n\n### Borrower Overview\n\nLarkspur Precision Components, Inc. (\"Larkspur\") is privately held. [D5, \u00b61] The company was founded in 1994 in Rockford, Illinois, by Erik and Maria Halvorsen. [D5, \u00b61] It makes precision-machined components and welded assemblies for agricultural and construction equipment OEMs. [D5, \u00b61] The company has about 310 employees and one plant. [D5, \u00b61]\n\nOwnership is Erik Halvorsen 55%, Maria Halvorsen 25% and Anders Halvorsen (COO) 20%. [D5, \u00b61]\n\nOn 2026-09-02, Erik Halvorsen (64) stated that he plans to hand the CEO role to Anders within three years. [D5, \u00b65] On the same call, the family said it has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI. [D5, \u00b65]\n\n### Relationship History\n\nLarkspur has been a deposit and treasury management customer of Meridian since 2019. [D5, \u00b62] Average operating deposits were $4.1 million over the trailing 12 months to August 2026. [D5, \u00b62]\n\nA $12.0 million facility ($7.0M term loan, $5.0M revolver) was approved in June 2023. [D5, \u00b62] The facility has been paid as agreed with no past dues. [D5, \u00b62]\n\nThe Q4 2024 compliance certificate arrived 18 days late. [D5, \u00b63] Credit Administration waived the reporting covenant (waiver W-25-0117). [D5, \u00b63] All later certificates arrived on time. [D5, \u00b63]\n\nOn the 2026-08-19 call, Erik and Anders Halvorsen asked to increase the facility to $18.0 million to fund a 60,000 sq ft expansion of the Rockford plant ($6.0 million), tied to a new multi-year Customer A program. [D5, \u00b64]\n\n**Sources used:** D5 \u00b61, \u00b62, \u00b63, \u00b64, \u00b65.\n\n**Underwriter to complete:**\n- Header fields: Underwriter, Senior reviewer. Neither is in the provided documents.\n- Not in provided documents: the Founders' and Anders Halvorsen's management tenure and backgrounds, and the 2023 facility's current outstanding balances. The relationship manager's file or the loan system would normally hold these.\n- Change of control, for the underwriter and legal. D5 \u00b65 records a possible minority stake sale and a planned CEO transition. The draft agreement makes it an Event of Default if the Founders \"cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower\" [D2, \u00a77.6]. \"Meaningful portion\" and \"actively involved\" are not defined in the excerpt. Anders Halvorsen is not within the defined term \"Founders\" [D2, \u00a71.1; D5, \u00b61]. I have not interpreted these terms. Refer them to the underwriter and legal.\n- Judgment items such as how to weigh the late certificate and waiver, ownership, and succession belong in Sections 7 and 8, which are underwriter-authored.\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 7254,
+  "type": "result",
+  "duration_ms": 14645,
+  "uuid": "6df2e2b5-3c0c-4ac0-8e64-c07027c6103e",
+  "ttft_stream_ms": 815,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 815,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

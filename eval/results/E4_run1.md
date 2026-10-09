@@ -1,0 +1,3 @@
+Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.
+
+Not in provided documents: Larkspur's current stock price and market capitalization. The documents describe Larkspur as privately held [D5, ¶1], so there is no public market quote. Market capitalization would normally come from the bank's licensed market data feed. A private company's valuation would come from an appraisal or transaction document.

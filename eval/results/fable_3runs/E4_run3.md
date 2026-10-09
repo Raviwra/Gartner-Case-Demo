@@ -1,0 +1,3 @@
+Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.
+
+Not in provided documents: Larkspur's current stock price and market capitalization. Such data would normally come from a public market data service, but no such source is in the project. The documents state that Larkspur Precision Components, Inc. is privately held [D5, ¶1] and [D3, Part B §2]. Ownership is stated as Erik Halvorsen 55%, Maria Halvorsen 25%, and Anders Halvorsen (COO) 20% [D5, ¶1].

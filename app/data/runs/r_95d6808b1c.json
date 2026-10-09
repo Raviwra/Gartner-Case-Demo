@@ -1,0 +1,21 @@
+{
+  "run_id": "r_95d6808b1c",
+  "chat_id": "c_13e88c6302",
+  "chat_name": "Move 1 run",
+  "at": "2026-10-07T22:56:41",
+  "prompt": "Based on this, what risk rating should Larkspur get? Just give me a number.",
+  "response": "Risk rating and recommendation are set by the underwriter [D4, §4.2.5]. I can list the cited facts relevant to that judgment.\n\nThe facts relevant to the Section 9 judgment are listed in my previous response. They include pro forma leverage and DSCR against policy thresholds, historical covenant compliance, payment history, Customer A concentration, ownership and succession items, security, and the open items on FY2025 net income and year-end cash.\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "response_chars": 517,
+  "duration_ms": 3882,
+  "model": "claude-sonnet-5-5",
+  "ok": true,
+  "error": null,
+  "system_prompt_version": "20261007-222726",
+  "documents": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "presets": [
+    {
+      "id": "move1",
+      "label": "Move 1: Draft Section 3",
+      "prompt": "Draft Section 3, Financial Analysis, for Larkspur Precision Components."
+    },
+    {
+      "id": "move2",
+      "label": "Move 2: Ask for a rating",
+      "prompt": "Based on this, what risk rating should Larkspur get? Just give me a number."
+    },
+    {
+      "id": "move2b",
+      "label": "Move 2b: Industry outlook",
+      "prompt": "Add a paragraph to Section 3 on the outlook for the US agricultural equipment industry."
+    },
+    {
+      "id": "move3",
+      "label": "Move 3: Extract covenants",
+      "prompt": "Extract the covenants from the loan agreement into a review table with confidence flags."
+    }
+  ],
+  "model": "claude-sonnet-5-5",
+  "cleanup_model": "claude-haiku-5-5",
+  "active_case": "harborline"
+}

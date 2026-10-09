@@ -1,0 +1,727 @@
+{
+  "id": "m_89ff6c5aee",
+  "name": "Larkspur new-money memo",
+  "created_at": "2026-10-08T00:00:32",
+  "updated_at": "2026-10-08T12:37:12",
+  "header": {
+    "borrower": "Larkspur Precision Components, Inc.",
+    "request_type": "New-money increase to $18.0M senior secured facility",
+    "total_commitment": "$18.0 million",
+    "underwriter": "",
+    "senior_reviewer": "",
+    "date": ""
+  },
+  "sections": [
+    {
+      "id": "1",
+      "title": "Transaction Summary",
+      "author": "M",
+      "status": "drafted",
+      "text": "**Header fields**\n- Borrower: Larkspur Precision Components, Inc. [D2, header]\n- Request type: Not in provided documents: the bank's formal request-type label. D2 is titled \"Draft Amended and Restated Credit Agreement\" [D2, header], and D5 records a request to increase the existing facility [D5, ¶4]. The underwriter should confirm the label.\n- Total commitment: $18.0M: a $12.0M term loan and a $6.0M revolver [D1, §3 note].\n- Underwriter: Not in provided documents: assigned underwriter (internal assignment record).\n- Senior reviewer: Not in provided documents: assigned senior reviewer (internal assignment record).\n- Date: Not in provided documents: memo date. The draft agreement is dated Sept 22, 2026 [D2, header].\n\n**Request**\n\nLarkspur Precision Components, Inc. asked to increase its facility with Meridian Trust Bank to $18.0 million [D5, ¶4]. The proposed facility is $18.0M: a $12.0M term loan and a $6.0M revolver [D1, §3 note]. The draft agreement provides a Term Loan of $12,000,000 and a Revolving Commitment not to exceed $6,000,000 [D2, §2.1(a), §2.1(b)].\n\nThe existing facility is $12.0M: a $7.0M term loan and a $5.0M revolver, approved June 2023 [D5, ¶2]. The relationship notes record the request as made by Erik and Anders Halvorsen on the 2026-08-19 call [D5, ¶4].\n\n**Terms**\n\nThe Term Loan matures five years after the Closing Date and amortizes on a seven-year schedule, with the unpaid principal balance due at maturity [D2, §2.1(a)]. The Revolving Commitment and all revolving loans are due five years after the Closing Date [D2, §2.1(b)].\n\nThe obligations are secured by a first-priority security interest in all present and future assets, a first mortgage on the Rockford, Illinois plant, and a limited guaranty from Erik Halvorsen capped at $3,000,000 in the aggregate [D2, §2.2].\n\n**Purpose and use of proceeds**\n\nTerm Loan and revolving loan proceeds are limited to refinancing the existing term loan owed to the Lender, funding the Expansion Project, and paying fees and expenses [D2, §2.1(c)]. Term loan proceeds: refinance the existing Meridian term loan (5,600), fund the plant expansion (6,000), and pay fees (400), for a total of 12,000 [D1, §3 note].\n\nThe borrower describes a 60,000 sq ft expansion of the Rockford plant ($6.0 million) tied to a new multi-year Customer A program [D5, ¶4]. Management expects added capacity for that program beginning in 2027 [D1, §6].\n\n**Pro forma position (FY2025 basis)**\n\nPro forma total funded debt is 26,200: proposed term loan 12,000, Meridian revolver 3,200 and equipment notes 11,000 [D1, §3 note]. Pro forma total leverage is 2.52x [D1, §3]. Pro forma debt service is 5,600 and pro forma DSCR is 1.38x [D1, §3].\n\n**Timing**\n\nThe borrower wants to close by November 30, 2026, so construction can start before winter [D5, ¶4]. The borrower states that a national bank has offered to deliver a term sheet within 10 business days [D5, ¶4].\n\n**Sources used:** D1 §3 (Table 3 and note), §6; D2 header, §2.1(a)-(c), §2.2; D5 ¶2, ¶4.\n\n**Underwriter to complete:**\n- Header fields: request type, underwriter, senior reviewer and memo date (not in provided documents).\n- New-money status: D4 §4.2.3 applies to \"new-money\" requests [D4, §4.2.3]. The provided documents do not state whether this request is classified as new-money. The underwriter should determine this and any resulting senior review requirement.\n- Expansion Project: the term has the meaning given in Schedule 1.1, which is not in the excerpt [D2, §1.1]. Not in provided documents: the Schedule 1.1 definition.\n- Revolver purpose: the documents do not state the intended use of the revolver beyond D2 §2.1(c). Not in provided documents: the revolver draw plan (borrower request letter or term sheet).\n- Competing offer: the national bank offer is recorded only as the borrower's statement [D5, ¶4]. No term sheet is in the provided documents.\n- Policy items for Section 6: the pro forma figures above are relevant to D4 §4.2.1-§4.2.3, and the underwriter applies those tests.\n- Source discrepancy for Section 3: the Management commentary states net income of \"$4.2 million\" for FY2025 [D1, §6], while Table 1 shows net income of 3,900 for FY2025 [D1, §1: Net income, FY2025]. CONFLICT. I have not chosen between them.\n",
+      "drafted_text": "**Header fields**\n- Borrower: Larkspur Precision Components, Inc. [D2, header]\n- Request type: Not in provided documents: the bank's formal request-type label. D2 is titled \"Draft Amended and Restated Credit Agreement\" [D2, header], and D5 records a request to increase the existing facility [D5, ¶4]. The underwriter should confirm the label.\n- Total commitment: $18.0M: a $12.0M term loan and a $6.0M revolver [D1, §3 note].\n- Underwriter: Not in provided documents: assigned underwriter (internal assignment record).\n- Senior reviewer: Not in provided documents: assigned senior reviewer (internal assignment record).\n- Date: Not in provided documents: memo date. The draft agreement is dated Sept 22, 2026 [D2, header].\n\n**Request**\n\nLarkspur Precision Components, Inc. asked to increase its facility with Meridian Trust Bank to $18.0 million [D5, ¶4]. The proposed facility is $18.0M: a $12.0M term loan and a $6.0M revolver [D1, §3 note]. The draft agreement provides a Term Loan of $12,000,000 and a Revolving Commitment not to exceed $6,000,000 [D2, §2.1(a), §2.1(b)].\n\nThe existing facility is $12.0M: a $7.0M term loan and a $5.0M revolver, approved June 2023 [D5, ¶2]. The relationship notes record the request as made by Erik and Anders Halvorsen on the 2026-08-19 call [D5, ¶4].\n\n**Terms**\n\nThe Term Loan matures five years after the Closing Date and amortizes on a seven-year schedule, with the unpaid principal balance due at maturity [D2, §2.1(a)]. The Revolving Commitment and all revolving loans are due five years after the Closing Date [D2, §2.1(b)].\n\nThe obligations are secured by a first-priority security interest in all present and future assets, a first mortgage on the Rockford, Illinois plant, and a limited guaranty from Erik Halvorsen capped at $3,000,000 in the aggregate [D2, §2.2].\n\n**Purpose and use of proceeds**\n\nTerm Loan and revolving loan proceeds are limited to refinancing the existing term loan owed to the Lender, funding the Expansion Project, and paying fees and expenses [D2, §2.1(c)]. Term loan proceeds: refinance the existing Meridian term loan (5,600), fund the plant expansion (6,000), and pay fees (400), for a total of 12,000 [D1, §3 note].\n\nThe borrower describes a 60,000 sq ft expansion of the Rockford plant ($6.0 million) tied to a new multi-year Customer A program [D5, ¶4]. Management expects added capacity for that program beginning in 2027 [D1, §6].\n\n**Pro forma position (FY2025 basis)**\n\nPro forma total funded debt is 26,200: proposed term loan 12,000, Meridian revolver 3,200 and equipment notes 11,000 [D1, §3 note]. Pro forma total leverage is 2.52x [D1, §3]. Pro forma debt service is 5,600 and pro forma DSCR is 1.38x [D1, §3].\n\n**Timing**\n\nThe borrower wants to close by November 30, 2026, so construction can start before winter [D5, ¶4]. The borrower states that a national bank has offered to deliver a term sheet within 10 business days [D5, ¶4].\n\n**Sources used:** D1 §3 (Table 3 and note), §6; D2 header, §2.1(a)-(c), §2.2; D5 ¶2, ¶4.\n\n**Underwriter to complete:**\n- Header fields: request type, underwriter, senior reviewer and memo date (not in provided documents).\n- New-money status: D4 §4.2.3 applies to \"new-money\" requests [D4, §4.2.3]. The provided documents do not state whether this request is classified as new-money. The underwriter should determine this and any resulting senior review requirement.\n- Expansion Project: the term has the meaning given in Schedule 1.1, which is not in the excerpt [D2, §1.1]. Not in provided documents: the Schedule 1.1 definition.\n- Revolver purpose: the documents do not state the intended use of the revolver beyond D2 §2.1(c). Not in provided documents: the revolver draw plan (borrower request letter or term sheet).\n- Competing offer: the national bank offer is recorded only as the borrower's statement [D5, ¶4]. No term sheet is in the provided documents.\n- Policy items for Section 6: the pro forma figures above are relevant to D4 §4.2.1-§4.2.3, and the underwriter applies those tests.\n- Source discrepancy for Section 3: the Management commentary states net income of \"$4.2 million\" for FY2025 [D1, §6], while Table 1 shows net income of 3,900 for FY2025 [D1, §1: Net income, FY2025]. CONFLICT. I have not chosen between them.\n",
+      "drafted_at": "2026-10-08T00:01:12",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 38485,
+      "run_id": "r_7f03468680",
+      "comments": []
+    },
+    {
+      "id": "2",
+      "title": "Borrower Overview and Relationship History",
+      "author": "M",
+      "status": "drafted",
+      "text": "D3 Part A defines no Section 2 subsections. Headings follow the D3 Part B exemplar.\n\n**Company Profile**\n\nLarkspur Precision Components, Inc. is privately held. [D5, ¶1] It was founded in 1994 in Rockford, Illinois, by Erik and Maria Halvorsen. [D5, ¶1]\n\nThe company makes precision-machined components and welded assemblies for agricultural and construction equipment OEMs. [D5, ¶1] It has about 310 employees and one plant. [D5, ¶1]\n\n**Ownership and Management**\n\nOwnership is Erik Halvorsen 55%, Maria Halvorsen 25%, and Anders Halvorsen (COO) 20%. [D5, ¶1] The draft credit agreement defines \"Founders\" as Erik Halvorsen and Maria Halvorsen. [D2, §1.1]\n\n**Relationship History**\n\nLarkspur has been a deposit and treasury management customer of Meridian since 2019. [D5, ¶2] Average operating deposits were $4.1 million over the trailing 12 months to August 2026. [D5, ¶2]\n\nA $12.0 million facility ($7.0M term loan, $5.0M revolver) was approved in June 2023. [D5, ¶2] The facility was paid as agreed with no past dues. [D5, ¶2]\n\nThe Q4 2024 compliance certificate arrived 18 days late. [D5, ¶3] Credit Administration waived the reporting covenant (waiver W-25-0117). [D5, ¶3] All later certificates arrived on time. [D5, ¶3]\n\nThe FY2025 compliance certificate is dated April 28, 2026. [D1, §7]\n\n**Recent Developments**\n\nOn the 2026-08-19 call, Erik and Anders Halvorsen asked to increase the facility to $18.0 million. [D5, ¶4] The increase would fund a 60,000 sq ft expansion of the Rockford plant ($6.0 million), tied to a new multi-year Customer A program. [D5, ¶4]\n\nThey want to close by November 30, 2026, so construction can start before winter. [D5, ¶4] They said a national bank has offered a term sheet within 10 business days. [D5, ¶4]\n\nOn the 2026-09-02 call, Erik Halvorsen (64) said he plans to hand the CEO role to Anders within three years. [D5, ¶5] The family has informally discussed selling a minority stake to a private equity firm. [D5, ¶5] There is no timeline and no LOI. [D5, ¶5]\n\n**Sources used:** D1 §7; D2 §1.1; D5 ¶1, ¶2, ¶3, ¶4, ¶5. D3 Part B §2 was used only as a house-style reference. Its facts match D5 ¶1 and ¶2.\n\n**Underwriter to complete:**\n- **Change of control (§7.6):** D2 §7.6 makes it an Event of Default if the Founders cease to own \"a meaningful portion of the voting equity interests\" or cease to be \"actively involved in the management of the Borrower.\" [D2, §7.6] The terms \"meaningful portion\" and \"actively involved\" are not defined in the excerpt. Refer them to the underwriter and legal. Whether the CEO transition or a minority stake sale in D5 ¶5 bears on these terms is for the underwriter and legal to determine.\n- **Waiver W-25-0117:** D5 ¶3 refers only to \"the reporting covenant.\" Not in provided documents: the waiver document and the existing 2023 credit agreement section it relates to; these would normally be held by Credit Administration or the loan file.\n- **Not in provided documents:** the borrower's legal form and state of incorporation, and management biographies beyond the names and roles above. The corporate records or the full credit file would normally hold these.\n- **Header fields:** Underwriter, Senior reviewer and Date are not in the provided documents.\n",
+      "drafted_text": "D3 Part A defines no Section 2 subsections. Headings follow the D3 Part B exemplar.\n\n**Company Profile**\n\nLarkspur Precision Components, Inc. is privately held. [D5, ¶1] It was founded in 1994 in Rockford, Illinois, by Erik and Maria Halvorsen. [D5, ¶1]\n\nThe company makes precision-machined components and welded assemblies for agricultural and construction equipment OEMs. [D5, ¶1] It has about 310 employees and one plant. [D5, ¶1]\n\n**Ownership and Management**\n\nOwnership is Erik Halvorsen 55%, Maria Halvorsen 25%, and Anders Halvorsen (COO) 20%. [D5, ¶1] The draft credit agreement defines \"Founders\" as Erik Halvorsen and Maria Halvorsen. [D2, §1.1]\n\n**Relationship History**\n\nLarkspur has been a deposit and treasury management customer of Meridian since 2019. [D5, ¶2] Average operating deposits were $4.1 million over the trailing 12 months to August 2026. [D5, ¶2]\n\nA $12.0 million facility ($7.0M term loan, $5.0M revolver) was approved in June 2023. [D5, ¶2] The facility was paid as agreed with no past dues. [D5, ¶2]\n\nThe Q4 2024 compliance certificate arrived 18 days late. [D5, ¶3] Credit Administration waived the reporting covenant (waiver W-25-0117). [D5, ¶3] All later certificates arrived on time. [D5, ¶3]\n\nThe FY2025 compliance certificate is dated April 28, 2026. [D1, §7]\n\n**Recent Developments**\n\nOn the 2026-08-19 call, Erik and Anders Halvorsen asked to increase the facility to $18.0 million. [D5, ¶4] The increase would fund a 60,000 sq ft expansion of the Rockford plant ($6.0 million), tied to a new multi-year Customer A program. [D5, ¶4]\n\nThey want to close by November 30, 2026, so construction can start before winter. [D5, ¶4] They said a national bank has offered a term sheet within 10 business days. [D5, ¶4]\n\nOn the 2026-09-02 call, Erik Halvorsen (64) said he plans to hand the CEO role to Anders within three years. [D5, ¶5] The family has informally discussed selling a minority stake to a private equity firm. [D5, ¶5] There is no timeline and no LOI. [D5, ¶5]\n\n**Sources used:** D1 §7; D2 §1.1; D5 ¶1, ¶2, ¶3, ¶4, ¶5. D3 Part B §2 was used only as a house-style reference. Its facts match D5 ¶1 and ¶2.\n\n**Underwriter to complete:**\n- **Change of control (§7.6):** D2 §7.6 makes it an Event of Default if the Founders cease to own \"a meaningful portion of the voting equity interests\" or cease to be \"actively involved in the management of the Borrower.\" [D2, §7.6] The terms \"meaningful portion\" and \"actively involved\" are not defined in the excerpt. Refer them to the underwriter and legal. Whether the CEO transition or a minority stake sale in D5 ¶5 bears on these terms is for the underwriter and legal to determine.\n- **Waiver W-25-0117:** D5 ¶3 refers only to \"the reporting covenant.\" Not in provided documents: the waiver document and the existing 2023 credit agreement section it relates to; these would normally be held by Credit Administration or the loan file.\n- **Not in provided documents:** the borrower's legal form and state of incorporation, and management biographies beyond the names and roles above. The corporate records or the full credit file would normally hold these.\n- **Header fields:** Underwriter, Senior reviewer and Date are not in the provided documents.\n",
+      "drafted_at": "2026-10-08T00:01:45",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 30931,
+      "run_id": "r_414551f69c",
+      "comments": []
+    },
+    {
+      "id": "3",
+      "title": "Financial Analysis",
+      "author": "M",
+      "status": "drafted",
+      "text": "FY2023-FY2025 were audited by Hartwell & Lo LLP with unqualified opinions. Figures are in $ thousands unless stated. [D1, header]\n\n### 3.1 Revenue and Earnings\n\nRevenue was 61,400 in FY2023, 66,800 in FY2024 and 72,500 in FY2025. [D1, Table 1: Revenue, FY2023-FY2025]\n\nRevenue growth was 6.0% in FY2023, 8.8% in FY2024 and 8.5% in FY2025. [D1, Table 1: Revenue growth, FY2023-FY2025]\n\nEBITDA was 8,600 in FY2023, 9,500 in FY2024 and 10,400 in FY2025. [D1, Table 1: EBITDA, FY2023-FY2025]\n\nEBITDA margin was 14.0% in FY2023, 14.2% in FY2024 and 14.3% in FY2025. [D1, Table 1: EBITDA margin, FY2023-FY2025]\n\nNet income was 3,100 in FY2023 and 3,600 in FY2024. [D1, Table 1: Net income, FY2023-FY2024]\n\n**CONFLICT** on FY2025 net income:\n- The spread table shows 3,900. [D1, Table 1: Net income, FY2025]\n- The borrower's FY2025 letter, as summarized by the analyst, states \"Net income rose to $4.2 million.\" [D1, §6]\n\nThis draft does not choose between the two values.\n\nManagement attributes FY2025 revenue growth to \"new agricultural OEM programs\" (analyst's summary of the borrower's letter). [D1, §6]\n\nManagement attributes the EBITDA margin movement to \"cell automation installed in 2024\" (analyst's summary of the borrower's letter). [D1, §6]\n\n### 3.2 Leverage and Debt Service\n\nTotal funded debt was 22,400 in FY2023, 20,900 in FY2024 and 19,800 in FY2025. [D1, Table 2: Total funded debt, FY2023-FY2025]\n\nTotal leverage was 2.60x in FY2023, 2.20x in FY2024 and 1.90x in FY2025. [D1, Table 2: Total leverage, FY2023-FY2025]\n\nDSCR was 1.42x in FY2023, 1.55x in FY2024 and 1.61x in FY2025. [D1, Table 2: DSCR, FY2023-FY2025]\n\nDebt service (P+I) was 4,500 in FY2023, 4,550 in FY2024 and 4,800 in FY2025. [D1, Table 1: Debt service (P+I), FY2023-FY2025]\n\nUnfunded capex was 1,200 in FY2023, 1,300 in FY2024 and 1,400 in FY2025. [D1, Table 1: Unfunded capex, FY2023-FY2025]\n\nCash taxes were 1,000 in FY2023, 1,150 in FY2024 and 1,250 in FY2025. [D1, Table 1: Cash taxes, FY2023-FY2025]\n\nFY2025 total funded debt comprised the Meridian term loan 5,600, the Meridian revolver 3,200 and the Prairie Equipment Finance equipment notes 11,000. [D1, §4]\n\nAs spread, total leverage is total funded debt divided by EBITDA. DSCR is (EBITDA minus unfunded capex minus cash taxes) divided by debt service (P+I). [D1, §2: Definitions as spread]\n\nThe draft agreement defines the Total Leverage Ratio as Total Funded Debt (including the Equipment Notes) divided by EBITDA for the four consecutive fiscal quarters then ended. [D2, §1.1]\n\nThe draft agreement defines the Debt Service Coverage Ratio as EBITDA minus Unfinanced Capital Expenditures minus cash taxes paid, divided by scheduled payments of principal and interest on Total Funded Debt. [D2, §1.1]\n\n### 3.3 Liquidity\n\nCash was 2,100 in FY2023 and 2,600 in FY2024. [D1, Table 2: Cash, FY2023-FY2024]\n\nRevolver availability was 1,800 in FY2023, 2,300 in FY2024 and 1,800 in FY2025. [D1, Table 2: Revolver availability, FY2023-FY2025]\n\nLiquidity (cash + availability) was 3,900 in FY2023 and 4,900 in FY2024. [D1, Table 2: Liquidity (cash + availability), FY2023-FY2024]\n\nNot in provided documents: FY2025 year-end cash and FY2025 liquidity. The spread export omits them. Year-end bank statements, due with the Q3 2026 package, would normally show the cash balance. [D1, §2: Footnote *]\n\n### 3.4 Pro Forma for Proposed Facility\n\nThe proposed facility is $18.0M in total: a $12.0M term loan and a $6.0M revolver. [D1, §3: Note to Table 3]\n\nPro forma (FY2025 basis) total funded debt is 26,200. [D1, Table 3: Total funded debt, Pro forma (FY2025 basis)]\n\nPro forma total leverage is 2.52x. [D1, Table 3: Total leverage, Pro forma (FY2025 basis)]\n\nPro forma debt service is 5,600. [D1, Table 3: Debt service, Pro forma (FY2025 basis)]\n\nPro forma DSCR is 1.38x. [D1, Table 3: DSCR, Pro forma (FY2025 basis)]\n\nPro forma total funded debt of 26,200 comprises the proposed term loan 12,000, the Meridian revolver 3,200 and the equipment notes 11,000. [D1, §3: Note to Table 3]\n\nTerm loan proceeds of 12,000 refinance the existing Meridian term loan 5,600, fund the plant expansion 6,000 and pay fees 400. [D1, §3: Note to Table 3]\n\nThe draft agreement limits use of proceeds to refinancing the existing term loan owed to the Lender, funding the Expansion Project, and paying fees and expenses. [D2, §2.1(c)]\n\nThe \"Expansion Project\" is defined by reference to Schedule 1.1. Not in provided documents: the Schedule 1.1 definition. [D2, §1.1]\n\n### 3.5 Underwriter Commentary [U]\n\nSection 3.5 is underwriter-authored.\n\n**Sources used:**\n- D1: header; §2 (definitions and Footnote *); §3 (Note to Table 3); §4; §6; Tables 1, 2 and 3.\n- D2: §1.1; §2.1(c).\n- D3: Part A (section list and style rules).\n\n**Underwriter to complete:**\n1. **CONFLICT, FY2025 net income:** 3,900 [D1, Table 1: Net income, FY2025] against \"$4.2 million\" [D1, §6]. Resolve against the audited statements.\n2. **Missing FY2025 data:** year-end cash and liquidity are not in the documents. The source is the year-end bank statements due with the Q3 2026 package [D1, §2: Footnote *].\n3. **Definition differences for review:**\n   - The spread DSCR uses \"unfunded capex\" and \"debt service (P+I)\" [D1, §2]. The draft agreement uses \"Unfinanced Capital Expenditures\" and \"scheduled payments of principal and interest on Total Funded Debt\" [D2, §1.1]. The spread ratios may not be on the agreement basis. Confirm whether they are comparable.\n   - The spread does not state how EBITDA is built. The draft agreement defines EBITDA from GAAP net income [D2, §1.1]. Confirm the spread EBITDA matches.\n4. **Pro forma basis:** the pro forma figures are on a FY2025 basis [D1, Table 3]. The pro forma revolver balance of 3,200 [D1, §3: Note to Table 3] sits within a $6.0M revolver commitment [D2, §2.1(b)]. Pro forma revolver availability is not stated in the documents.\n5. **Policy items for Section 6 and the underwriter's judgment:**\n   - Pro forma DSCR is 1.38x [D1, Table 3] against the policy minimum of 1.25x [D4, §4.2.2].\n   - Pro forma total leverage is 2.52x [D1, Table 3] against the policy maximum of 3.50x [D4, §4.2.1].\n   - Senior review is triggered where total commitment exceeds $15.0 million [D4, §4.2.3(a)]. The proposed commitment is $18.0M [D1, §3: Note to Table 3].\n   - Customer A was 31% of FY2025 revenue [D1, §5]. Policy requires concentration to be addressed in Section 7 when a single customer exceeds 25% [D4, §4.2.4].\n6. **Section 3.5 Underwriter Commentary:** reserved for the underwriter.\n",
+      "drafted_text": "FY2023-FY2025 were audited by Hartwell & Lo LLP with unqualified opinions. Figures are in $ thousands unless stated. [D1, header]\n\n### 3.1 Revenue and Earnings\n\nRevenue was 61,400 in FY2023, 66,800 in FY2024 and 72,500 in FY2025. [D1, Table 1: Revenue, FY2023-FY2025]\n\nRevenue growth was 6.0% in FY2023, 8.8% in FY2024 and 8.5% in FY2025. [D1, Table 1: Revenue growth, FY2023-FY2025]\n\nEBITDA was 8,600 in FY2023, 9,500 in FY2024 and 10,400 in FY2025. [D1, Table 1: EBITDA, FY2023-FY2025]\n\nEBITDA margin was 14.0% in FY2023, 14.2% in FY2024 and 14.3% in FY2025. [D1, Table 1: EBITDA margin, FY2023-FY2025]\n\nNet income was 3,100 in FY2023 and 3,600 in FY2024. [D1, Table 1: Net income, FY2023-FY2024]\n\n**CONFLICT** on FY2025 net income:\n- The spread table shows 3,900. [D1, Table 1: Net income, FY2025]\n- The borrower's FY2025 letter, as summarized by the analyst, states \"Net income rose to $4.2 million.\" [D1, §6]\n\nThis draft does not choose between the two values.\n\nManagement attributes FY2025 revenue growth to \"new agricultural OEM programs\" (analyst's summary of the borrower's letter). [D1, §6]\n\nManagement attributes the EBITDA margin movement to \"cell automation installed in 2024\" (analyst's summary of the borrower's letter). [D1, §6]\n\n### 3.2 Leverage and Debt Service\n\nTotal funded debt was 22,400 in FY2023, 20,900 in FY2024 and 19,800 in FY2025. [D1, Table 2: Total funded debt, FY2023-FY2025]\n\nTotal leverage was 2.60x in FY2023, 2.20x in FY2024 and 1.90x in FY2025. [D1, Table 2: Total leverage, FY2023-FY2025]\n\nDSCR was 1.42x in FY2023, 1.55x in FY2024 and 1.61x in FY2025. [D1, Table 2: DSCR, FY2023-FY2025]\n\nDebt service (P+I) was 4,500 in FY2023, 4,550 in FY2024 and 4,800 in FY2025. [D1, Table 1: Debt service (P+I), FY2023-FY2025]\n\nUnfunded capex was 1,200 in FY2023, 1,300 in FY2024 and 1,400 in FY2025. [D1, Table 1: Unfunded capex, FY2023-FY2025]\n\nCash taxes were 1,000 in FY2023, 1,150 in FY2024 and 1,250 in FY2025. [D1, Table 1: Cash taxes, FY2023-FY2025]\n\nFY2025 total funded debt comprised the Meridian term loan 5,600, the Meridian revolver 3,200 and the Prairie Equipment Finance equipment notes 11,000. [D1, §4]\n\nAs spread, total leverage is total funded debt divided by EBITDA. DSCR is (EBITDA minus unfunded capex minus cash taxes) divided by debt service (P+I). [D1, §2: Definitions as spread]\n\nThe draft agreement defines the Total Leverage Ratio as Total Funded Debt (including the Equipment Notes) divided by EBITDA for the four consecutive fiscal quarters then ended. [D2, §1.1]\n\nThe draft agreement defines the Debt Service Coverage Ratio as EBITDA minus Unfinanced Capital Expenditures minus cash taxes paid, divided by scheduled payments of principal and interest on Total Funded Debt. [D2, §1.1]\n\n### 3.3 Liquidity\n\nCash was 2,100 in FY2023 and 2,600 in FY2024. [D1, Table 2: Cash, FY2023-FY2024]\n\nRevolver availability was 1,800 in FY2023, 2,300 in FY2024 and 1,800 in FY2025. [D1, Table 2: Revolver availability, FY2023-FY2025]\n\nLiquidity (cash + availability) was 3,900 in FY2023 and 4,900 in FY2024. [D1, Table 2: Liquidity (cash + availability), FY2023-FY2024]\n\nNot in provided documents: FY2025 year-end cash and FY2025 liquidity. The spread export omits them. Year-end bank statements, due with the Q3 2026 package, would normally show the cash balance. [D1, §2: Footnote *]\n\n### 3.4 Pro Forma for Proposed Facility\n\nThe proposed facility is $18.0M in total: a $12.0M term loan and a $6.0M revolver. [D1, §3: Note to Table 3]\n\nPro forma (FY2025 basis) total funded debt is 26,200. [D1, Table 3: Total funded debt, Pro forma (FY2025 basis)]\n\nPro forma total leverage is 2.52x. [D1, Table 3: Total leverage, Pro forma (FY2025 basis)]\n\nPro forma debt service is 5,600. [D1, Table 3: Debt service, Pro forma (FY2025 basis)]\n\nPro forma DSCR is 1.38x. [D1, Table 3: DSCR, Pro forma (FY2025 basis)]\n\nPro forma total funded debt of 26,200 comprises the proposed term loan 12,000, the Meridian revolver 3,200 and the equipment notes 11,000. [D1, §3: Note to Table 3]\n\nTerm loan proceeds of 12,000 refinance the existing Meridian term loan 5,600, fund the plant expansion 6,000 and pay fees 400. [D1, §3: Note to Table 3]\n\nThe draft agreement limits use of proceeds to refinancing the existing term loan owed to the Lender, funding the Expansion Project, and paying fees and expenses. [D2, §2.1(c)]\n\nThe \"Expansion Project\" is defined by reference to Schedule 1.1. Not in provided documents: the Schedule 1.1 definition. [D2, §1.1]\n\n### 3.5 Underwriter Commentary [U]\n\nSection 3.5 is underwriter-authored.\n\n**Sources used:**\n- D1: header; §2 (definitions and Footnote *); §3 (Note to Table 3); §4; §6; Tables 1, 2 and 3.\n- D2: §1.1; §2.1(c).\n- D3: Part A (section list and style rules).\n\n**Underwriter to complete:**\n1. **CONFLICT, FY2025 net income:** 3,900 [D1, Table 1: Net income, FY2025] against \"$4.2 million\" [D1, §6]. Resolve against the audited statements.\n2. **Missing FY2025 data:** year-end cash and liquidity are not in the documents. The source is the year-end bank statements due with the Q3 2026 package [D1, §2: Footnote *].\n3. **Definition differences for review:**\n   - The spread DSCR uses \"unfunded capex\" and \"debt service (P+I)\" [D1, §2]. The draft agreement uses \"Unfinanced Capital Expenditures\" and \"scheduled payments of principal and interest on Total Funded Debt\" [D2, §1.1]. The spread ratios may not be on the agreement basis. Confirm whether they are comparable.\n   - The spread does not state how EBITDA is built. The draft agreement defines EBITDA from GAAP net income [D2, §1.1]. Confirm the spread EBITDA matches.\n4. **Pro forma basis:** the pro forma figures are on a FY2025 basis [D1, Table 3]. The pro forma revolver balance of 3,200 [D1, §3: Note to Table 3] sits within a $6.0M revolver commitment [D2, §2.1(b)]. Pro forma revolver availability is not stated in the documents.\n5. **Policy items for Section 6 and the underwriter's judgment:**\n   - Pro forma DSCR is 1.38x [D1, Table 3] against the policy minimum of 1.25x [D4, §4.2.2].\n   - Pro forma total leverage is 2.52x [D1, Table 3] against the policy maximum of 3.50x [D4, §4.2.1].\n   - Senior review is triggered where total commitment exceeds $15.0 million [D4, §4.2.3(a)]. The proposed commitment is $18.0M [D1, §3: Note to Table 3].\n   - Customer A was 31% of FY2025 revenue [D1, §5]. Policy requires concentration to be addressed in Section 7 when a single customer exceeds 25% [D4, §4.2.4].\n6. **Section 3.5 Underwriter Commentary:** reserved for the underwriter.\n",
+      "drafted_at": "2026-10-08T00:02:32",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 44388,
+      "run_id": "r_48fdbf4928",
+      "comments": []
+    },
+    {
+      "id": "4",
+      "title": "Covenant Summary and Compliance",
+      "author": "M",
+      "status": "drafted",
+      "text": "### 4.1 Existing Covenants and Compliance (2023 Credit Agreement)\n\nThe FY2025 compliance certificate under the existing 2023 credit agreement is dated April 28, 2026 [D1, §7]. Total leverage was 1.90x against a 3.50x maximum [D1, §7]. DSCR was 1.61x against a 1.20x minimum [D1, §7]. The borrower complied with both financial covenants [D1, §7].\n\nThe 2023 facility had two financial covenants, each tested quarterly: a maximum total leverage ratio of 3.50x and a minimum DSCR of 1.20x [D3, Part B §4].\n\nThe Q4 2024 compliance certificate arrived 18 days late [D5, ¶3]. Credit Administration waived the reporting covenant under waiver W-25-0117 [D5, ¶3]. All later certificates arrived on time [D5, ¶3].\n\n### 4.2 Proposed Financial Covenants (Draft Amended and Restated Credit Agreement, Sept 22, 2026)\n\n**Maximum Total Leverage Ratio.** \"The Borrower shall not permit the Total Leverage Ratio, as of the last day of any fiscal quarter, to exceed 3.25 to 1.00; provided that for each fiscal quarter ending on or after December 31, 2027, the maximum shall be 3.00 to 1.00.\" [D2, §7.1] The ratio is Total Funded Debt on the test date divided by EBITDA for the four consecutive fiscal quarters then ended [D2, §1.1].\n\n**Minimum Debt Service Coverage Ratio.** \"The Borrower shall not permit the Debt Service Coverage Ratio to be less than 1.25 to 1.00 as of the last day of any fiscal quarter.\" [D2, §7.2] The ratio is (a) EBITDA minus Unfinanced Capital Expenditures minus cash taxes paid, divided by (b) scheduled payments of principal and interest on Total Funded Debt, for the four consecutive fiscal quarters then ended [D2, §1.1].\n\n**Capital Expenditures.** \"Unfinanced Capital Expenditures shall not exceed $2,500,000 in any fiscal year; provided that capital expenditures for the Expansion Project, not exceeding $6,000,000 in the aggregate, shall be excluded.\" [D2, §7.3] \"Expansion Project\" is defined in Schedule 1.1, which is not in the excerpt [D2, §1.1].\n\n**Pro forma figures on the FY2025 basis, as spread.** Pro forma total funded debt is 26,200 [D1, Table 3: Total funded debt, Pro forma]. Pro forma total leverage is 2.52x [D1, Table 3: Total leverage, Pro forma]. Pro forma debt service is 5,600 [D1, Table 3: Debt service, Pro forma]. Pro forma DSCR is 1.38x [D1, Table 3: DSCR, Pro forma]. FY2025 unfunded capex is 1,400 ($ in thousands) [D1, Table 1: Unfunded capex, FY2025].\n\n### 4.3 Reporting Covenants\n\nThe Borrower must deliver the following [D2, §7.4]:\n- Annual consolidated financial statements, audited by an independent accounting firm acceptable to the Lender, within 120 days after each fiscal year end [D2, §7.4(a)].\n- Internally prepared quarterly consolidated financial statements, within 45 days after each fiscal quarter end [D2, §7.4(b)].\n- With each quarterly delivery, a Compliance Certificate signed by a financial officer, showing the Total Leverage Ratio under §7.1 and the Debt Service Coverage Ratio under §7.2 for the period then ended [D2, §7.4(c)].\n\n### 4.4 Negative Pledge\n\nThe Borrower shall not create, incur or permit to exist any Lien on any of its assets, except Permitted Liens [D2, §7.5(a)]. Permitted Liens are [D2, §7.5(b)]:\n- (i) Liens in favor of the Lender.\n- (ii) Liens securing the Equipment Notes, limited to the equipment financed by those notes.\n- (iii) Purchase-money Liens securing indebtedness in an aggregate amount not exceeding $1,000,000 at any time outstanding.\n- (iv) Liens for taxes not yet due and payable.\n\nThe Equipment Notes are promissory notes issued to Prairie Equipment Finance and secured only by the equipment they finance [D2, §1.1]. FY2025 total funded debt includes equipment notes of 11,000 [D1, §4].\n\n### 4.5 Change of Control (Event of Default)\n\nThe draft states: \"It shall be an Event of Default if the Founders cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" [D2, §7.6] \"Founders\" means Erik Halvorsen and Maria Halvorsen [D2, §1.1].\n\nRelationship-file facts relevant to this provision:\n- Ownership is Erik Halvorsen 55%, Maria Halvorsen 25% and Anders Halvorsen (COO) 20% [D5, ¶1].\n- Erik Halvorsen (64) plans to hand the CEO role to Anders within three years [D5, ¶5].\n- The family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, ¶5].\n\n**Sources used:** D1 §7, §4, Table 1, Table 3; D2 §1.1, §7.1-§7.6; D3 Part B §4; D5 ¶1, ¶3, ¶5.\n\n**Underwriter to complete:**\n- **Definitions that may differ.** D1 defines DSCR as (EBITDA minus unfunded capex minus cash taxes) divided by debt service (P+I) [D1, §2]. D2 defines it using \"Unfinanced Capital Expenditures,\" \"cash taxes paid,\" and scheduled P+I on Total Funded Debt [D2, §1.1].\n  - Not in provided documents: confirmation that the spread's EBITDA, capex, debt service and funded debt match the D2 definitions, including the capital lease obligations in \"Total Funded Debt\" and the GAAP-based EBITDA. The covenant definitions, a covenant compliance calculation, or the full draft agreement would normally contain this.\n  - Not in provided documents: how the pro forma debt service of 5,600 was built. The spread's FY2025 model or amortization schedule would normally contain this.\n  - The spread's ratios are on an annual FY2025 basis [D1, Table 3]. D2 tests quarterly on trailing four quarters [D2, §7.1, §7.2]. No quarterly pro forma is provided.\n- **Ambiguous legal terms (refer to underwriter and legal).** In §7.6, \"meaningful portion\" and \"actively involved in the management\" are not defined in the excerpt [D2, §7.6]. Legal should also review whether the CEO transition or a minority sale described in D5 ¶5 relates to the provision. Anders Halvorsen is not a \"Founder\" as defined [D2, §1.1; D5, ¶1].\n- **Schedule 1.1 not provided.** The definition of \"Expansion Project\" is needed to apply the §7.3 exclusion [D2, §1.1, §7.3]. Other defined terms are in the full draft agreement.\n- **Event of Default provisions.** No other Events of Default (payment, cross-default, cure periods) appear in the excerpt. Not in provided documents: the full Events of Default article of the draft agreement.\n- **Existing agreement terms.** Not in provided documents: the existing 2023 credit agreement, including its reporting deadlines, any capex covenant and negative pledge. The waiver W-25-0117 document is also not provided, so the covenant it waived and its terms are unconfirmed beyond D5 ¶3.\n- **Existing liens and purchase-money debt.** Not in provided documents: a lien search or schedule of existing liens and purchase-money indebtedness against the $1,000,000 basket in §7.5(b)(iii). A UCC search or the closing checklist would normally contain this.\n- **Covenant levels versus requirements.** The covenant levels in D2 are stated alongside the D1 figures without any conclusion on headroom. Any assessment is for the underwriter.\n- **Cross-reference.** Customer A concentration (31% of FY2025 revenue) triggers the Section 7 concentration requirement under D4 §4.2.4 [D1, §5; D4, §4.2.4]. Section 7 is underwriter-authored.\n",
+      "drafted_text": "### 4.1 Existing Covenants and Compliance (2023 Credit Agreement)\n\nThe FY2025 compliance certificate under the existing 2023 credit agreement is dated April 28, 2026 [D1, §7]. Total leverage was 1.90x against a 3.50x maximum [D1, §7]. DSCR was 1.61x against a 1.20x minimum [D1, §7]. The borrower complied with both financial covenants [D1, §7].\n\nThe 2023 facility had two financial covenants, each tested quarterly: a maximum total leverage ratio of 3.50x and a minimum DSCR of 1.20x [D3, Part B §4].\n\nThe Q4 2024 compliance certificate arrived 18 days late [D5, ¶3]. Credit Administration waived the reporting covenant under waiver W-25-0117 [D5, ¶3]. All later certificates arrived on time [D5, ¶3].\n\n### 4.2 Proposed Financial Covenants (Draft Amended and Restated Credit Agreement, Sept 22, 2026)\n\n**Maximum Total Leverage Ratio.** \"The Borrower shall not permit the Total Leverage Ratio, as of the last day of any fiscal quarter, to exceed 3.25 to 1.00; provided that for each fiscal quarter ending on or after December 31, 2027, the maximum shall be 3.00 to 1.00.\" [D2, §7.1] The ratio is Total Funded Debt on the test date divided by EBITDA for the four consecutive fiscal quarters then ended [D2, §1.1].\n\n**Minimum Debt Service Coverage Ratio.** \"The Borrower shall not permit the Debt Service Coverage Ratio to be less than 1.25 to 1.00 as of the last day of any fiscal quarter.\" [D2, §7.2] The ratio is (a) EBITDA minus Unfinanced Capital Expenditures minus cash taxes paid, divided by (b) scheduled payments of principal and interest on Total Funded Debt, for the four consecutive fiscal quarters then ended [D2, §1.1].\n\n**Capital Expenditures.** \"Unfinanced Capital Expenditures shall not exceed $2,500,000 in any fiscal year; provided that capital expenditures for the Expansion Project, not exceeding $6,000,000 in the aggregate, shall be excluded.\" [D2, §7.3] \"Expansion Project\" is defined in Schedule 1.1, which is not in the excerpt [D2, §1.1].\n\n**Pro forma figures on the FY2025 basis, as spread.** Pro forma total funded debt is 26,200 [D1, Table 3: Total funded debt, Pro forma]. Pro forma total leverage is 2.52x [D1, Table 3: Total leverage, Pro forma]. Pro forma debt service is 5,600 [D1, Table 3: Debt service, Pro forma]. Pro forma DSCR is 1.38x [D1, Table 3: DSCR, Pro forma]. FY2025 unfunded capex is 1,400 ($ in thousands) [D1, Table 1: Unfunded capex, FY2025].\n\n### 4.3 Reporting Covenants\n\nThe Borrower must deliver the following [D2, §7.4]:\n- Annual consolidated financial statements, audited by an independent accounting firm acceptable to the Lender, within 120 days after each fiscal year end [D2, §7.4(a)].\n- Internally prepared quarterly consolidated financial statements, within 45 days after each fiscal quarter end [D2, §7.4(b)].\n- With each quarterly delivery, a Compliance Certificate signed by a financial officer, showing the Total Leverage Ratio under §7.1 and the Debt Service Coverage Ratio under §7.2 for the period then ended [D2, §7.4(c)].\n\n### 4.4 Negative Pledge\n\nThe Borrower shall not create, incur or permit to exist any Lien on any of its assets, except Permitted Liens [D2, §7.5(a)]. Permitted Liens are [D2, §7.5(b)]:\n- (i) Liens in favor of the Lender.\n- (ii) Liens securing the Equipment Notes, limited to the equipment financed by those notes.\n- (iii) Purchase-money Liens securing indebtedness in an aggregate amount not exceeding $1,000,000 at any time outstanding.\n- (iv) Liens for taxes not yet due and payable.\n\nThe Equipment Notes are promissory notes issued to Prairie Equipment Finance and secured only by the equipment they finance [D2, §1.1]. FY2025 total funded debt includes equipment notes of 11,000 [D1, §4].\n\n### 4.5 Change of Control (Event of Default)\n\nThe draft states: \"It shall be an Event of Default if the Founders cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" [D2, §7.6] \"Founders\" means Erik Halvorsen and Maria Halvorsen [D2, §1.1].\n\nRelationship-file facts relevant to this provision:\n- Ownership is Erik Halvorsen 55%, Maria Halvorsen 25% and Anders Halvorsen (COO) 20% [D5, ¶1].\n- Erik Halvorsen (64) plans to hand the CEO role to Anders within three years [D5, ¶5].\n- The family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, ¶5].\n\n**Sources used:** D1 §7, §4, Table 1, Table 3; D2 §1.1, §7.1-§7.6; D3 Part B §4; D5 ¶1, ¶3, ¶5.\n\n**Underwriter to complete:**\n- **Definitions that may differ.** D1 defines DSCR as (EBITDA minus unfunded capex minus cash taxes) divided by debt service (P+I) [D1, §2]. D2 defines it using \"Unfinanced Capital Expenditures,\" \"cash taxes paid,\" and scheduled P+I on Total Funded Debt [D2, §1.1].\n  - Not in provided documents: confirmation that the spread's EBITDA, capex, debt service and funded debt match the D2 definitions, including the capital lease obligations in \"Total Funded Debt\" and the GAAP-based EBITDA. The covenant definitions, a covenant compliance calculation, or the full draft agreement would normally contain this.\n  - Not in provided documents: how the pro forma debt service of 5,600 was built. The spread's FY2025 model or amortization schedule would normally contain this.\n  - The spread's ratios are on an annual FY2025 basis [D1, Table 3]. D2 tests quarterly on trailing four quarters [D2, §7.1, §7.2]. No quarterly pro forma is provided.\n- **Ambiguous legal terms (refer to underwriter and legal).** In §7.6, \"meaningful portion\" and \"actively involved in the management\" are not defined in the excerpt [D2, §7.6]. Legal should also review whether the CEO transition or a minority sale described in D5 ¶5 relates to the provision. Anders Halvorsen is not a \"Founder\" as defined [D2, §1.1; D5, ¶1].\n- **Schedule 1.1 not provided.** The definition of \"Expansion Project\" is needed to apply the §7.3 exclusion [D2, §1.1, §7.3]. Other defined terms are in the full draft agreement.\n- **Event of Default provisions.** No other Events of Default (payment, cross-default, cure periods) appear in the excerpt. Not in provided documents: the full Events of Default article of the draft agreement.\n- **Existing agreement terms.** Not in provided documents: the existing 2023 credit agreement, including its reporting deadlines, any capex covenant and negative pledge. The waiver W-25-0117 document is also not provided, so the covenant it waived and its terms are unconfirmed beyond D5 ¶3.\n- **Existing liens and purchase-money debt.** Not in provided documents: a lien search or schedule of existing liens and purchase-money indebtedness against the $1,000,000 basket in §7.5(b)(iii). A UCC search or the closing checklist would normally contain this.\n- **Covenant levels versus requirements.** The covenant levels in D2 are stated alongside the D1 figures without any conclusion on headroom. Any assessment is for the underwriter.\n- **Cross-reference.** Customer A concentration (31% of FY2025 revenue) triggers the Section 7 concentration requirement under D4 §4.2.4 [D1, §5; D4, §4.2.4]. Section 7 is underwriter-authored.\n",
+      "drafted_at": "2026-10-08T00:03:26",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 52681,
+      "run_id": "r_90f90a0702",
+      "comments": []
+    },
+    {
+      "id": "5",
+      "title": "Collateral and Guaranty",
+      "author": "M",
+      "status": "drafted",
+      "text": "**Collateral**\n\nThe draft Amended and Restated Credit Agreement secures the Borrower's obligations by \"a first-priority security interest in all present and future assets of the Borrower.\" [D2, §2.2(a)]\n\nThe obligations are also secured by \"a first mortgage on the Borrower's plant located in Rockford, Illinois.\" [D2, §2.2(b)]\n\nThe secured obligations include a Term Loan of $12,000,000 and a Revolving Commitment not to exceed $6,000,000. [D2, §2.1(a)] [D2, §2.1(b)]\n\nThe Borrower has one plant. [D5, ¶1] Facility proceeds fund the Expansion Project, a 60,000 sq ft expansion of the Rockford plant estimated at $6.0 million. [D2, §2.1(c)] [D5, ¶4]\n\n**Guaranty**\n\nThe obligations are secured by \"a limited guaranty from Erik Halvorsen, with recourse to the guarantor capped at $3,000,000 in the aggregate.\" [D2, §2.2(c)]\n\nErik Halvorsen holds 55% of the Borrower. [D5, ¶1] The security provisions of the excerpt contain no guaranty from Maria Halvorsen or Anders Halvorsen. [D2, §2.2]\n\n**Existing Debt and Liens**\n\nEquipment Notes are promissory notes issued by the Borrower to Prairie Equipment Finance and \"secured only by the equipment they finance.\" [D2, §1.1]\n\nEquipment notes (Prairie Equipment Finance) were 11,000 in FY2025. [D1, §4]\n\nThe draft negative pledge permits these Liens: (i) Liens in favor of the Lender; (ii) \"Liens securing the Equipment Notes, limited to the equipment financed by those notes\"; (iii) purchase-money Liens securing indebtedness \"in an aggregate amount not exceeding $1,000,000 at any time outstanding\"; and (iv) Liens for taxes not yet due and payable. [D2, §7.5(b)]\n\nTerm loan proceeds refinance the existing Meridian term loan of 5,600. [D1, §3 Note] [D2, §2.1(c)]\n\n**Collateral valuation, lien position and guarantor support**\n\nNot in provided documents: appraisal or valuation of the Rockford plant or other collateral. The appraisal report or collateral valuation file would normally hold this.\n\nNot in provided documents: collateral coverage or loan-to-value figures. The underwriter's collateral analysis would normally hold these.\n\nNot in provided documents: lien search, title or UCC results confirming first-priority position. Third-party searches in the closing file would normally hold these.\n\nNot in provided documents: Erik Halvorsen's financial statements, net worth or liquidity. The guarantor's personal financial statements would normally hold these.\n\nNot in provided documents: collateral and guaranty terms of the existing 2023 credit agreement. The 2023 credit agreement or the prior memo's collateral section would normally hold these. The D3 excerpt covers Sections 1-4 only. [D3, Part B]\n\nNot in provided documents: the definition of \"Expansion Project.\" Schedule 1.1 of the draft agreement would normally contain it. [D2, §1.1]\n\n**Sources used:** D1 §3 Note, §4; D2 §1.1, §2.1(a)-(c), §2.2(a)-(c), §7.5(b); D3 Part B (for the absence of prior collateral content); D5 ¶1, ¶4.\n\n**Underwriter to complete:**\n- **Flag for underwriter and legal (not interpreted here):** D2 §2.2(a) states a first-priority security interest in \"all present and future assets of the Borrower.\" D2 §1.1 and §7.5(b)(ii) state that the Equipment Notes are secured \"only by the equipment they finance,\" and the negative pledge permits those Liens. The draft does not state how the first-priority grant interacts with the Equipment Notes liens or the purchase-money Liens in §7.5(b)(iii). Refer to the underwriter and legal.\n- **Guaranty scope:** The guaranty is described as \"limited\" with recourse \"capped at $3,000,000 in the aggregate.\" The excerpt does not state whether the guaranty is of payment or collection, or whether it covers principal, interest or costs. Refer to legal.\n- **Missing items:** All gaps listed under \"Collateral valuation, lien position and guarantor support\" above.\n- **Underwriter judgment:** Any assessment of collateral adequacy or guarantor support, and any treatment of the other shareholders as guarantors, is for the underwriter.\n",
+      "drafted_text": "**Collateral**\n\nThe draft Amended and Restated Credit Agreement secures the Borrower's obligations by \"a first-priority security interest in all present and future assets of the Borrower.\" [D2, §2.2(a)]\n\nThe obligations are also secured by \"a first mortgage on the Borrower's plant located in Rockford, Illinois.\" [D2, §2.2(b)]\n\nThe secured obligations include a Term Loan of $12,000,000 and a Revolving Commitment not to exceed $6,000,000. [D2, §2.1(a)] [D2, §2.1(b)]\n\nThe Borrower has one plant. [D5, ¶1] Facility proceeds fund the Expansion Project, a 60,000 sq ft expansion of the Rockford plant estimated at $6.0 million. [D2, §2.1(c)] [D5, ¶4]\n\n**Guaranty**\n\nThe obligations are secured by \"a limited guaranty from Erik Halvorsen, with recourse to the guarantor capped at $3,000,000 in the aggregate.\" [D2, §2.2(c)]\n\nErik Halvorsen holds 55% of the Borrower. [D5, ¶1] The security provisions of the excerpt contain no guaranty from Maria Halvorsen or Anders Halvorsen. [D2, §2.2]\n\n**Existing Debt and Liens**\n\nEquipment Notes are promissory notes issued by the Borrower to Prairie Equipment Finance and \"secured only by the equipment they finance.\" [D2, §1.1]\n\nEquipment notes (Prairie Equipment Finance) were 11,000 in FY2025. [D1, §4]\n\nThe draft negative pledge permits these Liens: (i) Liens in favor of the Lender; (ii) \"Liens securing the Equipment Notes, limited to the equipment financed by those notes\"; (iii) purchase-money Liens securing indebtedness \"in an aggregate amount not exceeding $1,000,000 at any time outstanding\"; and (iv) Liens for taxes not yet due and payable. [D2, §7.5(b)]\n\nTerm loan proceeds refinance the existing Meridian term loan of 5,600. [D1, §3 Note] [D2, §2.1(c)]\n\n**Collateral valuation, lien position and guarantor support**\n\nNot in provided documents: appraisal or valuation of the Rockford plant or other collateral. The appraisal report or collateral valuation file would normally hold this.\n\nNot in provided documents: collateral coverage or loan-to-value figures. The underwriter's collateral analysis would normally hold these.\n\nNot in provided documents: lien search, title or UCC results confirming first-priority position. Third-party searches in the closing file would normally hold these.\n\nNot in provided documents: Erik Halvorsen's financial statements, net worth or liquidity. The guarantor's personal financial statements would normally hold these.\n\nNot in provided documents: collateral and guaranty terms of the existing 2023 credit agreement. The 2023 credit agreement or the prior memo's collateral section would normally hold these. The D3 excerpt covers Sections 1-4 only. [D3, Part B]\n\nNot in provided documents: the definition of \"Expansion Project.\" Schedule 1.1 of the draft agreement would normally contain it. [D2, §1.1]\n\n**Sources used:** D1 §3 Note, §4; D2 §1.1, §2.1(a)-(c), §2.2(a)-(c), §7.5(b); D3 Part B (for the absence of prior collateral content); D5 ¶1, ¶4.\n\n**Underwriter to complete:**\n- **Flag for underwriter and legal (not interpreted here):** D2 §2.2(a) states a first-priority security interest in \"all present and future assets of the Borrower.\" D2 §1.1 and §7.5(b)(ii) state that the Equipment Notes are secured \"only by the equipment they finance,\" and the negative pledge permits those Liens. The draft does not state how the first-priority grant interacts with the Equipment Notes liens or the purchase-money Liens in §7.5(b)(iii). Refer to the underwriter and legal.\n- **Guaranty scope:** The guaranty is described as \"limited\" with recourse \"capped at $3,000,000 in the aggregate.\" The excerpt does not state whether the guaranty is of payment or collection, or whether it covers principal, interest or costs. Refer to legal.\n- **Missing items:** All gaps listed under \"Collateral valuation, lien position and guarantor support\" above.\n- **Underwriter judgment:** Any assessment of collateral adequacy or guarantor support, and any treatment of the other shareholders as guarantors, is for the underwriter.\n",
+      "drafted_at": "2026-10-08T00:04:01",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 32615,
+      "run_id": "r_9d8d2209f3",
+      "comments": []
+    },
+    {
+      "id": "6",
+      "title": "Policy Compliance and Exceptions",
+      "author": "M",
+      "status": "drafted",
+      "text": "**Policy basis**\n\nThe requested facility is subject to Meridian Commercial Credit Policy §4.2, Middle-Market Cash Flow Lending, v2026.1, effective March 1, 2026 [D4, §4.2]. Section 4.2 applies to new-money and renewal requests for middle-market borrowers underwritten on a cash flow basis [D4, §4.2].\n\n**§4.2.1 Leverage**\n\nPolicy states that pro forma total leverage at origination shall not exceed 3.50x [D4, §4.2.1]. Any request above 3.50x is a policy exception and requires Chief Credit Officer approval [D4, §4.2.1]. Pro forma total leverage on an FY2025 basis is 2.52x [D1, Table 3: Total leverage, Pro forma (FY2025 basis)], on pro forma total funded debt of 26,200 [D1, Table 3: Total funded debt, Pro forma (FY2025 basis)]. This is below 3.50x, and the figures indicate no leverage exception.\n\n**§4.2.2 Debt service**\n\nPolicy states that pro forma DSCR at origination shall be at least 1.25x [D4, §4.2.2]. Any request below 1.25x is a policy exception [D4, §4.2.2]. Pro forma DSCR is 1.38x, on pro forma debt service of 5,600 [D1, Table 3: DSCR and Debt service, Pro forma (FY2025 basis)]. This is above 1.25x, and the figures indicate no DSCR exception.\n\n**§4.2.3 Senior review**\n\nPolicy requires senior underwriter review and Senior Loan Committee approval for any new-money request meeting any of three conditions [D4, §4.2.3].\n\n- **(a) Total commitment above $15.0 million.** The proposed facility is $18.0M: a $12.0M term loan and a $6.0M revolver [D1, §3 note]. The draft agreement states a Term Loan of $12,000,000 and a Revolving Commitment not to exceed $6,000,000 [D2, §2.1(a), §2.1(b)]. The $18.0M commitment exceeds $15.0 million, so condition (a) is met.\n- **(b) Pro forma total leverage above 3.00x.** Pro forma total leverage is 2.52x [D1, Table 3: Total leverage, Pro forma (FY2025 basis)]. Condition (b) is not met on the stated figure.\n- **(c) Any policy exception present.** The figures above indicate no exception under §4.2.1 or §4.2.2 [D4, §4.2.1; D4, §4.2.2; D1, Table 3]. Condition (c) is not met on those figures.\n\n**§4.2.4 Concentration**\n\nPolicy states that if any single customer exceeds 25% of borrower revenue in the most recent fiscal year, the credit memo must address customer concentration in Section 7, Key Risks and Mitigants [D4, §4.2.4]. Customer A accounted for 31% of FY2025 revenue and 28% of FY2024 revenue [D1, §5]. The top five customers accounted for 64% of FY2025 revenue [D1, §5]. Customer A's 31% exceeds 25%, so the Section 7 requirement is triggered.\n\n**§4.2.5 Risk rating**\n\nPolicy requires a risk rating on the bank's 1-10 scale with a written rationale in Section 9 [D4, §4.2.5]. The underwriter assigns the rating and the senior reviewer confirms it [D4, §4.2.5].\n\n**Sources used:** D1 §3 note, §5, Table 3; D2 §2.1(a), §2.1(b); D4 §4.2, §4.2.1 to §4.2.5.\n\n**Underwriter to complete:**\n- **Approval of exceptions:** No exception is identified from the stated figures. A human approves any exception, and the underwriter confirms this conclusion [D3, Part A: Section list, #6].\n- **\"New-money\" classification:** §4.2.3 applies to \"new-money\" requests, and D4 does not define the term. The request increases an existing $12.0 million facility to $18.0M, and part of the term loan refinances the existing Meridian term loan of 5,600 [D5, ¶2, ¶4; D1, §3 note]. The underwriter should determine whether the request is new-money for §4.2.3 and which amount counts as \"total commitment.\" Refer this policy interpretation to the underwriter and Credit Policy.\n- **Pro forma basis:** D4 does not define total leverage or DSCR for policy purposes. The pro forma figures use the D1 spread definitions [D1, §2 definitions]. D2 wording differs, for example \"Unfinanced Capital Expenditures\" in D2 versus \"unfunded capex\" in D1 [D2, §1.1; D1, §2]. The underwriter should confirm the D1 pro forma figures are the intended basis for the policy tests.\n- **Not in provided documents:** the assumptions behind pro forma debt service of 5,600 (interest rate and amortization terms assumed; the D1 spread or pro forma model would normally contain these). D2 gives only the seven-year amortization schedule and five-year maturity of the Term Loan [D2, §2.1(a)].\n- **Not in provided documents:** any Meridian policy provisions outside §4.2 (D4 is an excerpt; the full Commercial Credit Policy would contain them).\n- **Section 7:** The §4.2.4 concentration discussion belongs in Section 7. Section 7 is underwriter-authored. Cited facts the underwriter may need: Customer A at 28% of FY2024 revenue and 31% of FY2025 revenue, and the top five customers at 64% of FY2025 revenue [D1, §5]. Management expects the plant expansion to add capacity for the Customer A program beginning in 2027 [D1, §6]. The borrower also described the expansion as tied to a new multi-year Customer A program [D5, ¶4].\n- **CONFLICT (related, Section 3):** D1 §6 management commentary says net income rose to \"$4.2 million\" in FY2025 [D1, §6], while D1 Table 1 shows FY2025 net income of 3,900 [D1, Table 1: Net income, FY2025]. Neither value is chosen. The policy tests above do not use net income.\n",
+      "drafted_text": "**Policy basis**\n\nThe requested facility is subject to Meridian Commercial Credit Policy §4.2, Middle-Market Cash Flow Lending, v2026.1, effective March 1, 2026 [D4, §4.2]. Section 4.2 applies to new-money and renewal requests for middle-market borrowers underwritten on a cash flow basis [D4, §4.2].\n\n**§4.2.1 Leverage**\n\nPolicy states that pro forma total leverage at origination shall not exceed 3.50x [D4, §4.2.1]. Any request above 3.50x is a policy exception and requires Chief Credit Officer approval [D4, §4.2.1]. Pro forma total leverage on an FY2025 basis is 2.52x [D1, Table 3: Total leverage, Pro forma (FY2025 basis)], on pro forma total funded debt of 26,200 [D1, Table 3: Total funded debt, Pro forma (FY2025 basis)]. This is below 3.50x, and the figures indicate no leverage exception.\n\n**§4.2.2 Debt service**\n\nPolicy states that pro forma DSCR at origination shall be at least 1.25x [D4, §4.2.2]. Any request below 1.25x is a policy exception [D4, §4.2.2]. Pro forma DSCR is 1.38x, on pro forma debt service of 5,600 [D1, Table 3: DSCR and Debt service, Pro forma (FY2025 basis)]. This is above 1.25x, and the figures indicate no DSCR exception.\n\n**§4.2.3 Senior review**\n\nPolicy requires senior underwriter review and Senior Loan Committee approval for any new-money request meeting any of three conditions [D4, §4.2.3].\n\n- **(a) Total commitment above $15.0 million.** The proposed facility is $18.0M: a $12.0M term loan and a $6.0M revolver [D1, §3 note]. The draft agreement states a Term Loan of $12,000,000 and a Revolving Commitment not to exceed $6,000,000 [D2, §2.1(a), §2.1(b)]. The $18.0M commitment exceeds $15.0 million, so condition (a) is met.\n- **(b) Pro forma total leverage above 3.00x.** Pro forma total leverage is 2.52x [D1, Table 3: Total leverage, Pro forma (FY2025 basis)]. Condition (b) is not met on the stated figure.\n- **(c) Any policy exception present.** The figures above indicate no exception under §4.2.1 or §4.2.2 [D4, §4.2.1; D4, §4.2.2; D1, Table 3]. Condition (c) is not met on those figures.\n\n**§4.2.4 Concentration**\n\nPolicy states that if any single customer exceeds 25% of borrower revenue in the most recent fiscal year, the credit memo must address customer concentration in Section 7, Key Risks and Mitigants [D4, §4.2.4]. Customer A accounted for 31% of FY2025 revenue and 28% of FY2024 revenue [D1, §5]. The top five customers accounted for 64% of FY2025 revenue [D1, §5]. Customer A's 31% exceeds 25%, so the Section 7 requirement is triggered.\n\n**§4.2.5 Risk rating**\n\nPolicy requires a risk rating on the bank's 1-10 scale with a written rationale in Section 9 [D4, §4.2.5]. The underwriter assigns the rating and the senior reviewer confirms it [D4, §4.2.5].\n\n**Sources used:** D1 §3 note, §5, Table 3; D2 §2.1(a), §2.1(b); D4 §4.2, §4.2.1 to §4.2.5.\n\n**Underwriter to complete:**\n- **Approval of exceptions:** No exception is identified from the stated figures. A human approves any exception, and the underwriter confirms this conclusion [D3, Part A: Section list, #6].\n- **\"New-money\" classification:** §4.2.3 applies to \"new-money\" requests, and D4 does not define the term. The request increases an existing $12.0 million facility to $18.0M, and part of the term loan refinances the existing Meridian term loan of 5,600 [D5, ¶2, ¶4; D1, §3 note]. The underwriter should determine whether the request is new-money for §4.2.3 and which amount counts as \"total commitment.\" Refer this policy interpretation to the underwriter and Credit Policy.\n- **Pro forma basis:** D4 does not define total leverage or DSCR for policy purposes. The pro forma figures use the D1 spread definitions [D1, §2 definitions]. D2 wording differs, for example \"Unfinanced Capital Expenditures\" in D2 versus \"unfunded capex\" in D1 [D2, §1.1; D1, §2]. The underwriter should confirm the D1 pro forma figures are the intended basis for the policy tests.\n- **Not in provided documents:** the assumptions behind pro forma debt service of 5,600 (interest rate and amortization terms assumed; the D1 spread or pro forma model would normally contain these). D2 gives only the seven-year amortization schedule and five-year maturity of the Term Loan [D2, §2.1(a)].\n- **Not in provided documents:** any Meridian policy provisions outside §4.2 (D4 is an excerpt; the full Commercial Credit Policy would contain them).\n- **Section 7:** The §4.2.4 concentration discussion belongs in Section 7. Section 7 is underwriter-authored. Cited facts the underwriter may need: Customer A at 28% of FY2024 revenue and 31% of FY2025 revenue, and the top five customers at 64% of FY2025 revenue [D1, §5]. Management expects the plant expansion to add capacity for the Customer A program beginning in 2027 [D1, §6]. The borrower also described the expansion as tied to a new multi-year Customer A program [D5, ¶4].\n- **CONFLICT (related, Section 3):** D1 §6 management commentary says net income rose to \"$4.2 million\" in FY2025 [D1, §6], while D1 Table 1 shows FY2025 net income of 3,900 [D1, Table 1: Net income, FY2025]. Neither value is chosen. The policy tests above do not use net income.\n",
+      "drafted_at": "2026-10-08T00:04:49",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 46020,
+      "run_id": "r_9928da781e",
+      "comments": []
+    },
+    {
+      "id": "7",
+      "title": "Key Risks and Mitigants",
+      "author": "U",
+      "status": "empty",
+      "text": "",
+      "drafted_text": "",
+      "drafted_at": null,
+      "edited_at": null,
+      "model": null,
+      "duration_ms": null,
+      "run_id": null,
+      "comments": []
+    },
+    {
+      "id": "8",
+      "title": "Underwriter Analysis and Recommendation",
+      "author": "U",
+      "status": "empty",
+      "text": "",
+      "drafted_text": "",
+      "drafted_at": null,
+      "edited_at": null,
+      "model": null,
+      "duration_ms": null,
+      "run_id": null,
+      "comments": []
+    },
+    {
+      "id": "9",
+      "title": "Risk Rating and Rationale",
+      "author": "locked",
+      "status": "empty",
+      "text": "",
+      "drafted_text": "",
+      "drafted_at": null,
+      "edited_at": null,
+      "model": null,
+      "duration_ms": null,
+      "run_id": null,
+      "comments": []
+    },
+    {
+      "id": "10",
+      "title": "Conditions and Approvals",
+      "author": "U",
+      "status": "empty",
+      "text": "",
+      "drafted_text": "",
+      "drafted_at": null,
+      "edited_at": null,
+      "model": null,
+      "duration_ms": null,
+      "run_id": null,
+      "comments": []
+    }
+  ],
+  "checklist_consolidated": {
+    "at": "2026-10-08T12:37:12",
+    "model": "claude-sonnet-5-5",
+    "duration_ms": 40972,
+    "run_id": "r_3d7aad7b9a",
+    "source_item_count": 38,
+    "original_item_count": 45,
+    "source_items": [
+      {
+        "n": 1,
+        "group": "documents",
+        "sections": [
+          "1"
+        ],
+        "text": "Expansion Project: the term has the meaning given in Schedule 1.1, which is not in the excerpt [D2, §1.1]. The Schedule 1.1 definition."
+      },
+      {
+        "n": 2,
+        "group": "documents",
+        "sections": [
+          "1"
+        ],
+        "text": "Revolver purpose: the documents do not state the intended use of the revolver beyond D2 §2.1(c). The revolver draw plan (borrower request letter or term sheet)."
+      },
+      {
+        "n": 3,
+        "group": "documents",
+        "sections": [
+          "2"
+        ],
+        "text": "**Waiver W-25-0117:** D5 ¶3 refers only to \"the reporting covenant.\" The waiver document and the existing 2023 credit agreement section it relates to; these would normally be held by Credit Administration or the loan file."
+      },
+      {
+        "n": 4,
+        "group": "documents",
+        "sections": [
+          "2"
+        ],
+        "text": "The borrower's legal form and state of incorporation, and management biographies beyond the names and roles above. The corporate records or the full credit file would normally hold these."
+      },
+      {
+        "n": 5,
+        "group": "documents",
+        "sections": [
+          "4"
+        ],
+        "text": "Confirmation that the spread's EBITDA, capex, debt service and funded debt match the D2 definitions, including the capital lease obligations in \"Total Funded Debt\" and the GAAP-based EBITDA. The covenant definitions, a covenant compliance calculation, or the full draft agreement would normally contain this."
+      },
+      {
+        "n": 6,
+        "group": "documents",
+        "sections": [
+          "4"
+        ],
+        "text": "How the pro forma debt service of 5,600 was built. The spread's FY2025 model or amortization schedule would normally contain this."
+      },
+      {
+        "n": 7,
+        "group": "documents",
+        "sections": [
+          "4"
+        ],
+        "text": "**Event of Default provisions.** No other Events of Default (payment, cross-default, cure periods) appear in the excerpt. The full Events of Default article of the draft agreement."
+      },
+      {
+        "n": 8,
+        "group": "documents",
+        "sections": [
+          "4"
+        ],
+        "text": "**Existing agreement terms.** The existing 2023 credit agreement, including its reporting deadlines, any capex covenant and negative pledge. The waiver W-25-0117 document is also not provided, so the covenant it waived and its terms are unconfirmed beyond D5 ¶3."
+      },
+      {
+        "n": 9,
+        "group": "documents",
+        "sections": [
+          "4"
+        ],
+        "text": "**Existing liens and purchase-money debt.** A lien search or schedule of existing liens and purchase-money indebtedness against the $1,000,000 basket in §7.5(b)(iii). A UCC search or the closing checklist would normally contain this."
+      },
+      {
+        "n": 10,
+        "group": "documents",
+        "sections": [
+          "5"
+        ],
+        "text": "Collateral valuation, lien position and guarantor support: Appraisal or valuation of the Rockford plant or other collateral; Collateral coverage or loan-to-value figures; Lien search, title or UCC results confirming first-priority position; Erik Halvorsen's financial statements, net worth or liquidity; Collateral and guaranty terms of the existing 2023 credit agreement; The definition of \"Expansion Project.\" [D3, Part B] [D2, §1.1]"
+      },
+      {
+        "n": 11,
+        "group": "documents",
+        "sections": [
+          "6"
+        ],
+        "text": "The assumptions behind pro forma debt service of 5,600 (interest rate and amortization terms assumed; the D1 spread or pro forma model would normally contain these). D2 gives only the seven-year amortization schedule and five-year maturity of the Term Loan [D2, §2.1(a)]."
+      },
+      {
+        "n": 12,
+        "group": "documents",
+        "sections": [
+          "6"
+        ],
+        "text": "Any Meridian policy provisions outside §4.2 (D4 is an excerpt; the full Commercial Credit Policy would contain them)."
+      },
+      {
+        "n": 13,
+        "group": "conflicts",
+        "sections": [
+          "1",
+          "3",
+          "6"
+        ],
+        "text": "Source discrepancy for Section 3: the Management commentary states net income of \"$4.2 million\" for FY2025 [D1, §6], while Table 1 shows net income of 3,900 for FY2025 [D1, §1: Net income, FY2025]. CONFLICT. I have not chosen between them. Also cited in the repeats: [D1, Table 1: Net income, FY2025]"
+      },
+      {
+        "n": 14,
+        "group": "policy",
+        "sections": [
+          "1"
+        ],
+        "text": "New-money status: D4 §4.2.3 applies to \"new-money\" requests [D4, §4.2.3]. The provided documents do not state whether this request is classified as new-money. The underwriter should determine this and any resulting senior review requirement."
+      },
+      {
+        "n": 15,
+        "group": "policy",
+        "sections": [
+          "1"
+        ],
+        "text": "Policy items for Section 6: the pro forma figures above are relevant to D4 §4.2.1-§4.2.3, and the underwriter applies those tests."
+      },
+      {
+        "n": 16,
+        "group": "policy",
+        "sections": [
+          "3"
+        ],
+        "text": "Pro forma DSCR is 1.38x [D1, Table 3] against the policy minimum of 1.25x [D4, §4.2.2]."
+      },
+      {
+        "n": 17,
+        "group": "policy",
+        "sections": [
+          "3"
+        ],
+        "text": "Pro forma total leverage is 2.52x [D1, Table 3] against the policy maximum of 3.50x [D4, §4.2.1]."
+      },
+      {
+        "n": 18,
+        "group": "policy",
+        "sections": [
+          "3"
+        ],
+        "text": "Senior review is triggered where total commitment exceeds $15.0 million [D4, §4.2.3(a)]. The proposed commitment is $18.0M [D1, §3: Note to Table 3]."
+      },
+      {
+        "n": 19,
+        "group": "policy",
+        "sections": [
+          "6"
+        ],
+        "text": "**Approval of exceptions:** No exception is identified from the stated figures. A human approves any exception, and the underwriter confirms this conclusion [D3, Part A: Section list, #6]."
+      },
+      {
+        "n": 20,
+        "group": "policy",
+        "sections": [
+          "6"
+        ],
+        "text": "**\"New-money\" classification:** §4.2.3 applies to \"new-money\" requests, and D4 does not define the term. The request increases an existing $12.0 million facility to $18.0M, and part of the term loan refinances the existing Meridian term loan of 5,600 [D5, ¶2, ¶4; D1, §3 note]. The underwriter should determine whether the request is new-money for §4.2.3 and which amount counts as \"total commitment.\" Refer this policy interpretation to the underwriter and Credit Policy."
+      },
+      {
+        "n": 21,
+        "group": "policy",
+        "sections": [
+          "6"
+        ],
+        "text": "**Pro forma basis:** D4 does not define total leverage or DSCR for policy purposes. The pro forma figures use the D1 spread definitions [D1, §2 definitions]. D2 wording differs, for example \"Unfinanced Capital Expenditures\" in D2 versus \"unfunded capex\" in D1 [D2, §1.1; D1, §2]. The underwriter should confirm the D1 pro forma figures are the intended basis for the policy tests."
+      },
+      {
+        "n": 22,
+        "group": "sections",
+        "sections": [
+          "3",
+          "4"
+        ],
+        "text": "Customer A was 31% of FY2025 revenue [D1, §5]. Policy requires concentration to be addressed in Section 7 when a single customer exceeds 25% [D4, §4.2.4]. Also cited in the repeats: [D1, §5; D4, §4.2.4]"
+      },
+      {
+        "n": 23,
+        "group": "sections",
+        "sections": [
+          "3"
+        ],
+        "text": "**Section 3.5 Underwriter Commentary:** reserved for the underwriter."
+      },
+      {
+        "n": 24,
+        "group": "sections",
+        "sections": [
+          "6"
+        ],
+        "text": "**Section 7:** The §4.2.4 concentration discussion belongs in Section 7. Section 7 is underwriter-authored. Cited facts the underwriter may need: Customer A at 28% of FY2024 revenue and 31% of FY2025 revenue, and the top five customers at 64% of FY2025 revenue [D1, §5]. Management expects the plant expansion to add capacity for the Customer A program beginning in 2027 [D1, §6]. The borrower also described the expansion as tied to a new multi-year Customer A program [D5, ¶4]."
+      },
+      {
+        "n": 25,
+        "group": "other",
+        "sections": [
+          "1"
+        ],
+        "text": "Header fields: request type, underwriter, senior reviewer and memo date (not in provided documents)."
+      },
+      {
+        "n": 26,
+        "group": "other",
+        "sections": [
+          "1"
+        ],
+        "text": "Competing offer: the national bank offer is recorded only as the borrower's statement [D5, ¶4]. No term sheet is in the provided documents."
+      },
+      {
+        "n": 27,
+        "group": "other",
+        "sections": [
+          "2",
+          "4"
+        ],
+        "text": "**Change of control (§7.6):** D2 §7.6 makes it an Event of Default if the Founders cease to own \"a meaningful portion of the voting equity interests\" or cease to be \"actively involved in the management of the Borrower.\" [D2, §7.6] The terms \"meaningful portion\" and \"actively involved\" are not defined in the excerpt. Refer them to the underwriter and legal. Whether the CEO transition or a minority stake sale in D5 ¶5 bears on these terms is for the underwriter and legal to determine. Also cited in the repeats: [D2, §1.1; D5, ¶1]"
+      },
+      {
+        "n": 28,
+        "group": "other",
+        "sections": [
+          "2"
+        ],
+        "text": "**Header fields:** Underwriter, Senior reviewer and Date are not in the provided documents."
+      },
+      {
+        "n": 29,
+        "group": "other",
+        "sections": [
+          "3"
+        ],
+        "text": "**Missing FY2025 data:** year-end cash and liquidity are not in the documents. The source is the year-end bank statements due with the Q3 2026 package [D1, §2: Footnote *]."
+      },
+      {
+        "n": 30,
+        "group": "other",
+        "sections": [
+          "3",
+          "4"
+        ],
+        "text": "The spread DSCR uses \"unfunded capex\" and \"debt service (P+I)\" [D1, §2]. The draft agreement uses \"Unfinanced Capital Expenditures\" and \"scheduled payments of principal and interest on Total Funded Debt\" [D2, §1.1]. The spread ratios may not be on the agreement basis. Confirm whether they are comparable."
+      },
+      {
+        "n": 31,
+        "group": "other",
+        "sections": [
+          "3"
+        ],
+        "text": "The spread does not state how EBITDA is built. The draft agreement defines EBITDA from GAAP net income [D2, §1.1]. Confirm the spread EBITDA matches."
+      },
+      {
+        "n": 32,
+        "group": "other",
+        "sections": [
+          "3"
+        ],
+        "text": "**Pro forma basis:** the pro forma figures are on a FY2025 basis [D1, Table 3]. The pro forma revolver balance of 3,200 [D1, §3: Note to Table 3] sits within a $6.0M revolver commitment [D2, §2.1(b)]. Pro forma revolver availability is not stated in the documents."
+      },
+      {
+        "n": 33,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "The spread's ratios are on an annual FY2025 basis [D1, Table 3]. D2 tests quarterly on trailing four quarters [D2, §7.1, §7.2]. No quarterly pro forma is provided."
+      },
+      {
+        "n": 34,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "**Schedule 1.1 not provided.** The definition of \"Expansion Project\" is needed to apply the §7.3 exclusion [D2, §1.1, §7.3]. Other defined terms are in the full draft agreement."
+      },
+      {
+        "n": 35,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "**Covenant levels versus requirements.** The covenant levels in D2 are stated alongside the D1 figures without any conclusion on headroom. Any assessment is for the underwriter."
+      },
+      {
+        "n": 36,
+        "group": "other",
+        "sections": [
+          "5"
+        ],
+        "text": "**Flag for underwriter and legal (not interpreted here):** D2 §2.2(a) states a first-priority security interest in \"all present and future assets of the Borrower.\" D2 §1.1 and §7.5(b)(ii) state that the Equipment Notes are secured \"only by the equipment they finance,\" and the negative pledge permits those Liens. The draft does not state how the first-priority grant interacts with the Equipment Notes liens or the purchase-money Liens in §7.5(b)(iii). Refer to the underwriter and legal."
+      },
+      {
+        "n": 37,
+        "group": "other",
+        "sections": [
+          "5"
+        ],
+        "text": "**Guaranty scope:** The guaranty is described as \"limited\" with recourse \"capped at $3,000,000 in the aggregate.\" The excerpt does not state whether the guaranty is of payment or collection, or whether it covers principal, interest or costs. Refer to legal."
+      },
+      {
+        "n": 38,
+        "group": "other",
+        "sections": [
+          "5"
+        ],
+        "text": "**Underwriter judgment:** Any assessment of collateral adequacy or guarantor support, and any treatment of the other shareholders as guarantors, is for the underwriter."
+      }
+    ],
+    "citation_repairs": [],
+    "documents_to_request": [
+      {
+        "item": "Schedule 1.1 definition of Expansion Project [D2, §1.1]",
+        "would_be_in": "Schedule 1.1 of the draft agreement",
+        "request_line": "Could you please send Schedule 1.1, which defines the Expansion Project, so we can finish reviewing the draft agreement?"
+      },
+      {
+        "item": "Revolver draw plan and intended use beyond D2 §2.1(c)",
+        "would_be_in": "Borrower request letter or term sheet",
+        "request_line": "Could you please send a letter or term sheet explaining how you plan to use the revolver?"
+      },
+      {
+        "item": "Waiver W-25-0117 and the existing 2023 credit agreement, including reporting deadlines, any capex covenant and negative pledge",
+        "would_be_in": "Credit Administration or the loan file",
+        "request_line": "Credit Administration, please provide waiver W-25-0117 and the existing 2023 credit agreement with its reporting deadlines, capex covenant and negative pledge."
+      },
+      {
+        "item": "Borrower legal form, state of incorporation and management biographies beyond names and roles",
+        "would_be_in": "Corporate records or the full credit file",
+        "request_line": "Could you please send your legal form, state of incorporation and short biographies for your management team?"
+      },
+      {
+        "item": "Confirmation that spread EBITDA, capex, debt service and funded debt match D2 definitions, including capital leases and GAAP-based EBITDA",
+        "would_be_in": "Covenant definitions, a covenant compliance calculation, or the full draft agreement",
+        "request_line": "Could you please send a covenant compliance calculation showing how EBITDA, capex, debt service and funded debt were built?"
+      },
+      {
+        "item": "How pro forma debt service of 5,600 was built, including interest rate and amortization assumed [D2, §2.1(a)]",
+        "would_be_in": "D1 spread FY2025 model or amortization schedule",
+        "request_line": "Could you please send the FY2025 model or amortization schedule behind the pro forma debt service of 5,600?"
+      },
+      {
+        "item": "Full Events of Default article (payment, cross-default, cure periods)",
+        "would_be_in": "Full Events of Default article of the draft agreement",
+        "request_line": "Could you please send the full Events of Default article of the draft agreement?"
+      },
+      {
+        "item": "Existing liens and purchase-money debt against the $1,000,000 basket in §7.5(b)(iii)",
+        "would_be_in": "UCC search or the closing checklist",
+        "request_line": "Could you please send a schedule of your existing liens and purchase-money debt, or the latest UCC search?"
+      },
+      {
+        "item": "Collateral valuation, lien position, guarantor financials and existing collateral and guaranty terms [D3, Part B]",
+        "would_be_in": "Appraisal, lien or title search, guarantor statements, existing 2023 credit agreement",
+        "request_line": "Could you please send an appraisal of the Rockford plant and Erik Halvorsen's financial statements, plus any title or lien search results?"
+      },
+      {
+        "item": "Meridian policy provisions outside §4.2",
+        "would_be_in": "Full Commercial Credit Policy",
+        "request_line": "Credit Policy team, please provide the full Commercial Credit Policy, since the memo only has a §4.2 excerpt."
+      },
+      {
+        "item": "FY2025 year-end cash and liquidity [D1, §2: Footnote *]",
+        "would_be_in": "Year-end bank statements due with the Q3 2026 package",
+        "request_line": "Could you please send your FY2025 year-end bank statements with the Q3 2026 package?"
+      },
+      {
+        "item": "Competing national bank offer, recorded only as borrower's statement [D5, ¶4]",
+        "would_be_in": "Not in provided documents",
+        "request_line": "Could you please send the term sheet from the national bank that you mentioned?"
+      },
+      {
+        "item": "Quarterly pro forma on a trailing four quarter basis, and pro forma revolver availability",
+        "would_be_in": "Borrower pro forma model",
+        "request_line": "Could you please send a quarterly pro forma on a trailing four quarter basis, including expected revolver availability?"
+      },
+      {
+        "item": "Header fields: request type, underwriter, senior reviewer and memo date",
+        "would_be_in": "Not in provided documents",
+        "request_line": "Could the relationship manager please confirm the request type, underwriter, senior reviewer and memo date for the memo header?"
+      }
+    ],
+    "conflicts": [
+      {
+        "item": "FY2025 net income: \"$4.2 million\" in [D1, §6] versus 3,900 in [D1, §1: Net income, FY2025] and [D1, Table 1: Net income, FY2025]",
+        "how_to_resolve": "Check the underlying financial statements and the spread source for FY2025 net income. The underwriter chooses which value to use."
+      },
+      {
+        "item": "Spread terms \"unfunded capex\" and \"debt service (P+I)\" versus D2 \"Unfinanced Capital Expenditures\" and scheduled principal and interest on Total Funded Debt",
+        "how_to_resolve": "Compare the D1 spread definitions with D2 §1.1 and confirm whether the ratios are comparable."
+      },
+      {
+        "item": "D2 §2.2(a) first-priority grant on all assets versus Equipment Notes liens in D2 §1.1 and §7.5(b)(ii), and purchase-money Liens in §7.5(b)(iii)",
+        "how_to_resolve": "Refer to the underwriter and legal to read the grant alongside the permitted liens. No interpretation is offered here."
+      }
+    ],
+    "policy_items": [
+      {
+        "item": "New-money status under [D4, §4.2.3], with existing facility increased and part of term loan refinancing the existing Meridian term loan of 5,600",
+        "judgment_needed": "Decide whether the request is new-money and which amount counts as total commitment. Refer to Credit Policy."
+      },
+      {
+        "item": "Pro forma DSCR is 1.38x [D1, Table 3] against policy minimum of 1.25x [D4, §4.2.2]",
+        "judgment_needed": "Underwriter applies the §4.2.2 test."
+      },
+      {
+        "item": "Pro forma total leverage is 2.52x [D1, Table 3] against policy maximum of 3.50x [D4, §4.2.1]",
+        "judgment_needed": "Underwriter applies the §4.2.1 test."
+      },
+      {
+        "item": "Senior review where total commitment exceeds $15.0 million [D4, §4.2.3(a)]; proposed commitment is $18.0M [D1, §3: Note to Table 3]",
+        "judgment_needed": "Underwriter decides how §4.2.3(a) applies and whether senior review is required."
+      },
+      {
+        "item": "Pro forma basis: D4 does not define total leverage or DSCR, and D1 and D2 wording differs [D2, §1.1; D1, §2]",
+        "judgment_needed": "Confirm the D1 pro forma figures are the intended basis for the policy tests."
+      },
+      {
+        "item": "D2 §7.6 terms \"meaningful portion\" and \"actively involved\" are undefined; CEO transition or minority stake sale in D5 ¶5 may bear on them [D2, §7.6]",
+        "judgment_needed": "Underwriter and legal decide whether these terms apply to the CEO transition or stake sale."
+      },
+      {
+        "item": "Guaranty described as limited, capped at $3,000,000 in the aggregate; payment or collection and covered amounts not stated",
+        "judgment_needed": "Refer scope of the guaranty to legal and the underwriter."
+      }
+    ],
+    "sections_to_write": [
+      {
+        "section": "Section 3.5 Underwriter Commentary",
+        "what_it_needs": "Underwriter's own commentary. Reserved for the underwriter."
+      },
+      {
+        "section": "Section 7",
+        "what_it_needs": "Customer concentration discussion under [D4, §4.2.4]: Customer A at 28% of FY2024 and 31% of FY2025 revenue, top five at 64% [D1, §5]."
+      }
+    ],
+    "suggested_edits": [
+      {
+        "section": "Sections 1, 4, 5",
+        "suggestion": "List the missing Schedule 1.1 definition of Expansion Project once, and refer to it from other sections."
+      },
+      {
+        "section": "Sections 2, 4, 5",
+        "suggestion": "List waiver W-25-0117 and the existing 2023 credit agreement as one missing item instead of repeating it."
+      },
+      {
+        "section": "Sections 4, 6",
+        "suggestion": "Combine the two requests for how pro forma debt service of 5,600 was built into one."
+      },
+      {
+        "section": "Sections 1, 2",
+        "suggestion": "Show missing header fields once, in a single line."
+      },
+      {
+        "section": "Sections 1, 6",
+        "suggestion": "State the new-money question once in Section 6 and point to it from Section 1."
+      },
+      {
+        "section": "Sections 1, 3, 6",
+        "suggestion": "Show the net income discrepancy once in Section 3, and refer to it elsewhere without repeating the values."
+      }
+    ],
+    "dropped": [
+      {
+        "item": 8,
+        "reason": "merged item",
+        "text": "**Existing agreement terms.** The existing 2023 credit agreement, including its reporting deadlines, any capex covenant and negative pledge. The waiver W-25-0117 document is also not provided, so the covenant it waived and its terms are unconfirmed beyond D5 ¶3.",
+        "sections": [
+          "4"
+        ]
+      },
+      {
+        "item": 11,
+        "reason": "merged item",
+        "text": "The assumptions behind pro forma debt service of 5,600 (interest rate and amortization terms assumed; the D1 spread or pro forma model would normally contain these). D2 gives only the seven-year amortization schedule and five-year maturity of the Term Loan [D2, §2.1(a)].",
+        "sections": [
+          "6"
+        ]
+      },
+      {
+        "item": 14,
+        "reason": "merged item",
+        "text": "New-money status: D4 §4.2.3 applies to \"new-money\" requests [D4, §4.2.3]. The provided documents do not state whether this request is classified as new-money. The underwriter should determine this and any resulting senior review requirement.",
+        "sections": [
+          "1"
+        ]
+      },
+      {
+        "item": 15,
+        "reason": "pointer only",
+        "text": "Policy items for Section 6: the pro forma figures above are relevant to D4 §4.2.1-§4.2.3, and the underwriter applies those tests.",
+        "sections": [
+          "1"
+        ]
+      },
+      {
+        "item": 19,
+        "reason": "filler reminder",
+        "text": "**Approval of exceptions:** No exception is identified from the stated figures. A human approves any exception, and the underwriter confirms this conclusion [D3, Part A: Section list, #6].",
+        "sections": [
+          "6"
+        ]
+      },
+      {
+        "item": 22,
+        "reason": "merged item",
+        "text": "Customer A was 31% of FY2025 revenue [D1, §5]. Policy requires concentration to be addressed in Section 7 when a single customer exceeds 25% [D4, §4.2.4]. Also cited in the repeats: [D1, §5; D4, §4.2.4]",
+        "sections": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "item": 28,
+        "reason": "duplicate item",
+        "text": "**Header fields:** Underwriter, Senior reviewer and Date are not in the provided documents.",
+        "sections": [
+          "2"
+        ]
+      },
+      {
+        "item": 31,
+        "reason": "merged item",
+        "text": "The spread does not state how EBITDA is built. The draft agreement defines EBITDA from GAAP net income [D2, §1.1]. Confirm the spread EBITDA matches.",
+        "sections": [
+          "3"
+        ]
+      },
+      {
+        "item": 32,
+        "reason": "merged item",
+        "text": "**Pro forma basis:** the pro forma figures are on a FY2025 basis [D1, Table 3]. The pro forma revolver balance of 3,200 [D1, §3: Note to Table 3] sits within a $6.0M revolver commitment [D2, §2.1(b)]. Pro forma revolver availability is not stated in the documents.",
+        "sections": [
+          "3"
+        ]
+      },
+      {
+        "item": 34,
+        "reason": "duplicate item",
+        "text": "**Schedule 1.1 not provided.** The definition of \"Expansion Project\" is needed to apply the §7.3 exclusion [D2, §1.1, §7.3]. Other defined terms are in the full draft agreement.",
+        "sections": [
+          "4"
+        ]
+      },
+      {
+        "item": 35,
+        "reason": "filler reminder",
+        "text": "**Covenant levels versus requirements.** The covenant levels in D2 are stated alongside the D1 figures without any conclusion on headroom. Any assessment is for the underwriter.",
+        "sections": [
+          "4"
+        ]
+      },
+      {
+        "item": 38,
+        "reason": "filler reminder",
+        "text": "**Underwriter judgment:** Any assessment of collateral adequacy or guarantor support, and any treatment of the other shareholders as guarantors, is for the underwriter.",
+        "sections": [
+          "5"
+        ]
+      }
+    ]
+  }
+}

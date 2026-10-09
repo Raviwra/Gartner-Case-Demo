@@ -1,0 +1,5 @@
+Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.
+
+Not in provided documents: Larkspur's total liquidity (cash + availability) at FYE 2025. The spread shows liquidity for FY2025 as "n/a*" [D1, Table 2: Liquidity (cash + availability), FY2025]. The FY2025 year-end cash balance is shown as "Not provided*" [D1, Table 2: Cash, FY2025], and the footnote states it "was not included in the spread export" [D1, §2, Footnote *]. The FY2025 revolver availability is 1,800 ($ in thousands) [D1, Table 2: Revolver availability, FY2025].
+
+The missing input is the FY2025 year-end cash balance. The footnote states the borrower will provide year-end bank statements with the Q3 2026 package [D1, §2, Footnote *], and that package is not among the project documents. The spread export (D1) or those bank statements would normally hold it.

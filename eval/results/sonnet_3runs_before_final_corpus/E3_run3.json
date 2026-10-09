@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 3717,
+  "stop_reason": "end_turn",
+  "session_id": "782b5a4f-99c7-4f9d-b27c-377c5c8d5cde",
+  "total_cost_usd": 0.033216999999999997,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7228,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 404,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7228,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 404,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7228,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7228
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 404,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7228,
+      "webSearchRequests": 0,
+      "costUSD": 0.033216999999999997,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nNot in provided documents: Larkspur's total liquidity (cash plus revolver availability) at FYE 2025. The spread export shows FY2025 Cash as \"Not provided*\" and Liquidity (cash + availability) as \"n/a*\" [D1, Table 2: Cash, FY2025; Liquidity, FY2025]. The footnote states that the FY2025 year-end cash balance was not included in the spread export and that the borrower will provide year-end bank statements with the Q3 2026 package [D1, \u00a72 Footnote *]. Those bank statements are the document that would normally contain the figure.\n\nThe one component that is stated is FY2025 revolver availability of 1,800 ($ in thousands) [D1, Table 2: Revolver availability, FY2025]. Without the cash balance, I have not computed a total.\n\n**Underwriter to complete:** FY2025 year-end cash balance, from the year-end bank statements due with the Q3 2026 package [D1, \u00a72 Footnote *].\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 3800,
+  "type": "result",
+  "duration_ms": 6202,
+  "uuid": "ce10f350-efb4-404f-a51c-80a5a5922a23",
+  "ttft_stream_ms": 1625,
+  "time_to_request_ms": 105,
+  "first_content_frame_ms": 1625,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

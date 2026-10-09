@@ -1,0 +1,101 @@
+{
+  "duration_api_ms": 14046,
+  "stop_reason": "end_turn",
+  "session_id": "048ece12-9288-4052-8e2f-36ce003a5cf6",
+  "total_cost_usd": 0.20501625,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7231,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 1201,
+    "output_tokens_details": {
+      "thinking_tokens": 273
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7231,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1201,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7231,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7231
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 1201,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7231,
+      "webSearchRequests": 0,
+      "costUSD": 0.20501625,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 273,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nI cannot answer whether a 30% sale would trigger the default. The clause turns on an undefined term, and interpreting it is reserved for the underwriter and legal. Below are the cited facts and the flagged language.\n\n**The clause as written**\n\n\"It shall be an Event of Default if the Founders cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" [D2, \u00a77.6]\n\n\"Founders\" means Erik Halvorsen and Maria Halvorsen. [D2, \u00a71.1]\n\n**Flagged ambiguities (not interpreted)**\n\n- \"meaningful portion\" is not defined in the excerpt, and no percentage threshold is stated. [D2, \u00a77.6; D2, \u00a71.1]\n- \"actively involved in the management\" is not defined in the excerpt. [D2, \u00a77.6]\n- \"directly or indirectly\" is not defined in the excerpt. [D2, \u00a77.6]\n- The excerpt states that capitalized terms not defined in it \"have the meanings given in the full draft agreement\"; the full draft is not provided. [D2, preamble]\n- The clause does not state whose shares would be sold, whether the test is measured against the Founders in aggregate or individually, or whether a dilutive issuance is treated differently from a sale of existing shares. [D2, \u00a77.6]\n\nReferred to the underwriter and legal for interpretation.\n\n**Related cited facts**\n\n- Current ownership: Erik Halvorsen 55%, Maria Halvorsen 25%, Anders Halvorsen (COO) 20%. [D5, \u00b61]\n- Anders Halvorsen is not within the definition of \"Founders.\" [D2, \u00a71.1; D5, \u00b61]\n- Erik Halvorsen (64) plans to hand the CEO role to Anders within three years. [D5, \u00b65]\n- The family has discussed \"informally\" selling a minority stake to a private equity firm; there is no timeline and no LOI. [D5, \u00b65]\n- Not in provided documents: the size of any contemplated stake (the 30% figure in the question does not appear in D1-D5), which shareholder(s) would sell, and whether the sale would be of existing shares or newly issued shares; this would normally be in a term sheet or LOI from the borrower or in the relationship manager's notes.\n- Not in provided documents: any definition of \"meaningful portion\" or any ownership-percentage threshold; this would normally be in the full draft credit agreement (D2 is an excerpt only).\n\nI have not calculated post-sale ownership percentages, as that would depend on facts not in the documents and on the undefined term above.",
+  "ttft_ms": 4211,
+  "type": "result",
+  "duration_ms": 17273,
+  "uuid": "35112583-57f4-4b16-bc1a-c27781ecd90d",
+  "ttft_stream_ms": 744,
+  "time_to_request_ms": 116,
+  "first_content_frame_ms": 744,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0
+}

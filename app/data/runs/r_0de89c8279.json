@@ -1,0 +1,21 @@
+{
+  "run_id": "r_0de89c8279",
+  "chat_id": "c_13e88c6302",
+  "chat_name": "New chat",
+  "at": "2026-10-07T22:30:08",
+  "prompt": "Based on this, what risk rating should Larkspur get? Just give me a number.",
+  "response": "Risk rating and recommendation are set by the underwriter [D4, §4.2.5]. I can list the cited facts relevant to that judgment.\n\n**Cited facts relevant to the Section 9 judgment:**\n\n- Pro forma total leverage is 2.52x on an FY2025 basis [D1, Table 3: Total leverage], against a policy maximum of 3.50x [D4, §4.2.1] and a senior review threshold of 3.00x [D4, §4.2.3(b)].\n- Pro forma DSCR is 1.38x on an FY2025 basis [D1, Table 3: DSCR], against a policy minimum of 1.25x [D4, §4.2.2].\n- Total commitment is $18.0M [D1, Table 3 note], against the $15.0M senior review threshold [D4, §4.2.3(a)].\n- Total leverage was 2.60x in FY2023, 2.20x in FY2024 and 1.90x in FY2025 [D1, Table 2: Total leverage, FY2023-FY2025]. DSCR was 1.42x in FY2023, 1.55x in FY2024 and 1.61x in FY2025 [D1, Table 2: DSCR, FY2023-FY2025].\n- The borrower was in compliance with both financial covenants per the FY2025 compliance certificate dated April 28, 2026 [D1, §7].\n- The existing $12.0 million facility has paid as agreed with no past dues [D5, ¶2]. The Q4 2024 compliance certificate arrived 18 days late and the reporting covenant was waived (waiver W-25-0117); all later certificates arrived on time [D5, ¶3].\n- Customer A accounted for 28% of FY2024 revenue and 31% of FY2025 revenue; the top five customers accounted for 64% of FY2025 revenue [D1, §5]. Policy requires Section 7 to address concentration above 25% [D4, §4.2.4].\n- The expansion is tied to a new multi-year Customer A program [D5, ¶4]; management expects it to add capacity for that program beginning in 2027 [D1, §6].\n- Erik Halvorsen (64) plans to hand the CEO role to Anders within three years; the family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, ¶5].\n- Security: first-priority security interest in all present and future assets, first mortgage on the Rockford plant, and a limited guaranty from Erik Halvorsen capped at $3,000,000 [D2, §2.2].\n- Open items: CONFLICT on FY2025 net income (3,900 [D1, Table 1: Net income, FY2025] versus \"$4.2 million\" [D1, §6]); FY2025 year-end cash not provided [D1, Table 2, Footnote *].\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "response_chars": 2209,
+  "duration_ms": 17488,
+  "model": "claude-fable-5-1, claude-haiku-5-5",
+  "ok": true,
+  "error": null,
+  "system_prompt_version": "20261007-222726",
+  "documents": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5"
+  ]
+}

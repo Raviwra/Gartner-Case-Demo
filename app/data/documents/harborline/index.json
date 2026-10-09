@@ -1,0 +1,26 @@
+[
+  {
+    "id": "D1",
+    "title": "D1. [SYNTHETIC] Harborline Dental Partners, Inc.: Financial Summary",
+    "filename": "D1_borrower_financial_summary.md",
+    "chars": 4809,
+    "source": "corpus",
+    "uploaded_at": "2026-10-08T12:53:06"
+  },
+  {
+    "id": "D2",
+    "title": "D2. [SYNTHETIC] Draft Credit Agreement (Excerpt): Harborline Dental Partners, Inc.",
+    "filename": "D2_loan_agreement_excerpt.md",
+    "chars": 7147,
+    "source": "corpus",
+    "uploaded_at": "2026-10-08T12:53:06"
+  },
+  {
+    "id": "D5",
+    "title": "D5. [SYNTHETIC] nCino Relationship Notes Export: Harborline Dental Partners, Inc.",
+    "filename": "D5_relationship_history.md",
+    "chars": 1980,
+    "source": "corpus",
+    "uploaded_at": "2026-10-08T12:53:06"
+  }
+]

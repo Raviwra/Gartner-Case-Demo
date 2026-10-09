@@ -1,0 +1,101 @@
+{
+  "duration_api_ms": 7461,
+  "stop_reason": "end_turn",
+  "session_id": "e03d6990-a86d-434d-889d-e6a82a88e183",
+  "total_cost_usd": 0.16311625,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7221,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 367,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7221,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 367,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7221,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7221
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 367,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7221,
+      "webSearchRequests": 0,
+      "costUSD": 0.16311625,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nNot in provided documents: FY2025 total liquidity (cash + revolver availability). The spread shows FY2025 Liquidity as \"n/a*\" because the FY2025 year-end cash balance was not included in the export [D1, Table 2: Liquidity (cash + availability), FY2025]. The borrower will provide year-end bank statements with the Q3 2026 package [D1, \u00a72, Footnote *].\n\nWhat is stated for FY2025:\n- Cash: \"Not provided*\" [D1, Table 2: Cash, FY2025]\n- Revolver availability: 1,800 [D1, Table 2: Revolver availability, FY2025]\n\nFor reference, FY2024 liquidity was 4,900 (cash 2,600 plus revolver availability 2,300) [D1, Table 2: Liquidity (cash + availability), FY2024; D1, Table 2: Cash, FY2024; D1, Table 2: Revolver availability, FY2024].",
+  "ttft_ms": 7547,
+  "type": "result",
+  "duration_ms": 10174,
+  "uuid": "090929e4-d496-421f-ac2c-d257c39dfb3f",
+  "ttft_stream_ms": 2061,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 2061,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0
+}

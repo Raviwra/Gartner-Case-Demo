@@ -1,0 +1,1 @@
+Extract the covenants from the loan agreement into a review table with confidence flags.

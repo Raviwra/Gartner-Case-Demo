@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 2925,
+  "stop_reason": "end_turn",
+  "session_id": "2e967750-2cb2-435d-86cb-874cc1f89084",
+  "total_cost_usd": 0.032589,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7226,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 342,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7226,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 342,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7226,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7226
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 342,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7226,
+      "webSearchRequests": 0,
+      "costUSD": 0.032589,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nNot in provided documents: Larkspur's total liquidity at FYE 2025 is not stated. The FY2025 liquidity figure is shown as \"n/a*\" [D1, Table 2: Liquidity (cash + availability), FY2025], because the FY2025 year-end cash balance is \"Not provided*\" [D1, Table 2: Cash, FY2025]. The footnote states the cash balance \"was not included in the spread export\" and that the borrower will provide year-end bank statements with the Q3 2026 package [D1, \u00a72, Footnote *]. The component that is stated is FY2025 revolver availability of 1,800 ($ in thousands) [D1, Table 2: Revolver availability, FY2025].\n\nThe year-end bank statements, or an updated CreditLens spread that includes FY2025 cash, would normally hold the missing figure. I have not calculated or estimated a total.",
+  "ttft_ms": 3009,
+  "type": "result",
+  "duration_ms": 5120,
+  "uuid": "e8a20ec4-2d39-4000-8848-4edd4c368bf0",
+  "ttft_stream_ms": 994,
+  "time_to_request_ms": 104,
+  "first_content_frame_ms": 995,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

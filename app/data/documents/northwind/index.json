@@ -1,0 +1,26 @@
+[
+  {
+    "id": "D1",
+    "title": "D1. [SYNTHETIC] Northwind Foodservice Distribution, LLC: Financial Summary",
+    "filename": "D1_borrower_financial_summary.md",
+    "chars": 4495,
+    "source": "corpus",
+    "uploaded_at": "2026-10-08T12:53:21"
+  },
+  {
+    "id": "D2",
+    "title": "D2. [SYNTHETIC] Credit Agreement (Excerpt): Northwind Foodservice Distribution, LLC",
+    "filename": "D2_loan_agreement_excerpt.md",
+    "chars": 6595,
+    "source": "corpus",
+    "uploaded_at": "2026-10-08T12:53:21"
+  },
+  {
+    "id": "D5",
+    "title": "D5. [SYNTHETIC] nCino Relationship Notes Export: Northwind Foodservice Distribution, LLC",
+    "filename": "D5_relationship_history.md",
+    "chars": 2033,
+    "source": "corpus",
+    "uploaded_at": "2026-10-08T12:53:21"
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "duration_api_ms": 4380,
+  "stop_reason": "end_turn",
+  "session_id": "c1ac0dc7-31ef-4072-b599-7e73d3ebf56a",
+  "total_cost_usd": 0.16366624999999999,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7226,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 376,
+    "output_tokens_details": {
+      "thinking_tokens": 170
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7226,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 376,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7226,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7226
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 376,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7226,
+      "webSearchRequests": 0,
+      "costUSD": 0.16366624999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 170,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nNot in provided documents: Larkspur's current stock price and market capitalization. Such data would normally come from a public market data service, but no such source is in the project. The documents state that Larkspur Precision Components, Inc. is privately held [D5, \u00b61] and [D3, Part B \u00a72]. Ownership is stated as Erik Halvorsen 55%, Maria Halvorsen 25%, and Anders Halvorsen (COO) 20% [D5, \u00b61].",
+  "ttft_ms": 2512,
+  "type": "result",
+  "duration_ms": 5288,
+  "uuid": "9c15ecbc-f7a9-4190-a49e-644579f82e2b",
+  "ttft_stream_ms": 627,
+  "time_to_request_ms": 122,
+  "first_content_frame_ms": 627,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0
+}

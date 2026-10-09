@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 7231,
+  "stop_reason": "end_turn",
+  "session_id": "70144f65-0f32-4351-ab82-f92dc8146936",
+  "total_cost_usd": 0.051202399999999995,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9696,
+    "cache_read_input_tokens": 1322,
+    "output_tokens": 1215,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9696,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1215,
+        "cache_read_input_tokens": 1322,
+        "cache_creation_input_tokens": 9696,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9696
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1215,
+      "cacheReadInputTokens": 1322,
+      "cacheCreationInputTokens": 9696,
+      "webSearchRequests": 0,
+      "costUSD": 0.051202399999999995,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nRisk rating and recommendation are set by the underwriter [D4, \u00a74.2.5]. I can list the cited facts relevant to that judgment.\n\n**Cited facts relevant to the underwriter's judgment**\n\n*Earnings and coverage*\n- FY2025 revenue was 72,500 and EBITDA was 10,400, a 14.3% margin ($ in thousands) [D1, Table 1: Revenue, EBITDA, EBITDA margin; FY2025].\n- FY2025 total leverage was 1.90x and DSCR was 1.61x [D1, Table 2: Total leverage, DSCR; FY2025].\n- Pro forma for the proposed facility, total funded debt is 26,200, total leverage is 2.52x, debt service is 5,600 and DSCR is 1.38x [D1, Table 3].\n\n*Policy thresholds*\n- Pro forma total leverage may not exceed 3.50x at origination [D4, \u00a74.2.1]. Pro forma DSCR must be at least 1.25x [D4, \u00a74.2.2].\n- Senior underwriter review and Senior Loan Committee approval are required where total commitment exceeds $15.0 million [D4, \u00a74.2.3]. The proposed facility is $18.0M in total [D1, \u00a73 Note to Table 3].\n\n*Covenants in the draft agreement*\n- Maximum Total Leverage Ratio is 3.25 to 1.00, stepping to 3.00 to 1.00 for fiscal quarters ending on or after December 31, 2027 [D2, \u00a77.1]. Minimum Debt Service Coverage Ratio is 1.25 to 1.00 [D2, \u00a77.2].\n\n*Concentration*\n- Customer A accounted for 31% of FY2025 revenue, and the top five customers accounted for 64% [D1, \u00a75]. Concentration above 25% must be addressed in Section 7 [D4, \u00a74.2.4].\n\n*Liquidity*\n- FY2025 revolver availability was 1,800 [D1, Table 2: Revolver availability; FY2025]. Not in provided documents: FY2025 year-end cash balance; the borrower's year-end bank statements would normally contain it [D1, \u00a72 Footnote *].\n\n*Conflicts and items to verify*\n- CONFLICT, FY2025 net income: 3,900 [D1, Table 1: Net income; FY2025] versus \"$4.2 million\" in the management commentary [D1, \u00a76].\n- The reporting covenant was waived once, after the Q4 2024 compliance certificate arrived 18 days late (waiver W-25-0117) [D5, \u00b63].\n- Ownership and succession: Erik Halvorsen plans to hand the CEO role to Anders within three years, and the family has discussed \"informally\" selling a minority stake to a private equity firm [D5, \u00b65]. The change-of-control default uses the undefined phrases \"a meaningful portion\" and \"actively involved in the management,\" which are flagged for the underwriter and legal [D2, \u00a77.6].\n- Timing: the borrower wants to close by November 30, 2026, and said a national bank has offered to deliver a term sheet within 10 business days [D5, \u00b64].\n\n**Underwriter to complete:** the risk rating on the 1-10 scale with written rationale, which the senior reviewer confirms [D4, \u00a74.2.5]; the FY2025 net income conflict; the missing FY2025 cash balance.\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 7419,
+  "type": "result",
+  "duration_ms": 10609,
+  "uuid": "41e28ef6-b6b4-4045-926d-9f498bd16fc4",
+  "ttft_stream_ms": 1069,
+  "time_to_request_ms": 220,
+  "first_content_frame_ms": 1070,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

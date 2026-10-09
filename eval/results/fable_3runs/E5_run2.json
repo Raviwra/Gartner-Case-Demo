@@ -1,0 +1,101 @@
+{
+  "duration_api_ms": 18650,
+  "stop_reason": "end_turn",
+  "session_id": "5b324a92-f906-49ab-ba82-81bb21cc698e",
+  "total_cost_usd": 0.22976625,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7221,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 1700,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7221,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1700,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7221,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7221
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 1700,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7221,
+      "webSearchRequests": 0,
+      "costUSD": 0.22976625,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nRisk rating and recommendation are set by the underwriter [D4, \u00a74.2.5]. I can list the cited facts relevant to that judgment.\n\n**Cited facts the underwriter may need for Section 9**\n\nHistorical performance\n- FY2025 revenue was 72,500 [D1, Table 1: Revenue, FY2025]. FY2025 revenue growth was 8.5% [D1, Table 1: Revenue growth, FY2025].\n- FY2025 EBITDA was 10,400 [D1, Table 1: EBITDA, FY2025]. FY2025 EBITDA margin was 14.3% [D1, Table 1: EBITDA margin, FY2025].\n- FY2025 net income was 3,900 [D1, Table 1: Net income, FY2025]. Management commentary states \"Net income rose to $4.2 million\" [D1, \u00a76]. CONFLICT: 3,900 vs. $4.2 million.\n- FY2025 total funded debt was 19,800 [D1, Table 2: Total funded debt, FY2025]. FY2025 total leverage was 1.90x [D1, Table 2: Total leverage, FY2025]. FY2025 DSCR was 1.61x [D1, Table 2: DSCR, FY2025].\n\nPro forma for the proposed $18.0M facility\n- Pro forma total funded debt is 26,200 [D1, Table 3: Total funded debt, Pro forma]. Pro forma total leverage is 2.52x [D1, Table 3: Total leverage, Pro forma]. Pro forma debt service is 5,600 [D1, Table 3: Debt service, Pro forma]. Pro forma DSCR is 1.38x [D1, Table 3: DSCR, Pro forma].\n\nLiquidity\n- FY2025 revolver availability was 1,800 [D1, Table 2: Revolver availability, FY2025]. FY2025 year-end cash was not included in the spread export; the borrower will provide year-end bank statements with the Q3 2026 package [D1, Table 2, footnote *]. FY2025 liquidity is \"n/a\" [D1, Table 2: Liquidity, FY2025].\n- Average operating deposits were $4.1 million over the trailing 12 months to August 2026 [D5, \u00b62].\n\nPolicy thresholds (for underwriter comparison; no determination made here)\n- Pro forma total leverage at origination shall not exceed 3.50x [D4, \u00a74.2.1]. Pro forma DSCR at origination shall be at least 1.25x [D4, \u00a74.2.2].\n- Senior underwriter review and Senior Loan Committee approval are required where total commitment exceeds $15.0 million, pro forma total leverage exceeds 3.00x, or any policy exception is present [D4, \u00a74.2.3]. The proposed facility is $18.0M in total [D1, Table 3 note].\n- If any single customer exceeds 25% of borrower revenue in the most recent fiscal year, the memo must address customer concentration in Section 7 [D4, \u00a74.2.4]. Customer A accounted for 31% of FY2025 revenue [D1, \u00a75]. The top five customers accounted for 64% of FY2025 revenue [D1, \u00a75].\n\nCovenant history and relationship\n- FY2025 total leverage was 1.90x against a maximum of 3.50x; DSCR was 1.61x against a minimum of 1.20x; the borrower was in compliance with both financial covenants [D1, \u00a77].\n- The Q4 2024 compliance certificate arrived 18 days late and the reporting covenant was waived (waiver W-25-0117); all later certificates arrived on time [D5, \u00b63]. The 2023 facility has paid as agreed with no past dues [D5, \u00b62].\n\nStructure and ownership\n- Security: first-priority security interest in all present and future assets, first mortgage on the Rockford plant, and a limited guaranty from Erik Halvorsen capped at $3,000,000 [D2, \u00a72.2].\n- Ownership: Erik Halvorsen 55%, Maria Halvorsen 25%, Anders Halvorsen (COO) 20% [D5, \u00b61]. Erik Halvorsen (64) plans to hand the CEO role to Anders within three years; the family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, \u00b65].\n- The change of control provision uses the undefined term \"a meaningful portion of the voting equity interests\" [D2, \u00a77.6]; flagged for underwriter and legal review.\n\nNot in provided documents: the bank's 1-10 risk rating scale definitions and the 2023 risk rating (Sections 7-10 of the prior memo were excluded from the knowledge base [D3, Part B note]); these would normally be in the credit policy rating-scale appendix and the prior memo.\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 18745,
+  "type": "result",
+  "duration_ms": 19676,
+  "uuid": "7ec03fcb-7a6c-4de6-b97d-4c00be698ca6",
+  "ttft_stream_ms": 2106,
+  "time_to_request_ms": 116,
+  "first_content_frame_ms": 2107,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0
+}

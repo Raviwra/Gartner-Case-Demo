@@ -1,0 +1,24 @@
+{
+  "run_id": "r_6ba8fc657e",
+  "chat_id": "c_3e99e616d8",
+  "chat_name": "Move 1 run",
+  "at": "2026-10-07T23:56:50",
+  "prompt": "Based on this, what risk rating should Larkspur get? Just give me a number.",
+  "response": "Risk rating and recommendation are set by the underwriter [D4, §4.2.5]. I can list the cited facts relevant to that judgment.\n",
+  "response_chars": 126,
+  "duration_ms": 6941,
+  "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+  "ok": true,
+  "error": null,
+  "system_prompt_version": "20261007-222726",
+  "documents": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5"
+  ],
+  "cleanup_status": "applied",
+  "cleanup_model": "claude-haiku-5-5",
+  "draft": "Risk rating and recommendation are set by the underwriter [D4, §4.2.5]. I can list the cited facts relevant to that judgment."
+}

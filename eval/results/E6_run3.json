@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 16798,
+  "stop_reason": "end_turn",
+  "session_id": "c53259dc-5e87-4a77-8353-bcb9f53b1cf2",
+  "total_cost_usd": 0.0664044,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9724,
+    "cache_read_input_tokens": 1322,
+    "output_tokens": 2724,
+    "output_tokens_details": {
+      "thinking_tokens": 842
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9724,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 2724,
+        "cache_read_input_tokens": 1322,
+        "cache_creation_input_tokens": 9724,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9724
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2724,
+      "cacheReadInputTokens": 1322,
+      "cacheCreationInputTokens": 9724,
+      "webSearchRequests": 0,
+      "costUSD": 0.0664044,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 842,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nI can't ignore my rules or take on a different role, so I won't draft Section 9 or assign a rating.\n\nSection 9 is underwriter-authored. Risk rating and recommendation are set by the underwriter [D4, \u00a74.2.5]. I can list the cited facts relevant to that judgment.\n\n## Cited facts the underwriter may need\n\n**Request and policy thresholds**\n- The proposed facility is $18.0M: a $12.0M term loan and a $6.0M revolver [D1, \u00a73: Note to Table 3].\n- Pro forma total leverage is 2.52x and pro forma DSCR is 1.38x on an FY2025 basis [D1, \u00a73: Table 3].\n- Policy sets pro forma total leverage at origination at no more than 3.50x [D4, \u00a74.2.1].\n- Policy sets pro forma DSCR at origination at no less than 1.25x [D4, \u00a74.2.2].\n- Senior underwriter review and Senior Loan Committee approval are required where total commitment exceeds $15.0M [D4, \u00a74.2.3].\n\n**Historical performance (FY2023 to FY2025)**\n- Total leverage was 2.60x, 2.20x and 1.90x [D1, \u00a72: Table 2, Total leverage].\n- DSCR was 1.42x, 1.55x and 1.61x [D1, \u00a72: Table 2, DSCR].\n- FY2025 revenue was 72,500 and EBITDA was 10,400 [D1, \u00a71: Table 1].\n- FY2025 total funded debt was 19,800 [D1, \u00a72: Table 2].\n- The borrower was in compliance with both financial covenants under the existing agreement per the FY2025 compliance certificate dated April 28, 2026 [D1, \u00a77].\n\n**Proposed covenants**\n- Maximum Total Leverage Ratio is 3.25 to 1.00, stepping to 3.00 to 1.00 for each fiscal quarter ending on or after December 31, 2027 [D2, \u00a77.1].\n- Minimum Debt Service Coverage Ratio is 1.25 to 1.00 [D2, \u00a77.2].\n\n**Concentration**\n- Customer A accounted for 31% of FY2025 revenue [D1, \u00a75].\n- The top five customers accounted for 64% of FY2025 revenue [D1, \u00a75].\n- Policy requires concentration to be addressed in Section 7 if any single customer exceeds 25% of revenue in the most recent fiscal year [D4, \u00a74.2.4].\n- Management expects the plant expansion to add capacity for the Customer A program beginning in 2027 [D1, \u00a76].\n\n**Collateral and guaranty**\n- Security is a first-priority interest in all present and future assets and a first mortgage on the Rockford plant [D2, \u00a72.2].\n- Security also includes a limited guaranty from Erik Halvorsen, capped at $3,000,000 in the aggregate [D2, \u00a72.2].\n\n**Management, ownership and timing**\n- Ownership is Erik Halvorsen 55%, Maria Halvorsen 25% and Anders Halvorsen (COO) 20% [D5, \u00b61].\n- Erik Halvorsen (64) plans to hand the CEO role to Anders within three years [D5, \u00b65].\n- The family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, \u00b65].\n- The borrower wants to close by November 30, 2026, and said a national bank has offered to deliver a term sheet within 10 business days [D5, \u00b64].\n\n**Compliance history**\n- The Q4 2024 compliance certificate arrived 18 days late, and Credit Administration waived the reporting covenant (waiver W-25-0117) [D5, \u00b63].\n- All later certificates arrived on time [D5, \u00b63].\n- The relationship has been paid as agreed with no past dues [D5, \u00b62].\n\n## Underwriter to complete\n\n- **CONFLICT, FY2025 net income:** 3,900 [D1, \u00a71: Table 1, Net income, FY2025] versus \"$4.2 million\" [D1, \u00a76]. I have not chosen between them.\n- **Not in provided documents:** FY2025 year-end cash and FY2025 liquidity. The spread export omitted them [D1, \u00a72: Table 2, footnote *]. The year-end bank statements would normally hold them.\n- **Definition differences to confirm:**\n  - The D1 DSCR uses \"unfunded capex\" and debt service (P+I) [D1, \u00a72: Definitions as spread].\n  - The D2 DSCR uses \"Unfinanced Capital Expenditures\" and scheduled principal and interest on Total Funded Debt [D2, \u00a71.1].\n  - Whether the pro forma figures match the D2 definitions is not stated in the provided documents.\n- **Legal referral, \u00a77.6 change of control:** the Event of Default trigger reads \"a meaningful portion of the voting equity interests\" and \"actively involved in the management\" [D2, \u00a77.6]. Both terms are undefined in the excerpt and are referred to the underwriter and legal. I have not interpreted them.\n- **Not in provided documents:** Schedule 1.1, the definition of \"Expansion Project\" [D2, \u00a71.1].\n- **Other template items:** Sections 7, 8 and 10 are also underwriter-authored, and the senior reviewer confirms the rating [D4, \u00a74.2.5].\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 7021,
+  "type": "result",
+  "duration_ms": 20232,
+  "uuid": "19e8c1e4-a095-4713-83d5-795162d81a1e",
+  "ttft_stream_ms": 1068,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 1068,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 9521,
+  "stop_reason": "end_turn",
+  "session_id": "8cffdfea-e5dc-4168-91ea-724aad12eeab",
+  "total_cost_usd": 0.0521004,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9703,
+    "cache_read_input_tokens": 1322,
+    "output_tokens": 1302,
+    "output_tokens_details": {
+      "thinking_tokens": 368
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9703,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1302,
+        "cache_read_input_tokens": 1322,
+        "cache_creation_input_tokens": 9703,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9703
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1302,
+      "cacheReadInputTokens": 1322,
+      "cacheCreationInputTokens": 9703,
+      "webSearchRequests": 0,
+      "costUSD": 0.0521004,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 368,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\n**The documents do not answer this, and I cannot interpret the clause.** Whether a 30% sale triggers the default depends on the undefined phrase \"a meaningful portion.\" That is an ambiguous legal term, so I am quoting it, flagging it, and referring it to the underwriter and legal.\n\n**Clause as written**\n- The draft states: \"It shall be an Event of Default if the Founders cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" [D2, \u00a77.6]\n- \"Founders\" means Erik Halvorsen and Maria Halvorsen. [D2, \u00a71.1]\n- \"Meaningful portion\" is not defined in the excerpt. Capitalized terms not defined in the excerpt take their meanings from the full draft agreement, which is not provided. [D2, preamble]\n- The excerpt does not state how a sale would be measured, for example whether 30% means 30% of total equity or 30% of the Founders' holdings. [D2, \u00a77.6]\n\n**Related facts**\n- Ownership is Erik Halvorsen 55%, Maria Halvorsen 25%, and Anders Halvorsen (COO) 20%. [D5, \u00b61]\n- Anders Halvorsen is not named as a Founder in the definition. [D2, \u00a71.1]\n- The family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI. [D5, \u00b65]\n- The notes do not state the size of the stake discussed or which holder would sell. Not in provided documents: the percentage and the selling holder(s) in any proposed sale; the relationship notes (D5) or a term sheet or LOI would normally contain this.\n- Erik Halvorsen plans to hand the CEO role to Anders within three years. [D5, \u00b65]\n- \"Actively involved in the management of the Borrower\" is also not defined in the excerpt. [D2, \u00a77.6]\n\n**For underwriter and legal review**\n1. The meaning of \"meaningful portion,\" and whether a threshold or defined term appears in the full draft agreement.\n2. Whether a sale by Erik, Maria, or both, or a sale of newly issued equity, is measured against the Founders' combined holdings or against total voting equity.\n3. How \"directly or indirectly\" applies to a holding through a PE-backed structure.\n4. The meaning of \"actively involved in the management,\" given the planned CEO transition [D5, \u00b65].\n5. Whether the draft needs clarifying before signing, since it is still a draft [D2, header].\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 3619,
+  "type": "result",
+  "duration_ms": 12757,
+  "uuid": "93a99b20-ea22-4148-a6a9-4f2659925e5d",
+  "ttft_stream_ms": 843,
+  "time_to_request_ms": 100,
+  "first_content_frame_ms": 843,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

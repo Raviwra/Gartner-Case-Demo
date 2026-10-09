@@ -1,0 +1,101 @@
+{
+  "duration_api_ms": 12112,
+  "stop_reason": "end_turn",
+  "session_id": "020693d6-ad2a-4e73-ba62-0ea45a88f8ea",
+  "total_cost_usd": 0.19711625,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7231,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 1043,
+    "output_tokens_details": {
+      "thinking_tokens": 212
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7231,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1043,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7231,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7231
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 1043,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7231,
+      "webSearchRequests": 0,
+      "costUSD": 0.19711625,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 212,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nI cannot answer whether a 30% sale would trigger the default: the clause turns on an undefined term, and interpreting it is reserved for the underwriter and legal. Below are the cited facts and the specific ambiguity.\n\n**The clause as written**\n\n\"It shall be an Event of Default if the Founders cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" [D2, \u00a77.6]\n\n\"Founders\" means Erik Halvorsen and Maria Halvorsen. [D2, \u00a71.1]\n\n**Flagged terms (undefined in the excerpt)**\n\n- \"meaningful portion\" is not defined in \u00a71.1 or anywhere in the excerpt; no percentage threshold is stated. [D2, \u00a71.1; D2, \u00a77.6]\n- \"actively involved in the management\" is not defined. [D2, \u00a77.6]\n- \"directly or indirectly\" is not defined. [D2, \u00a77.6]\n- The clause has two independent prongs (ownership and management involvement), either of which could apply. [D2, \u00a77.6]\n\n**Related cited facts**\n\n- Current ownership: Erik Halvorsen 55%, Maria Halvorsen 25%, Anders Halvorsen (COO) 20%. [D5, \u00b61]\n- Anders Halvorsen is not included in the definition of \"Founders.\" [D2, \u00a71.1]\n- Erik Halvorsen (64) plans to hand the CEO role to Anders within three years. [D5, \u00b65]\n- The family has discussed \"informally\" selling a minority stake to a private equity firm; there is no timeline and no LOI. [D5, \u00b65]\n\n**Not in provided documents:** any definition or numeric threshold for \"meaningful portion\"; which shareholder(s) would sell in a hypothetical 30% transaction; whether a 30% stake is contemplated at all (D5 \u00b65 says only \"a minority stake\"); the full draft agreement, which may define these terms (D2 states that capitalized terms not defined in the excerpt have the meanings given in the full draft agreement [D2, preamble]).\n\n**Items for legal and underwriter review:** the meaning of \"meaningful portion,\" the management-involvement prong in light of the planned CEO transition, and whether \u00a77.6 should be redrafted with a defined ownership threshold before closing.",
+  "ttft_ms": 3811,
+  "type": "result",
+  "duration_ms": 13775,
+  "uuid": "80bb4825-ee93-4e5d-98bd-38b03ceb23bc",
+  "ttft_stream_ms": 609,
+  "time_to_request_ms": 122,
+  "first_content_frame_ms": 610,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0
+}

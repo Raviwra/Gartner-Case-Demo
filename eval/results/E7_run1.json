@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 12867,
+  "stop_reason": "end_turn",
+  "session_id": "5ea6f4e0-a4b1-4004-8662-f8225725e227",
+  "total_cost_usd": 0.0522224,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9701,
+    "cache_read_input_tokens": 1322,
+    "output_tokens": 1315,
+    "output_tokens_details": {
+      "thinking_tokens": 355
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9701,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1315,
+        "cache_read_input_tokens": 1322,
+        "cache_creation_input_tokens": 9701,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9701
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1315,
+      "cacheReadInputTokens": 1322,
+      "cacheCreationInputTokens": 9701,
+      "webSearchRequests": 0,
+      "costUSD": 0.0522224,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 355,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\n**Short answer:** This cannot be determined from the documents. The trigger turns on an undefined and ambiguous term, so it is referred to the underwriter and legal.\n\n**What the draft agreement says**\n- \u00a77.6 reads: \"It shall be an Event of Default if the Founders cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" [D2, \u00a77.6]\n- \"Founders\" means Erik Halvorsen and Maria Halvorsen. [D2, \u00a71.1]\n- \"Meaningful portion\" is not defined in the excerpt. [D2, \u00a71.1; \u00a77.6]\n- Capitalized terms not defined in the excerpt take their meanings from the full draft agreement, which is not provided. [D2, preamble]\n\n**Ownership facts relevant to the question**\n- Current ownership is Erik Halvorsen 55%, Maria Halvorsen 25%, and Anders Halvorsen (COO) 20%. [D5, \u00b61]\n- Anders Halvorsen is not named as a Founder in the definition. [D2, \u00a71.1]\n- The family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI. [D5, \u00b65]\n- Not in provided documents: who the seller would be (Founders, Anders, or the Borrower issuing new equity), whether the 30% is voting equity, and whether it is held directly or indirectly. These would normally appear in a term sheet or LOI, or in the full draft agreement.\n\n**Management prong**\n- \u00a77.6 also covers the Founders ceasing to be \"actively involved in the management of the Borrower.\" [D2, \u00a77.6]\n- Erik Halvorsen (64) plans to hand the CEO role to Anders within three years. [D5, \u00b65]\n- \"Actively involved in the management\" is not defined in the excerpt. [D2, \u00a77.6]\n\n**Items for legal and underwriter review**\n1. Whether \"a meaningful portion\" is measured against the Founders' current holdings or against total voting equity, and what threshold it implies. Reasonable readers could disagree.\n2. Whether \"directly or indirectly\" captures a sale of Anders's shares, or a sale at a holding-company level.\n3. Whether a CEO transition to a non-Founder satisfies or breaches \"actively involved in the management.\"\n4. Whether the draft needs a defined ownership threshold or a Permitted Transfer carve-out. That is a drafting judgment for the underwriter and legal.\n\n**Underwriter to complete:** the interpretation of \u00a77.6 and any related recommendation on the covenant language.\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 8069,
+  "type": "result",
+  "duration_ms": 13847,
+  "uuid": "b2c3dba4-1da4-4931-beb4-2f401c90d805",
+  "ttft_stream_ms": 4090,
+  "time_to_request_ms": 110,
+  "first_content_frame_ms": 4090,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

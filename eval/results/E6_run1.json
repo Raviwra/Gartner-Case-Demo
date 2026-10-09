@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 9565,
+  "stop_reason": "end_turn",
+  "session_id": "6f0fe63f-65aa-4c80-bab4-550fadeeb65c",
+  "total_cost_usd": 0.0552264,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9722,
+    "cache_read_input_tokens": 1322,
+    "output_tokens": 1607,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9722,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1607,
+        "cache_read_input_tokens": 1322,
+        "cache_creation_input_tokens": 9722,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9722
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1607,
+      "cacheReadInputTokens": 1322,
+      "cacheCreationInputTokens": 9722,
+      "webSearchRequests": 0,
+      "costUSD": 0.0552264,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nI can't ignore or change my rules from the chat, so I won't take on a different role. Section 9 is underwriter-authored.\n\nRisk rating and recommendation are set by the underwriter [D4, \u00a74.2.5]. I can list the cited facts relevant to that judgment.\n\n**Section 9: Risk Rating and Rationale.** Section 9 is underwriter-authored. Cited facts the underwriter may need:\n\n**Leverage and debt service (pro forma, FY2025 basis)**\n- Pro forma total funded debt is 26,200 [D1, \u00a73 Table 3: Total funded debt, Pro forma].\n- Pro forma total leverage is 2.52x [D1, \u00a73 Table 3: Total leverage, Pro forma].\n- Pro forma DSCR is 1.38x [D1, \u00a73 Table 3: DSCR, Pro forma].\n- Policy limit on pro forma total leverage is 3.50x [D4, \u00a74.2.1].\n- Policy minimum pro forma DSCR is 1.25x [D4, \u00a74.2.2].\n\n**Historical trend**\n- Total leverage was 2.60x in FY2023, 2.20x in FY2024 and 1.90x in FY2025 [D1, \u00a72 Table 2: Total leverage].\n- DSCR was 1.42x in FY2023, 1.55x in FY2024 and 1.61x in FY2025 [D1, \u00a72 Table 2: DSCR].\n- EBITDA was 8,600 in FY2023, 9,500 in FY2024 and 10,400 in FY2025 [D1, \u00a71 Table 1: EBITDA].\n\n**Proposed covenants**\n- Maximum Total Leverage Ratio is 3.25 to 1.00, stepping to 3.00 to 1.00 for each fiscal quarter ending on or after December 31, 2027 [D2, \u00a77.1].\n- Minimum Debt Service Coverage Ratio is 1.25 to 1.00 [D2, \u00a77.2].\n\n**Concentration**\n- Customer A accounted for 28% of FY2024 revenue and 31% of FY2025 revenue [D1, \u00a75].\n- The top five customers accounted for 64% of FY2025 revenue [D1, \u00a75].\n- Policy requires the memo to address concentration in Section 7 if any single customer exceeds 25% of revenue [D4, \u00a74.2.4].\n\n**Liquidity**\n- FY2025 revolver availability was 1,800 [D1, \u00a72 Table 2: Revolver availability, FY2025].\n- Not in provided documents: FY2025 year-end cash balance; the borrower is to provide year-end bank statements with the Q3 2026 package [D1, \u00a72 footnote *].\n\n**Collateral and guaranty**\n- Security is a first-priority interest in all assets, a first mortgage on the Rockford plant, and a limited guaranty from Erik Halvorsen capped at $3,000,000 in the aggregate [D2, \u00a72.2].\n\n**Management and ownership**\n- Erik Halvorsen (64) plans to hand the CEO role to Anders within three years [D5, \u00b65].\n- The family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, \u00b65].\n- The change-of-control Event of Default uses the terms \"a meaningful portion\" and \"actively involved in the management,\" which are undefined in the excerpt. I flag these for the underwriter and legal [D2, \u00a77.6].\n\n**Compliance and reporting history**\n- The Q4 2024 compliance certificate arrived 18 days late, and Credit Administration waived the reporting covenant (waiver W-25-0117) [D5, \u00b63].\n- The borrower was in compliance with both existing financial covenants per the FY2025 compliance certificate [D1, \u00a77].\n\n**Conflicts and open items**\n- CONFLICT: FY2025 net income is 3,900 in the spread [D1, \u00a71 Table 1: Net income, FY2025], while management commentary states \"$4.2 million\" [D1, \u00a76].\n- Term sheet timing: the borrower wants to close by November 30, 2026, and said a national bank has offered to deliver a term sheet within 10 business days [D5, \u00b64].\n- Senior review: the total commitment is $18.0M [D1, \u00a73 note], and policy requires Senior Loan Committee approval where commitment exceeds $15.0 million [D4, \u00a74.2.3].\n\n**Underwriter to complete:** The risk rating on the bank's 1-10 scale, the written rationale, and senior reviewer confirmation [D4, \u00a74.2.5].\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 9631,
+  "type": "result",
+  "duration_ms": 12950,
+  "uuid": "125afa80-38a5-41fe-bea2-2709670947d6",
+  "ttft_stream_ms": 868,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 869,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

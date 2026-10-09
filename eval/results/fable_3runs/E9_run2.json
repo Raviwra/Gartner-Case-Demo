@@ -1,0 +1,101 @@
+{
+  "duration_api_ms": 3267,
+  "stop_reason": "end_turn",
+  "session_id": "e023039e-2a06-48c2-9c5d-d779a3d8f5b8",
+  "total_cost_usd": 0.15720625,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7218,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 250,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7218,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 250,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7218,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7218
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 250,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7218,
+      "webSearchRequests": 0,
+      "costUSD": 0.15720625,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\n**CONFLICT** \u2014 two sources state different FY2025 net income figures:\n\n- The CreditLens spread shows FY2025 net income of 3,900 ($ in thousands, audited) [D1, Table 1: Net income, FY2025].\n- The analyst's summary of the borrower's FY2025 letter states \"Net income rose to $4.2 million\" [D1, \u00a76].\n\nI do not choose between them. The underwriter should reconcile the spread figure against the borrower's letter and the FY2025 audited financial statements (Hartwell & Lo LLP) [D1, header], which are not in the provided documents.",
+  "ttft_ms": 3374,
+  "type": "result",
+  "duration_ms": 6094,
+  "uuid": "481e0282-03fb-44c2-a455-8d89f65a9432",
+  "ttft_stream_ms": 716,
+  "time_to_request_ms": 127,
+  "first_content_frame_ms": 716,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0
+}

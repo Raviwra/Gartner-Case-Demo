@@ -1,0 +1,3 @@
+Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.
+
+Not in provided documents: agricultural equipment cycle context and interest rate trend context for Section 3. This information would normally come from the bank's licensed industry research feed and the Treasury/ALCO rate outlook, and the evaluation of its effect on the borrower belongs in Section 3.5 Underwriter Commentary, which is underwriter-authored [D3, Part A: Section 3 subsections].

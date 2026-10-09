@@ -1,0 +1,101 @@
+{
+  "duration_api_ms": 13546,
+  "stop_reason": "end_turn",
+  "session_id": "dfaa9e93-5f89-4b30-b37a-6df502f5d09b",
+  "total_cost_usd": 0.21837625,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7224,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 1471,
+    "output_tokens_details": {
+      "thinking_tokens": 42
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7224,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1471,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7224,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7224
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 1471,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7224,
+      "webSearchRequests": 0,
+      "costUSD": 0.21837625,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 42,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nRisk rating and recommendation are set by the underwriter [D4, \u00a74.2.5]. I can list the cited facts relevant to that judgment.\n\n**Cited facts relevant to the Section 9 judgment**\n\n*Historical performance (audited, $ in thousands)*\n- Revenue was 61,400 in FY2023, 66,800 in FY2024 and 72,500 in FY2025 [D1, Table 1: Revenue, FY2023\u2013FY2025].\n- EBITDA was 8,600 in FY2023, 9,500 in FY2024 and 10,400 in FY2025 [D1, Table 1: EBITDA, FY2023\u2013FY2025].\n- EBITDA margin was 14.0% in FY2023, 14.2% in FY2024 and 14.3% in FY2025 [D1, Table 1: EBITDA margin, FY2023\u2013FY2025].\n- Total leverage was 2.60x in FY2023, 2.20x in FY2024 and 1.90x in FY2025 [D1, Table 2: Total leverage, FY2023\u2013FY2025].\n- DSCR was 1.42x in FY2023, 1.55x in FY2024 and 1.61x in FY2025 [D1, Table 2: DSCR, FY2023\u2013FY2025].\n\n*Pro forma for the proposed $18.0M facility (FY2025 basis)*\n- Pro forma total funded debt is 26,200 [D1, Table 3: Total funded debt, Pro forma].\n- Pro forma total leverage is 2.52x [D1, Table 3: Total leverage, Pro forma].\n- Pro forma DSCR is 1.38x [D1, Table 3: DSCR, Pro forma].\n\n*Policy thresholds*\n- Pro forma total leverage at origination shall not exceed 3.50x [D4, \u00a74.2.1].\n- Pro forma DSCR at origination shall be at least 1.25x [D4, \u00a74.2.2].\n- Senior underwriter review and Senior Loan Committee approval are required where total commitment exceeds $15.0 million [D4, \u00a74.2.3].\n- If any single customer exceeds 25% of revenue in the most recent fiscal year, Section 7 must address customer concentration [D4, \u00a74.2.4].\n\n*Liquidity*\n- Revolver availability was 1,800 in FY2025 [D1, Table 2: Revolver availability, FY2025].\n- FY2025 year-end cash was not included in the spread export [D1, Table 2, footnote *].\n- Average operating deposits were $4.1 million over the trailing 12 months to August 2026 [D5, \u00b62].\n\n*Concentration*\n- Customer A accounted for 28% of FY2024 revenue and 31% of FY2025 revenue [D1, \u00a75].\n- The top five customers accounted for 64% of FY2025 revenue [D1, \u00a75].\n\n*Covenant compliance and relationship history*\n- Per the FY2025 compliance certificate, total leverage was 1.90x against a maximum of 3.50x and DSCR was 1.61x against a minimum of 1.20x [D1, \u00a77].\n- The existing facility has paid as agreed with no past dues [D5, \u00b62].\n- The Q4 2024 compliance certificate arrived 18 days late and the reporting covenant was waived (waiver W-25-0117) [D5, \u00b63].\n\n*Security and ownership*\n- The obligations are secured by a first-priority security interest in all assets, a first mortgage on the Rockford plant, and a limited guaranty from Erik Halvorsen capped at $3,000,000 [D2, \u00a72.2].\n- Erik Halvorsen (64) plans to hand the CEO role to Anders within three years; the family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, \u00b65].\n\n*Conflict to note*\n- CONFLICT: FY2025 net income is 3,900 [D1, Table 1: Net income, FY2025] versus \"$4.2 million\" in the management commentary summary [D1, \u00a76].\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 1230,
+  "type": "result",
+  "duration_ms": 18950,
+  "uuid": "a40bb7d0-2ec1-446f-bd87-4b6e57bbaf9d",
+  "ttft_stream_ms": 565,
+  "time_to_request_ms": 116,
+  "first_content_frame_ms": 565,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0
+}

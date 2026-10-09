@@ -1,0 +1,14 @@
+[
+  {
+    "version_id": "20261008-125216",
+    "saved_at": "2026-10-08T12:52:16",
+    "note": "Generalized document references for multiple cases and the D6 reference document",
+    "chars": 3742
+  },
+  {
+    "version_id": "20261007-222726",
+    "saved_at": "2026-10-07T22:27:26",
+    "note": "Initial version loaded from system_prompt.md",
+    "chars": 3652
+  }
+]

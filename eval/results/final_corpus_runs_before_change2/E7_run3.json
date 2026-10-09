@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 9016,
+  "stop_reason": "end_turn",
+  "session_id": "3cd6fb70-876e-42ee-833e-30d811299439",
+  "total_cost_usd": 0.042259,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7351,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 1259,
+    "output_tokens_details": {
+      "thinking_tokens": 380
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7351,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1259,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7351,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7351
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1259,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7351,
+      "webSearchRequests": 0,
+      "costUSD": 0.042259,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 380,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\n**The documents do not answer this, and I cannot interpret the clause.** The trigger depends on an undefined legal term, so I am quoting it, flagging it, and referring it to the underwriter and legal.\n\n**Clause as written**\n- \u00a77.6 states: \"It shall be an Event of Default if the Founders cease to own, directly or indirectly, a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" [D2, \u00a77.6]\n- \"Founders\" means Erik Halvorsen and Maria Halvorsen. [D2, \u00a71.1]\n- The excerpt does not define \"meaningful portion\", \"voting equity interests\" or \"actively involved in the management\", and it states no percentage threshold. [D2, \u00a77.6]\n\n**Relevant facts**\n- Ownership is Erik Halvorsen 55%, Maria Halvorsen 25% and Anders Halvorsen (COO) 20%. [D5, \u00b61]\n- Anders Halvorsen is not named as a Founder in the draft agreement. [D2, \u00a71.1]\n- The family has \"informally\" discussed selling a minority stake to a private equity firm, with no timeline and no LOI. [D5, \u00b65]\n- Not in provided documents: the 30% figure, which would normally come from a term sheet, LOI or the borrower. The documents also do not say whether the stake would come from the Founders' shares, Anders's shares, or newly issued shares.\n- Erik Halvorsen plans to hand the CEO role to Anders within three years. [D5, \u00b65] The agreement's \"actively involved in the management\" limb is a separate trigger from the ownership limb. [D2, \u00a77.6]\n\n**Items for legal and underwriter review**\n1. Whether \"meaningful portion\" has a defined meaning in the full draft agreement, or needs one added. Not in provided documents: any definition or threshold, which would normally be in the full draft agreement.\n2. Whether the trigger is measured against each Founder individually or the two Founders together. The clause does not say. [D2, \u00a77.6]\n3. Whether a CEO transition from Erik Halvorsen to Anders Halvorsen affects the \"actively involved in the management\" limb. [D2, \u00a77.6; D5, \u00b65]\n4. Whether a minority sale needs lender consent, a carve-out or a defined threshold. Not in provided documents: any consent or permitted-transfer provision.\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 3579,
+  "type": "result",
+  "duration_ms": 9802,
+  "uuid": "0ba9ee23-5e65-4d1b-b361-cccb64a86bb6",
+  "ttft_stream_ms": 796,
+  "time_to_request_ms": 105,
+  "first_content_frame_ms": 796,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

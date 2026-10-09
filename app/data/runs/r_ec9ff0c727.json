@@ -1,0 +1,24 @@
+{
+  "run_id": "r_ec9ff0c727",
+  "chat_id": "c_e02d37a802",
+  "chat_name": "Live check",
+  "at": "2026-10-08T10:39:10",
+  "prompt": "Add a paragraph to Section 3 on the outlook for the US agricultural equipment industry.",
+  "response": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nNot in provided documents: the outlook for the US agricultural equipment industry, which would normally come from the bank's licensed industry research feed. D1-D5 contain no industry or market outlook information, so I have not added the paragraph to Section 3.",
+  "response_chars": 428,
+  "duration_ms": 9346,
+  "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+  "ok": true,
+  "error": null,
+  "system_prompt_version": "20261007-222726",
+  "documents": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5"
+  ],
+  "cleanup_status": "applied",
+  "cleanup_model": "claude-haiku-5-5",
+  "draft": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nNot in provided documents: the outlook for the US agricultural equipment industry. This would normally come from the bank's licensed industry research feed. D1-D5 contain no industry or market outlook information, so I have not added the paragraph to Section 3."
+}

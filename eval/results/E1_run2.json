@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 15702,
+  "stop_reason": "end_turn",
+  "session_id": "8ca5e9d3-f2a0-43dd-b816-387dd72c72e1",
+  "total_cost_usd": 0.06366440000000001,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9704,
+    "cache_read_input_tokens": 1322,
+    "output_tokens": 2458,
+    "output_tokens_details": {
+      "thinking_tokens": 885
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9704,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 2458,
+        "cache_read_input_tokens": 1322,
+        "cache_creation_input_tokens": 9704,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9704
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2458,
+      "cacheReadInputTokens": 1322,
+      "cacheCreationInputTokens": 9704,
+      "webSearchRequests": 0,
+      "costUSD": 0.06366440000000001,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 885,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\n## Section 2: Borrower Overview and Relationship History\n\n### Company Profile\n\nLarkspur Precision Components, Inc. is privately held. [D5, \u00b61] The company was founded in 1994 in Rockford, Illinois, by Erik and Maria Halvorsen. [D5, \u00b61] It makes precision-machined components and welded assemblies for agricultural and construction equipment OEMs. [D5, \u00b61] The company has about 310 employees and one plant. [D5, \u00b61]\n\nFiscal years end December 31. [D1, header] FY2023 through FY2025 were audited by Hartwell & Lo LLP, which issued unqualified opinions. [D1, header]\n\n### Ownership and Management\n\nOwnership is Erik Halvorsen 55%, Maria Halvorsen 25%, and Anders Halvorsen (COO) 20%. [D5, \u00b61]\n\nOn the 2026-09-02 call, Erik Halvorsen (64) stated that he plans to hand the CEO role to Anders within three years. [D5, \u00b65] The family has discussed \"informally\" selling a minority stake to a private equity firm. [D5, \u00b65] There is no timeline and no LOI. [D5, \u00b65]\n\nThe draft agreement defines \"Founders\" as Erik Halvorsen and Maria Halvorsen. [D2, \u00a71.1]\n\n### Relationship History\n\nLarkspur has been a deposit and treasury management customer of Meridian since 2019. [D5, \u00b62] Average operating deposits were $4.1 million over the trailing 12 months to August 2026. [D5, \u00b62]\n\nA $12.0 million facility ($7.0M term loan, $5.0M revolver) was approved in June 2023. [D5, \u00b62] The June 2023 memo describes the request as a new senior secured facility to refinance existing bank debt and fund working capital. [D3, Part B \u00a71] The loan has been paid as agreed with no past dues. [D5, \u00b62]\n\nThe Q4 2024 compliance certificate arrived 18 days late. [D5, \u00b63] Credit Administration waived the reporting covenant (waiver W-25-0117). [D5, \u00b63] All later certificates arrived on time. [D5, \u00b63]\n\nThe FY2025 compliance certificate is dated April 28, 2026. [D1, \u00a77] It reports compliance with both financial covenants of the existing 2023 credit agreement. [D1, \u00a77]\n\n### Current Request\n\nOn the 2026-08-19 call, Erik and Anders Halvorsen asked to increase the facility to $18.0 million. [D5, \u00b64] The purpose is to fund a 60,000 sq ft expansion of the Rockford plant ($6.0 million), tied to a new multi-year Customer A program. [D5, \u00b64] The borrowers want to close by November 30, 2026, so construction can start before winter. [D5, \u00b64] They said a national bank has offered to deliver a term sheet within 10 business days. [D5, \u00b64]\n\n**Sources used:** D1 (header, \u00a77); D2 (\u00a71.1); D3 (Part B \u00a71); D5 (\u00b61, \u00b62, \u00b63, \u00b64, \u00b65).\n\n**Underwriter to complete:**\n- Header fields: Underwriter, Senior reviewer and Date. Not in provided documents: these names and the memo date. They would normally come from the credit file or loan origination system.\n- Not in provided documents: management biographies other than ages and roles stated in D5, board composition, and the customer and product mix beyond the D5 \u00b61 description. The company's own materials or the nCino profile would normally contain these.\n- Not in provided documents: the date of the ownership percentages in D5 \u00b61 beyond the Sept 2026 export. A cap table or ownership certification would normally confirm them.\n- The \"Founders\" definition in D2 \u00a71.1 names Erik and Maria Halvorsen only, and Anders Halvorsen is not named. D2 \u00a77.6 uses the terms \"meaningful portion\" and \"actively involved in the management.\" These terms are undefined in the excerpt. Refer them to the underwriter and legal. The ownership, succession and potential minority sale facts above (D5, \u00b61, \u00b65) are relevant to that review.\n- Customer concentration (D1, \u00a75) is subject to D4, \u00a74.2.4 and is addressed in Section 7, not here.\n- Confirm that waiver W-25-0117 is closed. D5 \u00b63 states the waiver but does not state its conditions.\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 7735,
+  "type": "result",
+  "duration_ms": 16524,
+  "uuid": "b1583ccf-db7a-43d2-b393-08247375a5b9",
+  "ttft_stream_ms": 932,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 933,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

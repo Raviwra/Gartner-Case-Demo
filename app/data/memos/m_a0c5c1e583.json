@@ -1,0 +1,716 @@
+{
+  "id": "m_a0c5c1e583",
+  "name": "Northwind credit memo",
+  "created_at": "2026-10-08T13:28:35",
+  "updated_at": "2026-10-08T13:35:58",
+  "case_id": "northwind",
+  "header": {
+    "borrower": "Northwind Foodservice Distribution, LLC",
+    "request_type": "Annual review of $14.0M facility",
+    "total_commitment": "$14.0 million",
+    "underwriter": "",
+    "senior_reviewer": "",
+    "date": ""
+  },
+  "sections": [
+    {
+      "id": "1",
+      "title": "Transaction Summary",
+      "author": "M",
+      "status": "drafted",
+      "text": "**Header fields**\n- Borrower: Northwind Foodservice Distribution, LLC [D2, header].\n- Request type: Annual review of the existing facility, with no change requested [D5, ¶5].\n- Total commitment: $14.0M: a $4.0M term loan and a $10.0M revolver [D1, §3 Note to Table 3].\n- Underwriter: Not in provided documents: underwriter name. The underwriting assignment record or memo header would normally contain it.\n- Senior reviewer: Not in provided documents: senior reviewer name. The underwriting assignment record or memo header would normally contain it.\n- Date: Not in provided documents: memo date; the underwriter sets it at finalization.\n\n**Request**\n\nAnnual review of the existing facility is due by December 15, 2026 [D5, ¶5]. No change to the facility was requested [D5, ¶5], and the spread states that no change is proposed [D1, §3 Note to Table 3].\n\n**Existing facility**\n\nMeridian Trust Bank is the Lender under the Credit Agreement dated December 15, 2022 [D2, header]. The facility approved in December 2022 totals $14.0M, consisting of a $4.0M term loan and a $10.0M revolver [D1, §3 Note to Table 3; D5, ¶2].\n\n*Term Loan.* The Lender made a term loan of $4,000,000 on the Closing Date [D2, §2.1(a)]. It is repayable in equal quarterly installments of $200,000, beginning March 31, 2023 [D2, §2.1(a)]. The unpaid principal is due December 15, 2027 [D2, §2.1(a)]. The Meridian term loan balance for FY2025 was 1,600 ($ in thousands) [D1, §4 Table: Meridian term loan, FY2025].\n\n*Revolver.* Revolving Loans may not exceed, in aggregate principal, the lesser of $10,000,000 (the \"Revolving Commitment\") and the Borrowing Base [D2, §2.1(b)]. The Revolving Commitment terminates, and all Revolving Loans are due, on December 15, 2027 [D2, §2.1(b)]. The revolver is governed by a monthly borrowing base [D5, ¶2]. The Meridian revolver balance for FY2025 was 8,100 ($ in thousands) [D1, §4 Table: Meridian revolver, FY2025].\n\n**Purpose of proceeds**\n\nThe Borrower used the Term Loan proceeds to refinance indebtedness owed to its prior lender [D2, §2.1(c)]. The Borrower shall use Revolving Loans for working capital and general corporate purposes [D2, §2.1(c)].\n\n**Security**\n\nThe obligations are secured by a first-priority security interest in all present and future assets of the Borrower, a landlord waiver, and a limited guaranty [D2, §2.2]. Detail is in Section 5.\n\n**Pro forma**\n\nNot in provided documents: pro forma figures for a proposed facility; none are proposed [D1, §3 Note to Table 3; D5, ¶5].\n\n**Sources used:** D1 §3 (Note to Table 3), §4; D2 header, §2.1(a)-(c), §2.2; D5 ¶2, ¶5.\n\n**Underwriter to complete:**\n- Header fields: Underwriter, Senior reviewer and Date.\n- Whether the review includes a renewal, extension or amendment request. Both the Term Loan balance and the Revolving Commitment fall due December 15, 2027 [D2, §2.1(a)-(b)], and D5 ¶5 records only that no change to the facility was requested. The request type label above is taken from D5 and should be confirmed.\n- Any \"Request type\" wording the bank's template convention requires.\n",
+      "drafted_text": "**Header fields**\n- Borrower: Northwind Foodservice Distribution, LLC [D2, header].\n- Request type: Annual review of the existing facility, with no change requested [D5, ¶5].\n- Total commitment: $14.0M: a $4.0M term loan and a $10.0M revolver [D1, §3 Note to Table 3].\n- Underwriter: Not in provided documents: underwriter name. The underwriting assignment record or memo header would normally contain it.\n- Senior reviewer: Not in provided documents: senior reviewer name. The underwriting assignment record or memo header would normally contain it.\n- Date: Not in provided documents: memo date; the underwriter sets it at finalization.\n\n**Request**\n\nAnnual review of the existing facility is due by December 15, 2026 [D5, ¶5]. No change to the facility was requested [D5, ¶5], and the spread states that no change is proposed [D1, §3 Note to Table 3].\n\n**Existing facility**\n\nMeridian Trust Bank is the Lender under the Credit Agreement dated December 15, 2022 [D2, header]. The facility approved in December 2022 totals $14.0M, consisting of a $4.0M term loan and a $10.0M revolver [D1, §3 Note to Table 3; D5, ¶2].\n\n*Term Loan.* The Lender made a term loan of $4,000,000 on the Closing Date [D2, §2.1(a)]. It is repayable in equal quarterly installments of $200,000, beginning March 31, 2023 [D2, §2.1(a)]. The unpaid principal is due December 15, 2027 [D2, §2.1(a)]. The Meridian term loan balance for FY2025 was 1,600 ($ in thousands) [D1, §4 Table: Meridian term loan, FY2025].\n\n*Revolver.* Revolving Loans may not exceed, in aggregate principal, the lesser of $10,000,000 (the \"Revolving Commitment\") and the Borrowing Base [D2, §2.1(b)]. The Revolving Commitment terminates, and all Revolving Loans are due, on December 15, 2027 [D2, §2.1(b)]. The revolver is governed by a monthly borrowing base [D5, ¶2]. The Meridian revolver balance for FY2025 was 8,100 ($ in thousands) [D1, §4 Table: Meridian revolver, FY2025].\n\n**Purpose of proceeds**\n\nThe Borrower used the Term Loan proceeds to refinance indebtedness owed to its prior lender [D2, §2.1(c)]. The Borrower shall use Revolving Loans for working capital and general corporate purposes [D2, §2.1(c)].\n\n**Security**\n\nThe obligations are secured by a first-priority security interest in all present and future assets of the Borrower, a landlord waiver, and a limited guaranty [D2, §2.2]. Detail is in Section 5.\n\n**Pro forma**\n\nNot in provided documents: pro forma figures for a proposed facility; none are proposed [D1, §3 Note to Table 3; D5, ¶5].\n\n**Sources used:** D1 §3 (Note to Table 3), §4; D2 header, §2.1(a)-(c), §2.2; D5 ¶2, ¶5.\n\n**Underwriter to complete:**\n- Header fields: Underwriter, Senior reviewer and Date.\n- Whether the review includes a renewal, extension or amendment request. Both the Term Loan balance and the Revolving Commitment fall due December 15, 2027 [D2, §2.1(a)-(b)], and D5 ¶5 records only that no change to the facility was requested. The request type label above is taken from D5 and should be confirmed.\n- Any \"Request type\" wording the bank's template convention requires.\n",
+      "drafted_at": "2026-10-08T13:29:49",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 31181,
+      "run_id": "r_ae06a1ac0f",
+      "comments": []
+    },
+    {
+      "id": "2",
+      "title": "Borrower Overview and Relationship History",
+      "author": "M",
+      "status": "drafted",
+      "text": "### 2.1 Borrower Overview\n\nNorthwind Foodservice Distribution, LLC (\"Northwind\") is a privately held limited liability company. [D5, ¶1] Dale and Ruth Ostrander founded it in 1987 in Des Moines, Iowa. [D5, ¶1] It is taxed as a partnership. [D1, header]\n\nNorthwind is a broadline foodservice distributor serving independent restaurants, schools, healthcare facilities and hotels in Iowa and neighboring states. [D5, ¶1]\n\nNorthwind has about 215 employees, one leased 165,000 sq ft distribution center and 52 delivery trucks, most under capital leases. [D5, ¶1] The distribution center is in Des Moines, Iowa. The landlord is Ostrander Properties, LLC. [D2, §2.2]\n\nFY2025 revenue was 104,600. [D1, Table 1: Revenue, FY2025] FY2023–FY2025 financial statements were audited by Kessling Marr LLP, which issued unqualified opinions. [D1, header]\n\n### 2.2 Ownership and Management\n\nOwnership is Dale Ostrander 60%, Ruth Ostrander 20% and Megan Ostrander-Kolb (VP Operations) 20%. [D5, ¶1]\n\nOn the September 10, 2026 call, Dale Ostrander (67) was reported to plan to step back as CEO in mid-2027. Megan Ostrander-Kolb is expected to take over day-to-day operations. [D5, ¶5] The family has discussed selling up to 30% of membership interests to an employee stock ownership plan (ESOP). No timeline or engagement letter exists. [D5, ¶5]\n\n### 2.3 Customer Base\n\nCustomer A, a regional restaurant group, accounted for 21% of FY2024 revenue and 23% of FY2025 revenue. [D1, §5] The top five customers accounted for 47% of FY2025 revenue. [D1, §5]\n\nThe CFO cited a school district contract that was not renewed in July 2025. [D5, ¶4]\n\n### 2.4 Relationship History\n\nNorthwind has been a deposit, treasury management and lockbox customer since 2016. [D5, ¶2] Average operating deposits were $2.3 million over the trailing 12 months to August 2026. [D5, ¶2]\n\nThe $14.0 million facility ($4.0M term loan, $10.0M revolver) was approved in December 2022. [D5, ¶2] The credit agreement is dated December 15, 2022. [D2, header] The revolver uses a monthly borrowing base. [D5, ¶2] The relationship is recorded as paid as agreed, with no past dues. [D5, ¶2]\n\nThe Q2 2025 compliance certificate arrived 25 days late. Credit Administration waived the reporting covenant (waiver W-25-0388). All later certificates arrived on time. [D5, ¶3]\n\nOn the November 20, 2025 call, CFO Neil Brandvold attributed the DSCR change to diesel and warehouse wage costs and the non-renewed school district contract. The Q3 2025 compliance certificate showed DSCR of 1.22x against a 1.20x minimum. [D5, ¶4] He said the borrower does not plan to pay FY2026 tax distributions above members' estimated tax liability. [D5, ¶4]\n\nThe annual review of the existing facility is due by December 15, 2026. No facility change was requested. [D5, ¶5]\n\n**Sources used:** D1 (header, §5, Table 1); D2 (header, §2.2, §7.6); D4 (§4.2.4); D5 (¶1–¶5).\n\n**Underwriter to complete:**\n- **Change of control (legal review).** D2 §7.6 provides: \"It shall be an Event of Default if the members of the Borrower on the Closing Date cease to control the Borrower, or if Dale Ostrander ceases to have primary responsibility for the operations of the Borrower and a successor reasonably satisfactory to the Lender is not appointed within a reasonable period.\" [D2, §7.6] The following terms are quoted but not interpreted here:\n  - \"control\"\n  - \"primary responsibility for the operations\"\n  - \"reasonably satisfactory\"\n  - \"a reasonable period\"\n\n  Refer to the underwriter and legal how these terms apply to the CEO transition and the possible ESOP sale described in D5 ¶5.\n- **Customer concentration (policy).** D4 §4.2.4 requires the memo to address customer concentration in Section 7 if any single customer exceeds 25% of revenue in the most recent fiscal year. [D4, §4.2.4] The underwriter should determine how this applies to the 23% figure in D1 §5.\n- **Waiver.** Not in provided documents: the waiver document W-25-0388 and its terms; Credit Administration records would normally contain it.\n- **Gaps.** Not in provided documents: management biographies beyond the D5 ¶5 notes; competitor and market position information (would normally come from the bank's licensed industry research feed); and any customer or product mix beyond D1 §5 and D5 ¶1.\n",
+      "drafted_text": "### 2.1 Borrower Overview\n\nNorthwind Foodservice Distribution, LLC (\"Northwind\") is a privately held limited liability company. [D5, ¶1] Dale and Ruth Ostrander founded it in 1987 in Des Moines, Iowa. [D5, ¶1] It is taxed as a partnership. [D1, header]\n\nNorthwind is a broadline foodservice distributor serving independent restaurants, schools, healthcare facilities and hotels in Iowa and neighboring states. [D5, ¶1]\n\nNorthwind has about 215 employees, one leased 165,000 sq ft distribution center and 52 delivery trucks, most under capital leases. [D5, ¶1] The distribution center is in Des Moines, Iowa. The landlord is Ostrander Properties, LLC. [D2, §2.2]\n\nFY2025 revenue was 104,600. [D1, Table 1: Revenue, FY2025] FY2023–FY2025 financial statements were audited by Kessling Marr LLP, which issued unqualified opinions. [D1, header]\n\n### 2.2 Ownership and Management\n\nOwnership is Dale Ostrander 60%, Ruth Ostrander 20% and Megan Ostrander-Kolb (VP Operations) 20%. [D5, ¶1]\n\nOn the September 10, 2026 call, Dale Ostrander (67) was reported to plan to step back as CEO in mid-2027. Megan Ostrander-Kolb is expected to take over day-to-day operations. [D5, ¶5] The family has discussed selling up to 30% of membership interests to an employee stock ownership plan (ESOP). No timeline or engagement letter exists. [D5, ¶5]\n\n### 2.3 Customer Base\n\nCustomer A, a regional restaurant group, accounted for 21% of FY2024 revenue and 23% of FY2025 revenue. [D1, §5] The top five customers accounted for 47% of FY2025 revenue. [D1, §5]\n\nThe CFO cited a school district contract that was not renewed in July 2025. [D5, ¶4]\n\n### 2.4 Relationship History\n\nNorthwind has been a deposit, treasury management and lockbox customer since 2016. [D5, ¶2] Average operating deposits were $2.3 million over the trailing 12 months to August 2026. [D5, ¶2]\n\nThe $14.0 million facility ($4.0M term loan, $10.0M revolver) was approved in December 2022. [D5, ¶2] The credit agreement is dated December 15, 2022. [D2, header] The revolver uses a monthly borrowing base. [D5, ¶2] The relationship is recorded as paid as agreed, with no past dues. [D5, ¶2]\n\nThe Q2 2025 compliance certificate arrived 25 days late. Credit Administration waived the reporting covenant (waiver W-25-0388). All later certificates arrived on time. [D5, ¶3]\n\nOn the November 20, 2025 call, CFO Neil Brandvold attributed the DSCR change to diesel and warehouse wage costs and the non-renewed school district contract. The Q3 2025 compliance certificate showed DSCR of 1.22x against a 1.20x minimum. [D5, ¶4] He said the borrower does not plan to pay FY2026 tax distributions above members' estimated tax liability. [D5, ¶4]\n\nThe annual review of the existing facility is due by December 15, 2026. No facility change was requested. [D5, ¶5]\n\n**Sources used:** D1 (header, §5, Table 1); D2 (header, §2.2, §7.6); D4 (§4.2.4); D5 (¶1–¶5).\n\n**Underwriter to complete:**\n- **Change of control (legal review).** D2 §7.6 provides: \"It shall be an Event of Default if the members of the Borrower on the Closing Date cease to control the Borrower, or if Dale Ostrander ceases to have primary responsibility for the operations of the Borrower and a successor reasonably satisfactory to the Lender is not appointed within a reasonable period.\" [D2, §7.6] The following terms are quoted but not interpreted here:\n  - \"control\"\n  - \"primary responsibility for the operations\"\n  - \"reasonably satisfactory\"\n  - \"a reasonable period\"\n\n  Refer to the underwriter and legal how these terms apply to the CEO transition and the possible ESOP sale described in D5 ¶5.\n- **Customer concentration (policy).** D4 §4.2.4 requires the memo to address customer concentration in Section 7 if any single customer exceeds 25% of revenue in the most recent fiscal year. [D4, §4.2.4] The underwriter should determine how this applies to the 23% figure in D1 §5.\n- **Waiver.** Not in provided documents: the waiver document W-25-0388 and its terms; Credit Administration records would normally contain it.\n- **Gaps.** Not in provided documents: management biographies beyond the D5 ¶5 notes; competitor and market position information (would normally come from the bank's licensed industry research feed); and any customer or product mix beyond D1 §5 and D5 ¶1.\n",
+      "drafted_at": "2026-10-08T13:31:51",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 121085,
+      "run_id": "r_dc245eb0d8",
+      "comments": []
+    },
+    {
+      "id": "3",
+      "title": "Financial Analysis",
+      "author": "M",
+      "status": "drafted",
+      "text": "FY2023-FY2025 were audited by Kessling Marr LLP, with unqualified opinions. [D1, header] $ in thousands unless stated. [D1, header]\n\n### 3.1 Revenue and Earnings [M]\n\nRevenue was 94,200 in FY2023, 99,800 in FY2024 and 104,600 in FY2025. [D1, Table 1: Revenue, FY2023-FY2025] Revenue growth was 6.6% in FY2023, 5.9% in FY2024 and 4.8% in FY2025. [D1, Table 1: Revenue growth, FY2023-FY2025] FY2022 revenue was 88,400 (audited). [D1, §1 Note to Table 1]\n\nEBITDA was 4,200 in FY2023, 4,300 in FY2024 and 4,100 in FY2025. [D1, Table 1: EBITDA, FY2023-FY2025] EBITDA margin was 4.5% in FY2023, 4.3% in FY2024 and 3.9% in FY2025. [D1, Table 1: EBITDA margin, FY2023-FY2025] Net income was 2,290 in FY2023, 2,180 in FY2024 and 1,870 in FY2025. [D1, Table 1: Net income, FY2023-FY2025]\n\n**CONFLICT, FY2025 EBITDA:** The spread shows FY2025 EBITDA of 4,100. [D1, Table 1: EBITDA, FY2025] The borrower's FY2025 letter, as summarized by the analyst, states \"EBITDA was about $4.5 million for the year.\" [D1, §6] The documents do not reconcile the two values.\n\nManagement attributes FY2025 revenue growth to new independent restaurant accounts. It states that fuel and warehouse labor costs rose faster than case prices. [D1, §6] Management expects a route optimization project completed in May 2026 to reduce delivery cost per case. [D1, §6] The CFO also cited diesel and warehouse wage costs and a school district contract not renewed in July 2025. [D5, ¶4]\n\nCustomer A, a regional restaurant group, was 21% of FY2024 revenue and 23% of FY2025 revenue. [D1, §5] The top five customers were 47% of FY2025 revenue. [D1, §5]\n\n### 3.2 Leverage and Debt Service [M]\n\nTotal funded debt was 10,710 in FY2023, 12,040 in FY2024 and 13,120 in FY2025. [D1, Table 2: Total funded debt, FY2023-FY2025] Total leverage was 2.55x, 2.80x and 3.20x in those years. [D1, Table 2: Total leverage, FY2023-FY2025]\n\nFY2025 debt comprised the Meridian term loan at 1,600, the Meridian revolver at 8,100 and fleet capital leases (Ridgeway Truck Finance) at 3,420. [D1, §4 Debt composition, FY2025] FY2024 debt was 2,400, 6,600 and 3,040 for the same three lines. [D1, §4 Debt composition, FY2024]\n\nDebt service (P+I) was 2,000 in FY2023, 2,180 in FY2024 and 2,200 in FY2025. [D1, Table 1: Debt service (P+I), FY2023-FY2025] Unfunded capex was 600, 650 and 700 in those years. [D1, Table 1: Unfunded capex, FY2023-FY2025] Cash taxes, which are tax distributions paid to members, were 700, 680 and 600. [D1, §1 header; D1, Table 1: Cash taxes, FY2023-FY2025] DSCR was 1.45x in FY2023, 1.36x in FY2024 and 1.27x in FY2025. [D1, Table 2: DSCR, FY2023-FY2025]\n\nQuarterly trailing-four-quarter results, as reported in the borrower's compliance certificates, are below. [D1, §3 Note to Table 3]\n\n| Measure | Q1 2025 | Q2 2025 | Q3 2025 | Q4 2025 | Q1 2026 | Q2 2026 |\n|---|---|---|---|---|---|---|\n| EBITDA (TTM) | 4,240 | 4,120 | 3,980 | 4,100 | 4,020 | 3,950 |\n| Total funded debt | 12,700 | 13,250 | 13,570 | 13,120 | 13,000 | 13,350 |\n| Total leverage | 3.00x | 3.22x | 3.41x | 3.20x | 3.23x | 3.38x |\n| DSCR | 1.33x | 1.28x | 1.22x | 1.27x | 1.25x | 1.24x |\n\n[D1, Table 3: all rows above, Q1 2025-Q2 2026]\n\nQ4 2025 is the FY2025 audited basis. [D1, §3 Note to Table 3] Q1 and Q2 2026 are internally prepared quarterly statements. [D1, §3 Note to Table 3]\n\nThe credit agreement sets a maximum total leverage ratio of 3.75x and a minimum DSCR of 1.20x, each tested quarterly. [D1, §7; D2, §7.1; D2, §7.2] Each certificate from Q1 2025 to Q2 2026 reported compliance with both financial covenants. [D1, §7] The Q2 2026 certificate, dated August 12, 2026, reported total leverage of 3.38x and DSCR of 1.24x. [D1, §7]\n\nThe CFO said the borrower does not plan to pay tax distributions above the members' estimated tax liability in FY2026. [D5, ¶4]\n\n### 3.3 Liquidity [M]\n\nCash was 1,400 in FY2023, 1,100 in FY2024 and 900 in FY2025. [D1, Table 2: Cash, FY2023-FY2025] Revolver availability was 3,100 in FY2023 and 2,400 in FY2024. [D1, Table 2: Revolver availability, FY2023-FY2024] Liquidity (cash + availability) was 4,500 in FY2023 and 3,500 in FY2024. [D1, Table 2: Liquidity, FY2023-FY2024]\n\nNot in provided documents: FY2025 revolver availability and liquidity, and the December 31, 2025 Borrowing Base Certificate that Credit Administration would normally attach to the annual review package. [D1, §2 Footnote *]\n\nThe Meridian revolver balance was 4,900 in FY2023, 6,600 in FY2024 and 8,100 in FY2025. [D1, §4 Debt composition, Meridian revolver] The Revolving Commitment is $10,000,000, and revolving loans may not exceed the lesser of that amount and the Borrowing Base. [D2, §2.1(b)] The agreement requires Excess Availability of at least $1,000,000 at any time. [D2, §7.3] The compliance certificates do not report Excess Availability under this covenant. [D1, §7]\n\nAverage operating deposits at Meridian were $2.3 million over the trailing 12 months to August 2026. [D5, ¶2]\n\n### 3.4 Pro Forma for Proposed Facility [M]\n\nNo change in the facility is proposed. [D1, §3 Note to Table 3; D5, ¶5] The existing facility totals $14.0M: a $4.0M term loan and a $10.0M revolver. [D1, §3 Note to Table 3] Not in provided documents: pro forma leverage, DSCR and debt figures for a proposed facility. No proposal exists in the documents; the credit request or term sheet would normally contain them.\n\n### 3.5 Underwriter Commentary [U]\n\nReserved for the underwriter. Not drafted.\n\n**Sources used:** D1 (header, §1 and Table 1 with note, §2 and Table 2 with Footnote *, §3 and Table 3 with note, §4, §5, §6, §7); D2 (§2.1(b), §7.1, §7.2, §7.3); D5 (¶2, ¶4, ¶5).\n\n**Underwriter to complete:**\n- **3.5:** Underwriter Commentary is reserved for the underwriter.\n- **CONFLICT:** FY2025 EBITDA is 4,100 [D1, Table 1] against \"about $4.5 million\" [D1, §6]. Reconcile before use. No value has been chosen.\n- **FY2025 revolver availability and liquidity:** the December 31, 2025 Borrowing Base Certificate is needed [D1, §2 Footnote *]. Excess Availability against the $1,000,000 minimum [D2, §7.3] is not reported in the certificates [D1, §7].\n- **Debt service definition:** the spread labels debt service \"(P+I)\" [D1, §2 Definitions]. The agreement's definition includes interest on the Revolving Loans [D2, §1.1]. The documents do not state whether the spread debt service includes revolver interest. Confirm with Credit Analysis.\n- **Quarterly source basis:** Q1 2026 and Q2 2026 figures come from internally prepared statements, not audited ones [D1, §3 Note to Table 3].\n- **3.4:** pro forma figures are not applicable on the documents provided, because no facility change is proposed. Confirm whether any pro forma presentation is wanted.\n- **Customer concentration:** policy §4.2.4 requires Section 7 to address concentration if a single customer exceeds 25% of revenue [D4, §4.2.4]. Customer A was 23% of FY2025 revenue [D1, §5]. The underwriter should judge whether this applies.\n",
+      "drafted_text": "FY2023-FY2025 were audited by Kessling Marr LLP, with unqualified opinions. [D1, header] $ in thousands unless stated. [D1, header]\n\n### 3.1 Revenue and Earnings [M]\n\nRevenue was 94,200 in FY2023, 99,800 in FY2024 and 104,600 in FY2025. [D1, Table 1: Revenue, FY2023-FY2025] Revenue growth was 6.6% in FY2023, 5.9% in FY2024 and 4.8% in FY2025. [D1, Table 1: Revenue growth, FY2023-FY2025] FY2022 revenue was 88,400 (audited). [D1, §1 Note to Table 1]\n\nEBITDA was 4,200 in FY2023, 4,300 in FY2024 and 4,100 in FY2025. [D1, Table 1: EBITDA, FY2023-FY2025] EBITDA margin was 4.5% in FY2023, 4.3% in FY2024 and 3.9% in FY2025. [D1, Table 1: EBITDA margin, FY2023-FY2025] Net income was 2,290 in FY2023, 2,180 in FY2024 and 1,870 in FY2025. [D1, Table 1: Net income, FY2023-FY2025]\n\n**CONFLICT, FY2025 EBITDA:** The spread shows FY2025 EBITDA of 4,100. [D1, Table 1: EBITDA, FY2025] The borrower's FY2025 letter, as summarized by the analyst, states \"EBITDA was about $4.5 million for the year.\" [D1, §6] The documents do not reconcile the two values.\n\nManagement attributes FY2025 revenue growth to new independent restaurant accounts. It states that fuel and warehouse labor costs rose faster than case prices. [D1, §6] Management expects a route optimization project completed in May 2026 to reduce delivery cost per case. [D1, §6] The CFO also cited diesel and warehouse wage costs and a school district contract not renewed in July 2025. [D5, ¶4]\n\nCustomer A, a regional restaurant group, was 21% of FY2024 revenue and 23% of FY2025 revenue. [D1, §5] The top five customers were 47% of FY2025 revenue. [D1, §5]\n\n### 3.2 Leverage and Debt Service [M]\n\nTotal funded debt was 10,710 in FY2023, 12,040 in FY2024 and 13,120 in FY2025. [D1, Table 2: Total funded debt, FY2023-FY2025] Total leverage was 2.55x, 2.80x and 3.20x in those years. [D1, Table 2: Total leverage, FY2023-FY2025]\n\nFY2025 debt comprised the Meridian term loan at 1,600, the Meridian revolver at 8,100 and fleet capital leases (Ridgeway Truck Finance) at 3,420. [D1, §4 Debt composition, FY2025] FY2024 debt was 2,400, 6,600 and 3,040 for the same three lines. [D1, §4 Debt composition, FY2024]\n\nDebt service (P+I) was 2,000 in FY2023, 2,180 in FY2024 and 2,200 in FY2025. [D1, Table 1: Debt service (P+I), FY2023-FY2025] Unfunded capex was 600, 650 and 700 in those years. [D1, Table 1: Unfunded capex, FY2023-FY2025] Cash taxes, which are tax distributions paid to members, were 700, 680 and 600. [D1, §1 header; D1, Table 1: Cash taxes, FY2023-FY2025] DSCR was 1.45x in FY2023, 1.36x in FY2024 and 1.27x in FY2025. [D1, Table 2: DSCR, FY2023-FY2025]\n\nQuarterly trailing-four-quarter results, as reported in the borrower's compliance certificates, are below. [D1, §3 Note to Table 3]\n\n| Measure | Q1 2025 | Q2 2025 | Q3 2025 | Q4 2025 | Q1 2026 | Q2 2026 |\n|---|---|---|---|---|---|---|\n| EBITDA (TTM) | 4,240 | 4,120 | 3,980 | 4,100 | 4,020 | 3,950 |\n| Total funded debt | 12,700 | 13,250 | 13,570 | 13,120 | 13,000 | 13,350 |\n| Total leverage | 3.00x | 3.22x | 3.41x | 3.20x | 3.23x | 3.38x |\n| DSCR | 1.33x | 1.28x | 1.22x | 1.27x | 1.25x | 1.24x |\n\n[D1, Table 3: all rows above, Q1 2025-Q2 2026]\n\nQ4 2025 is the FY2025 audited basis. [D1, §3 Note to Table 3] Q1 and Q2 2026 are internally prepared quarterly statements. [D1, §3 Note to Table 3]\n\nThe credit agreement sets a maximum total leverage ratio of 3.75x and a minimum DSCR of 1.20x, each tested quarterly. [D1, §7; D2, §7.1; D2, §7.2] Each certificate from Q1 2025 to Q2 2026 reported compliance with both financial covenants. [D1, §7] The Q2 2026 certificate, dated August 12, 2026, reported total leverage of 3.38x and DSCR of 1.24x. [D1, §7]\n\nThe CFO said the borrower does not plan to pay tax distributions above the members' estimated tax liability in FY2026. [D5, ¶4]\n\n### 3.3 Liquidity [M]\n\nCash was 1,400 in FY2023, 1,100 in FY2024 and 900 in FY2025. [D1, Table 2: Cash, FY2023-FY2025] Revolver availability was 3,100 in FY2023 and 2,400 in FY2024. [D1, Table 2: Revolver availability, FY2023-FY2024] Liquidity (cash + availability) was 4,500 in FY2023 and 3,500 in FY2024. [D1, Table 2: Liquidity, FY2023-FY2024]\n\nNot in provided documents: FY2025 revolver availability and liquidity, and the December 31, 2025 Borrowing Base Certificate that Credit Administration would normally attach to the annual review package. [D1, §2 Footnote *]\n\nThe Meridian revolver balance was 4,900 in FY2023, 6,600 in FY2024 and 8,100 in FY2025. [D1, §4 Debt composition, Meridian revolver] The Revolving Commitment is $10,000,000, and revolving loans may not exceed the lesser of that amount and the Borrowing Base. [D2, §2.1(b)] The agreement requires Excess Availability of at least $1,000,000 at any time. [D2, §7.3] The compliance certificates do not report Excess Availability under this covenant. [D1, §7]\n\nAverage operating deposits at Meridian were $2.3 million over the trailing 12 months to August 2026. [D5, ¶2]\n\n### 3.4 Pro Forma for Proposed Facility [M]\n\nNo change in the facility is proposed. [D1, §3 Note to Table 3; D5, ¶5] The existing facility totals $14.0M: a $4.0M term loan and a $10.0M revolver. [D1, §3 Note to Table 3] Not in provided documents: pro forma leverage, DSCR and debt figures for a proposed facility. No proposal exists in the documents; the credit request or term sheet would normally contain them.\n\n### 3.5 Underwriter Commentary [U]\n\nReserved for the underwriter. Not drafted.\n\n**Sources used:** D1 (header, §1 and Table 1 with note, §2 and Table 2 with Footnote *, §3 and Table 3 with note, §4, §5, §6, §7); D2 (§2.1(b), §7.1, §7.2, §7.3); D5 (¶2, ¶4, ¶5).\n\n**Underwriter to complete:**\n- **3.5:** Underwriter Commentary is reserved for the underwriter.\n- **CONFLICT:** FY2025 EBITDA is 4,100 [D1, Table 1] against \"about $4.5 million\" [D1, §6]. Reconcile before use. No value has been chosen.\n- **FY2025 revolver availability and liquidity:** the December 31, 2025 Borrowing Base Certificate is needed [D1, §2 Footnote *]. Excess Availability against the $1,000,000 minimum [D2, §7.3] is not reported in the certificates [D1, §7].\n- **Debt service definition:** the spread labels debt service \"(P+I)\" [D1, §2 Definitions]. The agreement's definition includes interest on the Revolving Loans [D2, §1.1]. The documents do not state whether the spread debt service includes revolver interest. Confirm with Credit Analysis.\n- **Quarterly source basis:** Q1 2026 and Q2 2026 figures come from internally prepared statements, not audited ones [D1, §3 Note to Table 3].\n- **3.4:** pro forma figures are not applicable on the documents provided, because no facility change is proposed. Confirm whether any pro forma presentation is wanted.\n- **Customer concentration:** policy §4.2.4 requires Section 7 to address concentration if a single customer exceeds 25% of revenue [D4, §4.2.4]. Customer A was 23% of FY2025 revenue [D1, §5]. The underwriter should judge whether this applies.\n",
+      "drafted_at": "2026-10-08T13:32:42",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 51378,
+      "run_id": "r_2c238e729c",
+      "comments": []
+    },
+    {
+      "id": "4",
+      "title": "Covenant Summary and Compliance",
+      "author": "M",
+      "status": "drafted",
+      "text": "### 4.1 Financial Covenants\n\nThe Credit Agreement is dated December 15, 2022. [D2, header]. It contains three financial covenants. [D2, §7.1–§7.3].\n\n- **Maximum Total Leverage Ratio.** \"The Borrower shall not permit the Total Leverage Ratio, as of the last day of any fiscal quarter, to exceed 3.75 to 1.00.\" [D2, §7.1].\n- **Minimum Debt Service Coverage Ratio.** \"The Borrower shall not permit the Debt Service Coverage Ratio to be less than 1.20 to 1.00 as of the last day of any fiscal quarter.\" [D2, §7.2].\n- **Minimum Excess Availability.** \"The Borrower shall not permit Excess Availability to be less than $1,000,000 at any time.\" [D2, §7.3].\n\nThe leverage and DSCR covenants are tested quarterly [D1, §7]. Excess Availability applies \"at any time\" [D2, §7.3].\n\nThe Total Leverage Ratio is Total Funded Debt on the last day of the fiscal quarter divided by EBITDA for the four consecutive fiscal quarters then ended. [D2, §1.1]. The Debt Service Coverage Ratio is EBITDA minus Unfinanced Capital Expenditures minus cash taxes paid (including Permitted Tax Distributions), divided by scheduled payments of principal and interest on Total Funded Debt, including interest on the Revolving Loans. [D2, §1.1].\n\nExcess Availability is the lesser of the Revolving Commitment and the Borrowing Base, minus Revolving Loans outstanding. [D2, §1.1]. The Revolving Commitment is $10,000,000. [D2, §2.1(b)].\n\n### 4.2 Reporting Covenants\n\nThe Borrower must deliver the following. [D2, §7.4].\n\n| Deliverable | Timing | Source |\n|---|---|---|\n| Annual audited financial statements | Within 120 days after fiscal year end | [D2, §7.4(a)] |\n| Internally prepared quarterly financial statements | Within 45 days after the end of each of the first three fiscal quarters | [D2, §7.4(b)] |\n| Compliance Certificate, showing the Total Leverage Ratio and Debt Service Coverage Ratio | With each annual or quarterly delivery | [D2, §7.4(c)] |\n| Borrowing Base Certificate | Within 20 days after the end of each calendar month | [D2, §7.4(d)] |\n\n### 4.3 Negative Covenants and Default Triggers\n\n**Negative pledge.** The Borrower shall not create, incur or permit to exist any Lien on its assets, except Permitted Liens. [D2, §7.5(a)]. Permitted Liens are:\n\n- Liens in favor of the Lender.\n- Liens securing Capital Lease Obligations, \"limited to the vehicles and equipment subject to those leases.\"\n- Purchase-money Liens securing indebtedness \"not exceeding $500,000 at any time outstanding.\"\n- Liens for taxes not yet due and payable.\n\n[D2, §7.5(b)]. Fleet capital leases with Ridgeway Truck Finance were 3,420 at FY2025. [D1, §4, Fleet capital leases (Ridgeway Truck Finance), FY2025]. Most of the 52 delivery trucks are under capital leases. [D5, ¶1].\n\n**Change of control.** The agreement states: \"It shall be an Event of Default if the members of the Borrower on the Closing Date cease to control the Borrower, or if Dale Ostrander ceases to have primary responsibility for the operations of the Borrower and a successor reasonably satisfactory to the Lender is not appointed within a reasonable period.\" [D2, §7.6].\n\nThe relationship notes record the following. [D5, ¶1, ¶5].\n- Ownership is Dale Ostrander 60%, Ruth Ostrander 20% and Megan Ostrander-Kolb 20%. [D5, ¶1].\n- Dale Ostrander (67) plans to step back as CEO in mid-2027, and Megan Ostrander-Kolb is expected to take over day-to-day operations. [D5, ¶5].\n- The family has discussed selling up to 30% of the membership interests to an employee stock ownership plan, with no timeline and no engagement letter. [D5, ¶5].\n\n### 4.4 Compliance History\n\nFigures are as reported in the borrower's compliance certificates. Q4 2025 is the FY2025 audited basis. Q1 2026 and Q2 2026 come from internally prepared quarterly statements. [D1, Table 3 note].\n\n| Quarter | Total leverage (max 3.75x) | DSCR (min 1.20x) | Source |\n|---|---|---|---|\n| Q1 2025 | 3.00x | 1.33x | [D1, Table 3: Total leverage, DSCR; Q1 2025] |\n| Q2 2025 | 3.22x | 1.28x | [D1, Table 3: Total leverage, DSCR; Q2 2025] |\n| Q3 2025 | 3.41x | 1.22x | [D1, Table 3: Total leverage, DSCR; Q3 2025] |\n| Q4 2025 | 3.20x | 1.27x | [D1, Table 3: Total leverage, DSCR; Q4 2025] |\n| Q1 2026 | 3.23x | 1.25x | [D1, Table 3: Total leverage, DSCR; Q1 2026] |\n| Q2 2026 | 3.38x | 1.24x | [D1, Table 3: Total leverage, DSCR; Q2 2026] |\n\nEach certificate from Q1 2025 to Q2 2026 reported compliance with both financial covenants. [D1, §7]. Certificate dates: Q3 2025, November 14, 2025; FY2025, April 24, 2026; Q2 2026, August 12, 2026. [D1, §7].\n\nThe certificates do not report Excess Availability. [D1, §7]. Revolver availability was 3,100 at FY2023 and 2,400 at FY2024. [D1, Table 2: Revolver availability, FY2023, FY2024]. FY2025 revolver availability is \"Not provided,\" because the December 31, 2025 Borrowing Base Certificate was not in the spread export. [D1, §2, Footnote *].\n\n**Reporting waiver.** The Q2 2025 compliance certificate arrived 25 days late. Credit Administration waived the reporting covenant (waiver W-25-0388). [D5, ¶3]. All later certificates arrived on time. [D5, ¶3].\n\n**Q3 2025 follow-up.** At the November 20, 2025 call, the CFO said the borrower does not plan to pay tax distributions above the members' estimated tax liability in FY2026. [D5, ¶4]. Permitted Tax Distributions are limited to the members' income tax liability attributable to the Borrower's taxable income. [D2, §1.1].\n\n**Facility terms.** No change in the facility is proposed. [D1, Table 3 note]. [D5, ¶5]. The facility totals $14.0M, a $4.0M term loan and a $10.0M revolver. [D1, Table 3 note]. The Revolving Commitment terminates and all Revolving Loans are due December 15, 2027. [D2, §2.1(b)]. The Term Loan balance is due the same day. [D2, §2.1(a)].\n\n### 4.5 Conflicts and Gaps\n\n- **CONFLICT, FY2025 EBITDA.** The spread shows FY2025 EBITDA of 4,100. [D1, Table 1: EBITDA, FY2025]. The management commentary states: \"EBITDA was about $4.5 million for the year.\" [D1, §6]. Both are reported. The covenant EBITDA definition is in D2 §1.1. The spread figure is the one used in the reported FY2025 leverage ratio. [D1, Table 3: EBITDA (TTM), Q4 2025].\n- **Not in provided documents:** FY2025 revolver availability and Excess Availability at any date in FY2025 or 2026. The Borrowing Base Certificates would normally hold this.\n- **Not in provided documents:** whether monthly Borrowing Base Certificates were delivered within the §7.4(d) timing. Credit Administration records would normally hold this.\n- **Not in provided documents:** compliance with §7.3 for any period. The certificates do not report Excess Availability. [D1, §7].\n- **Not in provided documents:** purchase-money Lien balances and any Liens outside the Permitted Liens. A UCC/lien search or the full agreement schedules would normally hold this.\n- **Not in provided documents:** the membership of the Borrower on the Closing Date. The closing documents would normally hold this. D5 gives only current ownership. [D5, ¶1].\n- **Not in provided documents:** the content of Schedule 1.1 (Eligible Inventory). [D2, §1.1].\n- **Not in provided documents:** the dates of the Q1 2025, Q2 2025, Q4 2025 and Q1 2026 certificates, other than the three listed in D1 §7. Credit Administration records would normally hold these.\n\n**Sources used:** D1 §2 (Footnote *), §4, §6, §7, Table 1, Table 2, Table 3 and note; D2 header, §1.1, §2.1, §7.1–§7.6; D5 ¶1, ¶3, ¶4, ¶5.\n\n**Underwriter to complete:**\n- Resolve the FY2025 EBITDA conflict (4,100 in D1 Table 1 against \"about $4.5 million\" in D1 §6) and confirm which figure the FY2025 compliance certificate used.\n- Obtain the Borrowing Base Certificates and confirm Excess Availability against §7.3, including whether the December 31, 2025 certificate was delivered.\n- Review the definitional alignment between the spread and the agreement. The spread labels its row \"Unfunded capex\" and \"Cash taxes,\" while D2 uses \"Unfinanced Capital Expenditures\" and \"cash taxes paid (including Permitted Tax Distributions).\" [D1, Table 1]. [D2, §1.1]. The spread says its Cash taxes row shows tax distributions. [D1, header]. D1 does not state whether the Debt service (P+I) row includes revolver interest, which D2 §1.1 requires.\n- Refer the following §7.6 wording to the underwriter and legal. I have not interpreted it: \"cease to control,\" \"primary responsibility for the operations,\" \"successor reasonably satisfactory to the Lender,\" and \"within a reasonable period.\" Legal should also advise on how the planned CEO transition and the ESOP discussion relate to these terms. [D5, ¶5].\n- Refer to legal the scope of \"purchase-money Liens\" and \"Liens securing Capital Lease Obligations, limited to the vehicles and equipment subject to those leases\" under §7.5(b).\n- Decide whether to carry the W-25-0388 waiver into the memo narrative and how to treat it.\n- Provide any covenant-headroom analysis. I have not calculated any.\n",
+      "drafted_text": "### 4.1 Financial Covenants\n\nThe Credit Agreement is dated December 15, 2022. [D2, header]. It contains three financial covenants. [D2, §7.1–§7.3].\n\n- **Maximum Total Leverage Ratio.** \"The Borrower shall not permit the Total Leverage Ratio, as of the last day of any fiscal quarter, to exceed 3.75 to 1.00.\" [D2, §7.1].\n- **Minimum Debt Service Coverage Ratio.** \"The Borrower shall not permit the Debt Service Coverage Ratio to be less than 1.20 to 1.00 as of the last day of any fiscal quarter.\" [D2, §7.2].\n- **Minimum Excess Availability.** \"The Borrower shall not permit Excess Availability to be less than $1,000,000 at any time.\" [D2, §7.3].\n\nThe leverage and DSCR covenants are tested quarterly [D1, §7]. Excess Availability applies \"at any time\" [D2, §7.3].\n\nThe Total Leverage Ratio is Total Funded Debt on the last day of the fiscal quarter divided by EBITDA for the four consecutive fiscal quarters then ended. [D2, §1.1]. The Debt Service Coverage Ratio is EBITDA minus Unfinanced Capital Expenditures minus cash taxes paid (including Permitted Tax Distributions), divided by scheduled payments of principal and interest on Total Funded Debt, including interest on the Revolving Loans. [D2, §1.1].\n\nExcess Availability is the lesser of the Revolving Commitment and the Borrowing Base, minus Revolving Loans outstanding. [D2, §1.1]. The Revolving Commitment is $10,000,000. [D2, §2.1(b)].\n\n### 4.2 Reporting Covenants\n\nThe Borrower must deliver the following. [D2, §7.4].\n\n| Deliverable | Timing | Source |\n|---|---|---|\n| Annual audited financial statements | Within 120 days after fiscal year end | [D2, §7.4(a)] |\n| Internally prepared quarterly financial statements | Within 45 days after the end of each of the first three fiscal quarters | [D2, §7.4(b)] |\n| Compliance Certificate, showing the Total Leverage Ratio and Debt Service Coverage Ratio | With each annual or quarterly delivery | [D2, §7.4(c)] |\n| Borrowing Base Certificate | Within 20 days after the end of each calendar month | [D2, §7.4(d)] |\n\n### 4.3 Negative Covenants and Default Triggers\n\n**Negative pledge.** The Borrower shall not create, incur or permit to exist any Lien on its assets, except Permitted Liens. [D2, §7.5(a)]. Permitted Liens are:\n\n- Liens in favor of the Lender.\n- Liens securing Capital Lease Obligations, \"limited to the vehicles and equipment subject to those leases.\"\n- Purchase-money Liens securing indebtedness \"not exceeding $500,000 at any time outstanding.\"\n- Liens for taxes not yet due and payable.\n\n[D2, §7.5(b)]. Fleet capital leases with Ridgeway Truck Finance were 3,420 at FY2025. [D1, §4, Fleet capital leases (Ridgeway Truck Finance), FY2025]. Most of the 52 delivery trucks are under capital leases. [D5, ¶1].\n\n**Change of control.** The agreement states: \"It shall be an Event of Default if the members of the Borrower on the Closing Date cease to control the Borrower, or if Dale Ostrander ceases to have primary responsibility for the operations of the Borrower and a successor reasonably satisfactory to the Lender is not appointed within a reasonable period.\" [D2, §7.6].\n\nThe relationship notes record the following. [D5, ¶1, ¶5].\n- Ownership is Dale Ostrander 60%, Ruth Ostrander 20% and Megan Ostrander-Kolb 20%. [D5, ¶1].\n- Dale Ostrander (67) plans to step back as CEO in mid-2027, and Megan Ostrander-Kolb is expected to take over day-to-day operations. [D5, ¶5].\n- The family has discussed selling up to 30% of the membership interests to an employee stock ownership plan, with no timeline and no engagement letter. [D5, ¶5].\n\n### 4.4 Compliance History\n\nFigures are as reported in the borrower's compliance certificates. Q4 2025 is the FY2025 audited basis. Q1 2026 and Q2 2026 come from internally prepared quarterly statements. [D1, Table 3 note].\n\n| Quarter | Total leverage (max 3.75x) | DSCR (min 1.20x) | Source |\n|---|---|---|---|\n| Q1 2025 | 3.00x | 1.33x | [D1, Table 3: Total leverage, DSCR; Q1 2025] |\n| Q2 2025 | 3.22x | 1.28x | [D1, Table 3: Total leverage, DSCR; Q2 2025] |\n| Q3 2025 | 3.41x | 1.22x | [D1, Table 3: Total leverage, DSCR; Q3 2025] |\n| Q4 2025 | 3.20x | 1.27x | [D1, Table 3: Total leverage, DSCR; Q4 2025] |\n| Q1 2026 | 3.23x | 1.25x | [D1, Table 3: Total leverage, DSCR; Q1 2026] |\n| Q2 2026 | 3.38x | 1.24x | [D1, Table 3: Total leverage, DSCR; Q2 2026] |\n\nEach certificate from Q1 2025 to Q2 2026 reported compliance with both financial covenants. [D1, §7]. Certificate dates: Q3 2025, November 14, 2025; FY2025, April 24, 2026; Q2 2026, August 12, 2026. [D1, §7].\n\nThe certificates do not report Excess Availability. [D1, §7]. Revolver availability was 3,100 at FY2023 and 2,400 at FY2024. [D1, Table 2: Revolver availability, FY2023, FY2024]. FY2025 revolver availability is \"Not provided,\" because the December 31, 2025 Borrowing Base Certificate was not in the spread export. [D1, §2, Footnote *].\n\n**Reporting waiver.** The Q2 2025 compliance certificate arrived 25 days late. Credit Administration waived the reporting covenant (waiver W-25-0388). [D5, ¶3]. All later certificates arrived on time. [D5, ¶3].\n\n**Q3 2025 follow-up.** At the November 20, 2025 call, the CFO said the borrower does not plan to pay tax distributions above the members' estimated tax liability in FY2026. [D5, ¶4]. Permitted Tax Distributions are limited to the members' income tax liability attributable to the Borrower's taxable income. [D2, §1.1].\n\n**Facility terms.** No change in the facility is proposed. [D1, Table 3 note]. [D5, ¶5]. The facility totals $14.0M, a $4.0M term loan and a $10.0M revolver. [D1, Table 3 note]. The Revolving Commitment terminates and all Revolving Loans are due December 15, 2027. [D2, §2.1(b)]. The Term Loan balance is due the same day. [D2, §2.1(a)].\n\n### 4.5 Conflicts and Gaps\n\n- **CONFLICT, FY2025 EBITDA.** The spread shows FY2025 EBITDA of 4,100. [D1, Table 1: EBITDA, FY2025]. The management commentary states: \"EBITDA was about $4.5 million for the year.\" [D1, §6]. Both are reported. The covenant EBITDA definition is in D2 §1.1. The spread figure is the one used in the reported FY2025 leverage ratio. [D1, Table 3: EBITDA (TTM), Q4 2025].\n- **Not in provided documents:** FY2025 revolver availability and Excess Availability at any date in FY2025 or 2026. The Borrowing Base Certificates would normally hold this.\n- **Not in provided documents:** whether monthly Borrowing Base Certificates were delivered within the §7.4(d) timing. Credit Administration records would normally hold this.\n- **Not in provided documents:** compliance with §7.3 for any period. The certificates do not report Excess Availability. [D1, §7].\n- **Not in provided documents:** purchase-money Lien balances and any Liens outside the Permitted Liens. A UCC/lien search or the full agreement schedules would normally hold this.\n- **Not in provided documents:** the membership of the Borrower on the Closing Date. The closing documents would normally hold this. D5 gives only current ownership. [D5, ¶1].\n- **Not in provided documents:** the content of Schedule 1.1 (Eligible Inventory). [D2, §1.1].\n- **Not in provided documents:** the dates of the Q1 2025, Q2 2025, Q4 2025 and Q1 2026 certificates, other than the three listed in D1 §7. Credit Administration records would normally hold these.\n\n**Sources used:** D1 §2 (Footnote *), §4, §6, §7, Table 1, Table 2, Table 3 and note; D2 header, §1.1, §2.1, §7.1–§7.6; D5 ¶1, ¶3, ¶4, ¶5.\n\n**Underwriter to complete:**\n- Resolve the FY2025 EBITDA conflict (4,100 in D1 Table 1 against \"about $4.5 million\" in D1 §6) and confirm which figure the FY2025 compliance certificate used.\n- Obtain the Borrowing Base Certificates and confirm Excess Availability against §7.3, including whether the December 31, 2025 certificate was delivered.\n- Review the definitional alignment between the spread and the agreement. The spread labels its row \"Unfunded capex\" and \"Cash taxes,\" while D2 uses \"Unfinanced Capital Expenditures\" and \"cash taxes paid (including Permitted Tax Distributions).\" [D1, Table 1]. [D2, §1.1]. The spread says its Cash taxes row shows tax distributions. [D1, header]. D1 does not state whether the Debt service (P+I) row includes revolver interest, which D2 §1.1 requires.\n- Refer the following §7.6 wording to the underwriter and legal. I have not interpreted it: \"cease to control,\" \"primary responsibility for the operations,\" \"successor reasonably satisfactory to the Lender,\" and \"within a reasonable period.\" Legal should also advise on how the planned CEO transition and the ESOP discussion relate to these terms. [D5, ¶5].\n- Refer to legal the scope of \"purchase-money Liens\" and \"Liens securing Capital Lease Obligations, limited to the vehicles and equipment subject to those leases\" under §7.5(b).\n- Decide whether to carry the W-25-0388 waiver into the memo narrative and how to treat it.\n- Provide any covenant-headroom analysis. I have not calculated any.\n",
+      "drafted_at": "2026-10-08T13:33:40",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 58412,
+      "run_id": "r_b42638c22a",
+      "comments": []
+    },
+    {
+      "id": "5",
+      "title": "Collateral and Guaranty",
+      "author": "M",
+      "status": "drafted",
+      "text": "### 5.1 Security Package\n\nObligations of Northwind Foodservice Distribution, LLC under the Credit Agreement are secured by a first-priority security interest in all present and future Borrower assets, including accounts, inventory and deposit accounts [D2, §2.2(a)]. The Credit Agreement is dated December 15, 2022 [D2, header]. The facility totals $14.0M: a $4.0M term loan and a $10.0M revolver [D1, §3 Note to Table 3; D5, ¶2].\n\nThe Borrower leases its distribution center in Des Moines, Iowa [D2, §2.2(b)]. The center is 165,000 sq ft [D5, ¶1]. Ostrander Properties, LLC has given a landlord waiver for this location [D2, §2.2(b)].\n\nThe Borrower operates 52 delivery trucks, most under capital leases [D5, ¶1]. Fleet capital leases with Ridgeway Truck Finance were 3,420 at FY2025 [D1, §4]. Liens securing Capital Lease Obligations are Permitted Liens, limited to the leased vehicles and equipment [D2, §7.5(b)(ii)].\n\n### 5.2 Revolver Borrowing Base\n\nThe revolver has a monthly borrowing base [D5, ¶2]. Revolving Loans may not exceed the lesser of $10,000,000 and the Borrowing Base [D2, §2.1(b)].\n\nThe Borrowing Base is (a) 85% of Eligible Accounts plus (b) the lesser of (i) 60% of Eligible Inventory at cost and (ii) $4,000,000, minus reserves the Lender may establish in its reasonable credit judgment [D2, §1.1]. Eligible Accounts are receivables not more than 60 days past the invoice date and owed by account debtors located in the United States [D2, §1.1]. Eligible Inventory has the meaning given in Schedule 1.1 [D2, §1.1].\n\nThe Borrower must deliver a Borrowing Base Certificate within 20 days after each calendar month end [D2, §7.4(d)].\n\nMeridian revolver balances were 4,900 at FY2023, 6,600 at FY2024 and 8,100 at FY2025 [D1, §4]. Revolver availability was 3,100 at FY2023 and 2,400 at FY2024 [D1, §2: Revolver availability, FY2023 and FY2024]. FY2025 revolver availability is \"Not provided\" because the December 31, 2025 Borrowing Base Certificate was not in the spread export [D1, §2 Footnote *].\n\nExcess Availability is the lesser of the Revolving Commitment and the Borrowing Base, minus Revolving Loans outstanding [D2, §1.1]. The Borrower shall not permit Excess Availability to be less than $1,000,000 at any time [D2, §7.3]. The compliance certificates do not report Excess Availability under this covenant [D1, §7].\n\n### 5.3 Negative Pledge\n\nThe Borrower shall not create, incur or permit any Lien on its assets except Permitted Liens [D2, §7.5(a)]. Permitted Liens are: (i) Liens in favor of the Lender; (ii) Liens securing Capital Lease Obligations, limited to the leased vehicles and equipment; (iii) purchase-money Liens securing indebtedness in an aggregate amount not exceeding $500,000 at any time outstanding; and (iv) Liens for taxes not yet due and payable [D2, §7.5(b)].\n\n### 5.4 Guaranty\n\nDale Ostrander has given a limited guaranty, with recourse capped at $2,000,000 in the aggregate [D2, §2.2(c)]. He holds 60% of the Borrower's membership interests [D5, ¶1]. He is 67 and plans to step back as CEO in mid-2027, with Megan Ostrander-Kolb expected to take over day-to-day operations [D5, ¶5]. Ruth Ostrander holds 20%, and Megan Ostrander-Kolb (VP Operations) holds 20% [D5, ¶1].\n\n### 5.5 Change-of-Control Provision Linked to Guarantor\n\nSection 7.6 provides: \"It shall be an Event of Default if the members of the Borrower on the Closing Date cease to control the Borrower, or if Dale Ostrander ceases to have primary responsibility for the operations of the Borrower and a successor reasonably satisfactory to the Lender is not appointed within a reasonable period.\" [D2, §7.6]\n\nThe family has discussed selling up to 30% of the membership interests to an employee stock ownership plan [D5, ¶5]. There is no timeline and no engagement letter [D5, ¶5].\n\n**Sources used:** D1 §2 (table, Footnote *), §3 (Note to Table 3), §4, §7; D2 header, §1.1, §2.1(a)-(b), §2.2, §7.3, §7.4(d), §7.5, §7.6; D5 ¶1, ¶2, ¶5.\n\n**Underwriter to complete:**\n- Not in provided documents: collateral values (accounts receivable aging, inventory balances at cost, equipment values). A field exam, appraisal or Borrowing Base Certificate would normally contain these.\n- Not in provided documents: the December 31, 2025 Borrowing Base Certificate and any more recent monthly certificates, and so FY2025 and current revolver availability and Excess Availability. Credit Administration is to attach the December 31, 2025 certificate [D1, §2 Footnote *].\n- Not in provided documents: Schedule 1.1 (Eligible Inventory definition) and any reserves established by the Lender. The full Credit Agreement would contain these.\n- Not in provided documents: the guaranty document itself (terms, scope, any financial covenants), and the guarantor's financial statements, net worth and liquidity. The guaranty agreement and a personal financial statement would normally contain these.\n- Not in provided documents: the landlord waiver terms, the lease term and rent, and the Ostrander Properties, LLC relationship to the guarantor. The lease and waiver documents would normally contain these.\n- Not in provided documents: lien perfection evidence (UCC searches, filings), deposit account control agreements, and the purchase-money Lien balance (relevant to the $500,000 limit in D2 §7.5(b)(iii)). Legal or Credit Administration files would normally contain these.\n- Not in provided documents: the balance and terms of the capital leases against vehicle values, and the Ridgeway Truck Finance lease documents.\n- Legal and underwriter review of the following terms in D2 §7.6, which are quoted and not interpreted: \"control,\" \"primary responsibility for the operations,\" \"a successor reasonably satisfactory to the Lender,\" and \"a reasonable period.\" Whether a transition to Megan Ostrander-Kolb or a sale of up to 30% of the membership interests to an ESOP engages §7.6, and how either affects the guaranty, is a question for the underwriter and legal.\n- Legal and underwriter review of the \"reasonable credit judgment\" standard for Borrowing Base reserves in D2 §1.1.\n- Underwriter to confirm whether the Excess Availability covenant (D2 §7.3) is tested, since the compliance certificates do not report it [D1, §7].\n",
+      "drafted_text": "### 5.1 Security Package\n\nObligations of Northwind Foodservice Distribution, LLC under the Credit Agreement are secured by a first-priority security interest in all present and future Borrower assets, including accounts, inventory and deposit accounts [D2, §2.2(a)]. The Credit Agreement is dated December 15, 2022 [D2, header]. The facility totals $14.0M: a $4.0M term loan and a $10.0M revolver [D1, §3 Note to Table 3; D5, ¶2].\n\nThe Borrower leases its distribution center in Des Moines, Iowa [D2, §2.2(b)]. The center is 165,000 sq ft [D5, ¶1]. Ostrander Properties, LLC has given a landlord waiver for this location [D2, §2.2(b)].\n\nThe Borrower operates 52 delivery trucks, most under capital leases [D5, ¶1]. Fleet capital leases with Ridgeway Truck Finance were 3,420 at FY2025 [D1, §4]. Liens securing Capital Lease Obligations are Permitted Liens, limited to the leased vehicles and equipment [D2, §7.5(b)(ii)].\n\n### 5.2 Revolver Borrowing Base\n\nThe revolver has a monthly borrowing base [D5, ¶2]. Revolving Loans may not exceed the lesser of $10,000,000 and the Borrowing Base [D2, §2.1(b)].\n\nThe Borrowing Base is (a) 85% of Eligible Accounts plus (b) the lesser of (i) 60% of Eligible Inventory at cost and (ii) $4,000,000, minus reserves the Lender may establish in its reasonable credit judgment [D2, §1.1]. Eligible Accounts are receivables not more than 60 days past the invoice date and owed by account debtors located in the United States [D2, §1.1]. Eligible Inventory has the meaning given in Schedule 1.1 [D2, §1.1].\n\nThe Borrower must deliver a Borrowing Base Certificate within 20 days after each calendar month end [D2, §7.4(d)].\n\nMeridian revolver balances were 4,900 at FY2023, 6,600 at FY2024 and 8,100 at FY2025 [D1, §4]. Revolver availability was 3,100 at FY2023 and 2,400 at FY2024 [D1, §2: Revolver availability, FY2023 and FY2024]. FY2025 revolver availability is \"Not provided\" because the December 31, 2025 Borrowing Base Certificate was not in the spread export [D1, §2 Footnote *].\n\nExcess Availability is the lesser of the Revolving Commitment and the Borrowing Base, minus Revolving Loans outstanding [D2, §1.1]. The Borrower shall not permit Excess Availability to be less than $1,000,000 at any time [D2, §7.3]. The compliance certificates do not report Excess Availability under this covenant [D1, §7].\n\n### 5.3 Negative Pledge\n\nThe Borrower shall not create, incur or permit any Lien on its assets except Permitted Liens [D2, §7.5(a)]. Permitted Liens are: (i) Liens in favor of the Lender; (ii) Liens securing Capital Lease Obligations, limited to the leased vehicles and equipment; (iii) purchase-money Liens securing indebtedness in an aggregate amount not exceeding $500,000 at any time outstanding; and (iv) Liens for taxes not yet due and payable [D2, §7.5(b)].\n\n### 5.4 Guaranty\n\nDale Ostrander has given a limited guaranty, with recourse capped at $2,000,000 in the aggregate [D2, §2.2(c)]. He holds 60% of the Borrower's membership interests [D5, ¶1]. He is 67 and plans to step back as CEO in mid-2027, with Megan Ostrander-Kolb expected to take over day-to-day operations [D5, ¶5]. Ruth Ostrander holds 20%, and Megan Ostrander-Kolb (VP Operations) holds 20% [D5, ¶1].\n\n### 5.5 Change-of-Control Provision Linked to Guarantor\n\nSection 7.6 provides: \"It shall be an Event of Default if the members of the Borrower on the Closing Date cease to control the Borrower, or if Dale Ostrander ceases to have primary responsibility for the operations of the Borrower and a successor reasonably satisfactory to the Lender is not appointed within a reasonable period.\" [D2, §7.6]\n\nThe family has discussed selling up to 30% of the membership interests to an employee stock ownership plan [D5, ¶5]. There is no timeline and no engagement letter [D5, ¶5].\n\n**Sources used:** D1 §2 (table, Footnote *), §3 (Note to Table 3), §4, §7; D2 header, §1.1, §2.1(a)-(b), §2.2, §7.3, §7.4(d), §7.5, §7.6; D5 ¶1, ¶2, ¶5.\n\n**Underwriter to complete:**\n- Not in provided documents: collateral values (accounts receivable aging, inventory balances at cost, equipment values). A field exam, appraisal or Borrowing Base Certificate would normally contain these.\n- Not in provided documents: the December 31, 2025 Borrowing Base Certificate and any more recent monthly certificates, and so FY2025 and current revolver availability and Excess Availability. Credit Administration is to attach the December 31, 2025 certificate [D1, §2 Footnote *].\n- Not in provided documents: Schedule 1.1 (Eligible Inventory definition) and any reserves established by the Lender. The full Credit Agreement would contain these.\n- Not in provided documents: the guaranty document itself (terms, scope, any financial covenants), and the guarantor's financial statements, net worth and liquidity. The guaranty agreement and a personal financial statement would normally contain these.\n- Not in provided documents: the landlord waiver terms, the lease term and rent, and the Ostrander Properties, LLC relationship to the guarantor. The lease and waiver documents would normally contain these.\n- Not in provided documents: lien perfection evidence (UCC searches, filings), deposit account control agreements, and the purchase-money Lien balance (relevant to the $500,000 limit in D2 §7.5(b)(iii)). Legal or Credit Administration files would normally contain these.\n- Not in provided documents: the balance and terms of the capital leases against vehicle values, and the Ridgeway Truck Finance lease documents.\n- Legal and underwriter review of the following terms in D2 §7.6, which are quoted and not interpreted: \"control,\" \"primary responsibility for the operations,\" \"a successor reasonably satisfactory to the Lender,\" and \"a reasonable period.\" Whether a transition to Megan Ostrander-Kolb or a sale of up to 30% of the membership interests to an ESOP engages §7.6, and how either affects the guaranty, is a question for the underwriter and legal.\n- Legal and underwriter review of the \"reasonable credit judgment\" standard for Borrowing Base reserves in D2 §1.1.\n- Underwriter to confirm whether the Excess Availability covenant (D2 §7.3) is tested, since the compliance certificates do not report it [D1, §7].\n",
+      "drafted_at": "2026-10-08T13:34:22",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 41859,
+      "run_id": "r_9cc343e9a9",
+      "comments": []
+    },
+    {
+      "id": "6",
+      "title": "Policy Compliance and Exceptions",
+      "author": "M",
+      "status": "drafted",
+      "text": "### 6.1 Applicability of Policy §4.2\n\nPolicy §4.2 applies to new-money and renewal requests for middle-market borrowers underwritten on a cash flow basis [D4, §4.2]. The December 2022 facility totals $14.0M, made up of a $4.0M term loan and a $10.0M revolver [D1, §3 Note to Table 3]. The annual review is due by December 15, 2026. No facility change was requested [D5, ¶5] or is proposed [D1, §3 Note to Table 3]. The Revolving Commitment terminates and all Revolving Loans are due on December 15, 2027 [D2, §2.1(b)].\n\nNot in provided documents: whether this annual review is a \"renewal\" or \"new-money request\" under Policy §4.2. Credit Policy or the underwriter would decide; D4 defines neither term.\n\n### 6.2 Policy tests and stated figures\n\n| Policy rule | Policy threshold | Stated figures |\n|---|---|---|\n| §4.2.1 Pro forma total leverage at origination | Shall not exceed 3.50x; above 3.50x is a policy exception requiring Chief Credit Officer approval [D4, §4.2.1] | Total leverage was 3.20x at FY2025 [D1, Table 2: Total leverage, FY2025] and 3.38x at Q2 2026 [D1, Table 3: Total leverage, Q2 2026]. Pro forma figure: Not in provided documents (Section 3.4 pro forma). |\n| §4.2.2 Pro forma DSCR at origination | At least 1.25x; below 1.25x is a policy exception [D4, §4.2.2] | DSCR was 1.27x at FY2025 [D1, Table 2: DSCR, FY2025] and 1.24x at Q2 2026 [D1, Table 3: DSCR, Q2 2026]. Pro forma figure: Not in provided documents (Section 3.4 pro forma). |\n| §4.2.3(a) Total commitment | Senior review and Senior Loan Committee approval if it exceeds $15.0M [D4, §4.2.3] | Total commitment is $14.0M [D1, §3 Note to Table 3]. |\n| §4.2.3(b) Pro forma total leverage | Same approval requirement if it exceeds 3.00x [D4, §4.2.3] | Reported figures are 3.20x at FY2025 and 3.38x at Q2 2026 [D1, Table 3: Total leverage, Q4 2025 and Q2 2026]. Pro forma figure: Not in provided documents. |\n| §4.2.3(c) Policy exception present | Same approval requirement if any policy exception is present [D4, §4.2.3] | Depends on the underwriter's determinations under §4.2.1 and §4.2.2. |\n| §4.2.4 Customer concentration | If any single customer exceeds 25% of revenue in the most recent fiscal year, Section 7 must address concentration [D4, §4.2.4] | Customer A accounted for 23% of FY2025 revenue [D1, §5]. The top five customers accounted for 47% of FY2025 revenue [D1, §5]. |\n| §4.2.5 Risk rating | A rating on the 1-10 scale with written rationale in Section 9, assigned by the underwriter and confirmed by the senior reviewer [D4, §4.2.5] | Not drafted by this tool [D4, §4.2.5]. |\n\n### 6.3 Related facts for the underwriter's exception determination\n\nPolicy §4.2.3 applies to \"new-money\" requests [D4, §4.2.3]. The provided documents do not state whether a no-change annual review is subject to that test.\n\nThe Q2 2025 compliance certificate arrived 25 days late. Credit Administration waived the reporting covenant under waiver W-25-0388 [D5, ¶3]. Later certificates arrived on time [D5, ¶3].\n\nThe compliance certificates do not report Excess Availability under the minimum availability covenant [D1, §7]. The covenant requires Excess Availability of not less than $1,000,000 at any time [D2, §7.3]. FY2025 revolver availability is not shown because the December 31, 2025 Borrowing Base Certificate was not in the spread export [D1, §2 Footnote *].\n\nException approval is a human decision. This section lists no approved exceptions.\n\n**Sources used:** D1 §2 (Table 2, Footnote *), §3 (Table 3, Note), §5; D2 §2.1(b), §7.3; D4 §4.2, §4.2.1 to §4.2.5; D5 ¶3, ¶5.\n\n**Underwriter to complete:**\n- **Applicability:** Decide whether Policy §4.2 applies to this annual review, and whether it is a \"renewal\" or \"new-money request.\" Policy and legal may need to confirm.\n- **Pro forma figures:** Pro forma total leverage and pro forma DSCR at origination (Section 3.4) are not stated in the provided documents. Their source would be the underwriter's pro forma analysis or the spread.\n- **Exception determination:** Decide whether any exception exists under §4.2.1 or §4.2.2, whether §4.2.3(c) is triggered, and whether Chief Credit Officer or Senior Loan Committee approval is needed.\n- **CONFLICT, EBITDA for FY2025:** EBITDA was 4,100 [D1, Table 1: EBITDA, FY2025]. The borrower's letter, as summarized, says \"EBITDA was about $4.5 million for the year\" [D1, §6]. This tool does not choose between them. The spread figure underlies the leverage and DSCR ratios cited above.\n- **Missing availability data:** The December 31, 2025 Borrowing Base Certificate and the Excess Availability figures against the $1,000,000 minimum are not in the provided documents. Credit Administration would normally hold them.\n- **Concentration:** The 23% figure is stated against the 25% policy trigger [D1, §5; D4, §4.2.4]. Whether Section 7 addresses concentration is for the underwriter.\n- **Ownership and succession:** For the underwriter and legal, D5 records a planned CEO transition in mid-2027 and a discussed ESOP sale of up to 30% of the membership interests [D5, ¶5]. D2 §7.6 Change of Control uses the terms \"cease to control\" and \"reasonable period,\" which are flagged for legal interpretation [D2, §7.6].\n",
+      "drafted_text": "### 6.1 Applicability of Policy §4.2\n\nPolicy §4.2 applies to new-money and renewal requests for middle-market borrowers underwritten on a cash flow basis [D4, §4.2]. The December 2022 facility totals $14.0M, made up of a $4.0M term loan and a $10.0M revolver [D1, §3 Note to Table 3]. The annual review is due by December 15, 2026. No facility change was requested [D5, ¶5] or is proposed [D1, §3 Note to Table 3]. The Revolving Commitment terminates and all Revolving Loans are due on December 15, 2027 [D2, §2.1(b)].\n\nNot in provided documents: whether this annual review is a \"renewal\" or \"new-money request\" under Policy §4.2. Credit Policy or the underwriter would decide; D4 defines neither term.\n\n### 6.2 Policy tests and stated figures\n\n| Policy rule | Policy threshold | Stated figures |\n|---|---|---|\n| §4.2.1 Pro forma total leverage at origination | Shall not exceed 3.50x; above 3.50x is a policy exception requiring Chief Credit Officer approval [D4, §4.2.1] | Total leverage was 3.20x at FY2025 [D1, Table 2: Total leverage, FY2025] and 3.38x at Q2 2026 [D1, Table 3: Total leverage, Q2 2026]. Pro forma figure: Not in provided documents (Section 3.4 pro forma). |\n| §4.2.2 Pro forma DSCR at origination | At least 1.25x; below 1.25x is a policy exception [D4, §4.2.2] | DSCR was 1.27x at FY2025 [D1, Table 2: DSCR, FY2025] and 1.24x at Q2 2026 [D1, Table 3: DSCR, Q2 2026]. Pro forma figure: Not in provided documents (Section 3.4 pro forma). |\n| §4.2.3(a) Total commitment | Senior review and Senior Loan Committee approval if it exceeds $15.0M [D4, §4.2.3] | Total commitment is $14.0M [D1, §3 Note to Table 3]. |\n| §4.2.3(b) Pro forma total leverage | Same approval requirement if it exceeds 3.00x [D4, §4.2.3] | Reported figures are 3.20x at FY2025 and 3.38x at Q2 2026 [D1, Table 3: Total leverage, Q4 2025 and Q2 2026]. Pro forma figure: Not in provided documents. |\n| §4.2.3(c) Policy exception present | Same approval requirement if any policy exception is present [D4, §4.2.3] | Depends on the underwriter's determinations under §4.2.1 and §4.2.2. |\n| §4.2.4 Customer concentration | If any single customer exceeds 25% of revenue in the most recent fiscal year, Section 7 must address concentration [D4, §4.2.4] | Customer A accounted for 23% of FY2025 revenue [D1, §5]. The top five customers accounted for 47% of FY2025 revenue [D1, §5]. |\n| §4.2.5 Risk rating | A rating on the 1-10 scale with written rationale in Section 9, assigned by the underwriter and confirmed by the senior reviewer [D4, §4.2.5] | Not drafted by this tool [D4, §4.2.5]. |\n\n### 6.3 Related facts for the underwriter's exception determination\n\nPolicy §4.2.3 applies to \"new-money\" requests [D4, §4.2.3]. The provided documents do not state whether a no-change annual review is subject to that test.\n\nThe Q2 2025 compliance certificate arrived 25 days late. Credit Administration waived the reporting covenant under waiver W-25-0388 [D5, ¶3]. Later certificates arrived on time [D5, ¶3].\n\nThe compliance certificates do not report Excess Availability under the minimum availability covenant [D1, §7]. The covenant requires Excess Availability of not less than $1,000,000 at any time [D2, §7.3]. FY2025 revolver availability is not shown because the December 31, 2025 Borrowing Base Certificate was not in the spread export [D1, §2 Footnote *].\n\nException approval is a human decision. This section lists no approved exceptions.\n\n**Sources used:** D1 §2 (Table 2, Footnote *), §3 (Table 3, Note), §5; D2 §2.1(b), §7.3; D4 §4.2, §4.2.1 to §4.2.5; D5 ¶3, ¶5.\n\n**Underwriter to complete:**\n- **Applicability:** Decide whether Policy §4.2 applies to this annual review, and whether it is a \"renewal\" or \"new-money request.\" Policy and legal may need to confirm.\n- **Pro forma figures:** Pro forma total leverage and pro forma DSCR at origination (Section 3.4) are not stated in the provided documents. Their source would be the underwriter's pro forma analysis or the spread.\n- **Exception determination:** Decide whether any exception exists under §4.2.1 or §4.2.2, whether §4.2.3(c) is triggered, and whether Chief Credit Officer or Senior Loan Committee approval is needed.\n- **CONFLICT, EBITDA for FY2025:** EBITDA was 4,100 [D1, Table 1: EBITDA, FY2025]. The borrower's letter, as summarized, says \"EBITDA was about $4.5 million for the year\" [D1, §6]. This tool does not choose between them. The spread figure underlies the leverage and DSCR ratios cited above.\n- **Missing availability data:** The December 31, 2025 Borrowing Base Certificate and the Excess Availability figures against the $1,000,000 minimum are not in the provided documents. Credit Administration would normally hold them.\n- **Concentration:** The 23% figure is stated against the 25% policy trigger [D1, §5; D4, §4.2.4]. Whether Section 7 addresses concentration is for the underwriter.\n- **Ownership and succession:** For the underwriter and legal, D5 records a planned CEO transition in mid-2027 and a discussed ESOP sale of up to 30% of the membership interests [D5, ¶5]. D2 §7.6 Change of Control uses the terms \"cease to control\" and \"reasonable period,\" which are flagged for legal interpretation [D2, §7.6].\n",
+      "drafted_at": "2026-10-08T13:35:04",
+      "edited_at": null,
+      "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+      "duration_ms": 41232,
+      "run_id": "r_f9e818bdcb",
+      "comments": []
+    },
+    {
+      "id": "7",
+      "title": "Key Risks and Mitigants",
+      "author": "U",
+      "status": "empty",
+      "text": "",
+      "drafted_text": "",
+      "drafted_at": null,
+      "edited_at": null,
+      "model": null,
+      "duration_ms": null,
+      "run_id": null,
+      "comments": []
+    },
+    {
+      "id": "8",
+      "title": "Underwriter Analysis and Recommendation",
+      "author": "U",
+      "status": "empty",
+      "text": "",
+      "drafted_text": "",
+      "drafted_at": null,
+      "edited_at": null,
+      "model": null,
+      "duration_ms": null,
+      "run_id": null,
+      "comments": []
+    },
+    {
+      "id": "9",
+      "title": "Risk Rating and Rationale",
+      "author": "locked",
+      "status": "empty",
+      "text": "",
+      "drafted_text": "",
+      "drafted_at": null,
+      "edited_at": null,
+      "model": null,
+      "duration_ms": null,
+      "run_id": null,
+      "comments": []
+    },
+    {
+      "id": "10",
+      "title": "Conditions and Approvals",
+      "author": "U",
+      "status": "empty",
+      "text": "",
+      "drafted_text": "",
+      "drafted_at": null,
+      "edited_at": null,
+      "model": null,
+      "duration_ms": null,
+      "run_id": null,
+      "comments": []
+    }
+  ],
+  "checklist_consolidated": {
+    "at": "2026-10-08T13:35:58",
+    "model": "claude-sonnet-5-5",
+    "duration_ms": 40225,
+    "run_id": "r_9983ede9d4",
+    "source_item_count": 38,
+    "original_item_count": 42,
+    "source_items": [
+      {
+        "n": 1,
+        "group": "documents",
+        "sections": [
+          "2"
+        ],
+        "text": "**Waiver.** The waiver document W-25-0388 and its terms; Credit Administration records would normally contain it."
+      },
+      {
+        "n": 2,
+        "group": "documents",
+        "sections": [
+          "2"
+        ],
+        "text": "**Gaps.** Management biographies beyond the D5 ¶5 notes; competitor and market position information (would normally come from the bank's licensed industry research feed); and any customer or product mix beyond D1 §5 and D5 ¶1."
+      },
+      {
+        "n": 3,
+        "group": "documents",
+        "sections": [
+          "5"
+        ],
+        "text": "Collateral values (accounts receivable aging, inventory balances at cost, equipment values). A field exam, appraisal or Borrowing Base Certificate would normally contain these."
+      },
+      {
+        "n": 4,
+        "group": "documents",
+        "sections": [
+          "5"
+        ],
+        "text": "The December 31, 2025 Borrowing Base Certificate and any more recent monthly certificates, and so FY2025 and current revolver availability and Excess Availability. Credit Administration is to attach the December 31, 2025 certificate [D1, §2 Footnote *]."
+      },
+      {
+        "n": 5,
+        "group": "documents",
+        "sections": [
+          "5"
+        ],
+        "text": "Schedule 1.1 (Eligible Inventory definition) and any reserves established by the Lender. The full Credit Agreement would contain these."
+      },
+      {
+        "n": 6,
+        "group": "documents",
+        "sections": [
+          "5"
+        ],
+        "text": "The guaranty document itself (terms, scope, any financial covenants), and the guarantor's financial statements, net worth and liquidity. The guaranty agreement and a personal financial statement would normally contain these."
+      },
+      {
+        "n": 7,
+        "group": "documents",
+        "sections": [
+          "5"
+        ],
+        "text": "The landlord waiver terms, the lease term and rent, and the Ostrander Properties, LLC relationship to the guarantor. The lease and waiver documents would normally contain these."
+      },
+      {
+        "n": 8,
+        "group": "documents",
+        "sections": [
+          "5"
+        ],
+        "text": "Lien perfection evidence (UCC searches, filings), deposit account control agreements, and the purchase-money Lien balance (relevant to the $500,000 limit in D2 §7.5(b)(iii)). Legal or Credit Administration files would normally contain these."
+      },
+      {
+        "n": 9,
+        "group": "documents",
+        "sections": [
+          "5"
+        ],
+        "text": "The balance and terms of the capital leases against vehicle values, and the Ridgeway Truck Finance lease documents."
+      },
+      {
+        "n": 10,
+        "group": "conflicts",
+        "sections": [
+          "3",
+          "6"
+        ],
+        "text": "**CONFLICT:** FY2025 EBITDA is 4,100 [D1, Table 1] against \"about $4.5 million\" [D1, §6]. Reconcile before use. No value has been chosen. Also cited in the repeats: [D1, Table 1: EBITDA, FY2025]"
+      },
+      {
+        "n": 11,
+        "group": "policy",
+        "sections": [
+          "6"
+        ],
+        "text": "**Applicability:** Decide whether Policy §4.2 applies to this annual review, and whether it is a \"renewal\" or \"new-money request.\" Policy and legal may need to confirm."
+      },
+      {
+        "n": 12,
+        "group": "policy",
+        "sections": [
+          "6"
+        ],
+        "text": "**Exception determination:** Decide whether any exception exists under §4.2.1 or §4.2.2, whether §4.2.3(c) is triggered, and whether Chief Credit Officer or Senior Loan Committee approval is needed."
+      },
+      {
+        "n": 13,
+        "group": "sections",
+        "sections": [
+          "2",
+          "3",
+          "6"
+        ],
+        "text": "**Customer concentration (policy).** D4 §4.2.4 requires the memo to address customer concentration in Section 7 if any single customer exceeds 25% of revenue in the most recent fiscal year. [D4, §4.2.4] The underwriter should determine how this applies to the 23% figure in D1 §5. Also cited in the repeats: [D1, §5] [D1, §5; D4, §4.2.4]"
+      },
+      {
+        "n": 14,
+        "group": "sections",
+        "sections": [
+          "3"
+        ],
+        "text": "**3.5:** Underwriter Commentary is reserved for the underwriter."
+      },
+      {
+        "n": 15,
+        "group": "other",
+        "sections": [
+          "1"
+        ],
+        "text": "Header fields: Underwriter, Senior reviewer and Date."
+      },
+      {
+        "n": 16,
+        "group": "other",
+        "sections": [
+          "1"
+        ],
+        "text": "Whether the review includes a renewal, extension or amendment request. Both the Term Loan balance and the Revolving Commitment fall due December 15, 2027 [D2, §2.1(a)-(b)], and D5 ¶5 records only that no change to the facility was requested. The request type label above is taken from D5 and should be confirmed."
+      },
+      {
+        "n": 17,
+        "group": "other",
+        "sections": [
+          "1"
+        ],
+        "text": "Any \"Request type\" wording the bank's template convention requires."
+      },
+      {
+        "n": 18,
+        "group": "other",
+        "sections": [
+          "2",
+          "6"
+        ],
+        "text": "**Change of control (legal review).** D2 §7.6 provides: \"It shall be an Event of Default if the members of the Borrower on the Closing Date cease to control the Borrower, or if Dale Ostrander ceases to have primary responsibility for the operations of the Borrower and a successor reasonably satisfactory to the Lender is not appointed within a reasonable period.\" [D2, §7.6] The following terms are quoted but not interpreted here: Also cited in the repeats: [D5, ¶5]"
+      },
+      {
+        "n": 19,
+        "group": "other",
+        "sections": [
+          "2"
+        ],
+        "text": "\"control\""
+      },
+      {
+        "n": 20,
+        "group": "other",
+        "sections": [
+          "2"
+        ],
+        "text": "\"primary responsibility for the operations\""
+      },
+      {
+        "n": 21,
+        "group": "other",
+        "sections": [
+          "2"
+        ],
+        "text": "\"reasonably satisfactory\""
+      },
+      {
+        "n": 22,
+        "group": "other",
+        "sections": [
+          "2"
+        ],
+        "text": "\"a reasonable period\" Refer to the underwriter and legal how these terms apply to the CEO transition and the possible ESOP sale described in D5 ¶5."
+      },
+      {
+        "n": 23,
+        "group": "other",
+        "sections": [
+          "3"
+        ],
+        "text": "**FY2025 revolver availability and liquidity:** the December 31, 2025 Borrowing Base Certificate is needed [D1, §2 Footnote *]. Excess Availability against the $1,000,000 minimum [D2, §7.3] is not reported in the certificates [D1, §7]."
+      },
+      {
+        "n": 24,
+        "group": "other",
+        "sections": [
+          "3"
+        ],
+        "text": "**Debt service definition:** the spread labels debt service \"(P+I)\" [D1, §2 Definitions]. The agreement's definition includes interest on the Revolving Loans [D2, §1.1]. The documents do not state whether the spread debt service includes revolver interest. Confirm with Credit Analysis."
+      },
+      {
+        "n": 25,
+        "group": "other",
+        "sections": [
+          "3"
+        ],
+        "text": "**Quarterly source basis:** Q1 2026 and Q2 2026 figures come from internally prepared statements, not audited ones [D1, §3 Note to Table 3]."
+      },
+      {
+        "n": 26,
+        "group": "other",
+        "sections": [
+          "3"
+        ],
+        "text": "**3.4:** pro forma figures are not applicable on the documents provided, because no facility change is proposed. Confirm whether any pro forma presentation is wanted."
+      },
+      {
+        "n": 27,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "Resolve the FY2025 EBITDA conflict (4,100 in D1 Table 1 against \"about $4.5 million\" in D1 §6) and confirm which figure the FY2025 compliance certificate used."
+      },
+      {
+        "n": 28,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "Obtain the Borrowing Base Certificates and confirm Excess Availability against §7.3, including whether the December 31, 2025 certificate was delivered."
+      },
+      {
+        "n": 29,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "Review the definitional alignment between the spread and the agreement. The spread labels its row \"Unfunded capex\" and \"Cash taxes,\" while D2 uses \"Unfinanced Capital Expenditures\" and \"cash taxes paid (including Permitted Tax Distributions).\" [D1, Table 1]. [D2, §1.1]. The spread says its Cash taxes row shows tax distributions. [D1, header]. D1 does not state whether the Debt service (P+I) row includes revolver interest, which D2 §1.1 requires."
+      },
+      {
+        "n": 30,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "Refer the following §7.6 wording to the underwriter and legal. I have not interpreted it: \"cease to control,\" \"primary responsibility for the operations,\" \"successor reasonably satisfactory to the Lender,\" and \"within a reasonable period.\" Legal should also advise on how the planned CEO transition and the ESOP discussion relate to these terms. [D5, ¶5]."
+      },
+      {
+        "n": 31,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "Refer to legal the scope of \"purchase-money Liens\" and \"Liens securing Capital Lease Obligations, limited to the vehicles and equipment subject to those leases\" under §7.5(b)."
+      },
+      {
+        "n": 32,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "Decide whether to carry the W-25-0388 waiver into the memo narrative and how to treat it."
+      },
+      {
+        "n": 33,
+        "group": "other",
+        "sections": [
+          "4"
+        ],
+        "text": "Provide any covenant-headroom analysis. I have not calculated any."
+      },
+      {
+        "n": 34,
+        "group": "other",
+        "sections": [
+          "5"
+        ],
+        "text": "Legal and underwriter review of the following terms in D2 §7.6, which are quoted and not interpreted: \"control,\" \"primary responsibility for the operations,\" \"a successor reasonably satisfactory to the Lender,\" and \"a reasonable period.\" Whether a transition to Megan Ostrander-Kolb or a sale of up to 30% of the membership interests to an ESOP engages §7.6, and how either affects the guaranty, is a question for the underwriter and legal."
+      },
+      {
+        "n": 35,
+        "group": "other",
+        "sections": [
+          "5"
+        ],
+        "text": "Legal and underwriter review of the \"reasonable credit judgment\" standard for Borrowing Base reserves in D2 §1.1."
+      },
+      {
+        "n": 36,
+        "group": "other",
+        "sections": [
+          "5"
+        ],
+        "text": "Underwriter to confirm whether the Excess Availability covenant (D2 §7.3) is tested, since the compliance certificates do not report it [D1, §7]."
+      },
+      {
+        "n": 37,
+        "group": "other",
+        "sections": [
+          "6"
+        ],
+        "text": "**Pro forma figures:** Pro forma total leverage and pro forma DSCR at origination (Section 3.4) are not stated in the provided documents. Their source would be the underwriter's pro forma analysis or the spread."
+      },
+      {
+        "n": 38,
+        "group": "other",
+        "sections": [
+          "6"
+        ],
+        "text": "**Missing availability data:** The December 31, 2025 Borrowing Base Certificate and the Excess Availability figures against the $1,000,000 minimum are not in the provided documents. Credit Administration would normally hold them."
+      }
+    ],
+    "citation_repairs": [],
+    "documents_to_request": [
+      {
+        "item": "Waiver document W-25-0388 and its terms",
+        "would_be_in": "Credit Administration records",
+        "request_line": "Credit Administration, could you please provide waiver document W-25-0388 and its terms for the credit memo file?"
+      },
+      {
+        "item": "Management biographies beyond the D5 ¶5 notes",
+        "would_be_in": "Not stated in the input",
+        "request_line": "Could you please send short biographies for your key managers, beyond what we already have from our recent discussions?"
+      },
+      {
+        "item": "Competitor and market position information",
+        "would_be_in": "The bank's licensed industry research feed",
+        "request_line": "Research team, could you please share competitor and market position information for the borrower's industry from the licensed research feed?"
+      },
+      {
+        "item": "Customer or product mix beyond D1 §5 and D5 ¶1",
+        "would_be_in": "Not stated in the input",
+        "request_line": "Could you please send a breakdown of your customer and product mix beyond the figures we already hold?"
+      },
+      {
+        "item": "Collateral values: accounts receivable aging, inventory balances at cost, equipment values",
+        "would_be_in": "Field exam, appraisal or Borrowing Base Certificate",
+        "request_line": "Could you please send the receivables aging, inventory balances at cost and equipment values, or the latest field exam, appraisal or Borrowing Base Certificate?"
+      },
+      {
+        "item": "December 31, 2025 Borrowing Base Certificate, any more recent monthly certificates, and the revolver availability and Excess Availability they show [D1, §2 Footnote *]",
+        "would_be_in": "Credit Administration, which is to attach the December 31, 2025 certificate",
+        "request_line": "Credit Administration, could you please attach the December 31, 2025 Borrowing Base Certificate and any more recent monthly certificates to the memo file?"
+      },
+      {
+        "item": "Schedule 1.1 (Eligible Inventory definition) and any reserves established by the Lender",
+        "would_be_in": "The full Credit Agreement",
+        "request_line": "Could you please send a copy of Schedule 1.1 and notice of any reserves established by the Lender?"
+      },
+      {
+        "item": "Guaranty document (terms, scope, financial covenants) and guarantor financial statements, net worth and liquidity",
+        "would_be_in": "Guaranty agreement and a personal financial statement",
+        "request_line": "Could you please send the signed guaranty and the guarantor's current personal financial statement showing net worth and liquidity?"
+      },
+      {
+        "item": "Landlord waiver terms, lease term and rent, and Ostrander Properties, LLC relationship to the guarantor",
+        "would_be_in": "The lease and waiver documents",
+        "request_line": "Could you please send the lease and landlord waiver, and explain how Ostrander Properties, LLC is related to the guarantor?"
+      },
+      {
+        "item": "Lien perfection evidence (UCC searches, filings), deposit account control agreements, and purchase-money Lien balance",
+        "would_be_in": "Legal or Credit Administration files",
+        "request_line": "Legal and Credit Administration, could you please provide the UCC searches and filings, control agreements, and the current purchase-money Lien balance?"
+      },
+      {
+        "item": "Capital lease balances and terms against vehicle values, and Ridgeway Truck Finance lease documents",
+        "would_be_in": "Not stated in the input",
+        "request_line": "Could you please send the Ridgeway Truck Finance lease documents and current balances and terms for your capital leases?"
+      },
+      {
+        "item": "Pro forma total leverage and pro forma DSCR at origination (Section 3.4)",
+        "would_be_in": "The underwriter's pro forma analysis or the spread",
+        "request_line": "Credit Analysis, could you please share any pro forma total leverage and pro forma DSCR at origination, if a pro forma presentation is wanted?"
+      }
+    ],
+    "conflicts": [
+      {
+        "item": "FY2025 EBITDA is 4,100 [D1, Table 1] against \"about $4.5 million\" [D1, §6].",
+        "how_to_resolve": "Check the spread and the FY2025 compliance certificate to see which figure was used. No value is chosen here."
+      },
+      {
+        "item": "Spread labels debt service \"(P+I)\" [D1, §2 Definitions] while the agreement's definition includes revolver interest [D2, §1.1].",
+        "how_to_resolve": "Confirm with Credit Analysis whether the spread's debt service row includes interest on the Revolving Loans."
+      },
+      {
+        "item": "Spread row names \"Unfunded capex\" and \"Cash taxes\" [D1, Table 1] differ from D2 terms \"Unfinanced Capital Expenditures\" and cash taxes paid [D2, §1.1].",
+        "how_to_resolve": "Compare the spread header note [D1, header] with the D2 definitions and confirm with Credit Analysis how each row is built."
+      }
+    ],
+    "policy_items": [
+      {
+        "item": "Whether Policy §4.2 applies to this annual review",
+        "judgment_needed": "Decide if the review is a \"renewal\" or \"new-money request\". Policy and legal may need to confirm."
+      },
+      {
+        "item": "Exceptions under Policy §4.2.1, §4.2.2 and §4.2.3(c)",
+        "judgment_needed": "Decide whether any exception exists, whether §4.2.3(c) is triggered, and whether Chief Credit Officer or Senior Loan Committee approval is needed."
+      },
+      {
+        "item": "Customer concentration test [D4, §4.2.4] against the 23% figure in [D1, §5]",
+        "judgment_needed": "Decide how the 25% single-customer test applies to the 23% figure and what Section 7 should say."
+      },
+      {
+        "item": "Change of control wording in [D2, §7.6]: \"control\", \"primary responsibility for the operations\", \"reasonably satisfactory\", \"a reasonable period\"",
+        "judgment_needed": "Underwriter and legal to decide how these terms apply to the CEO transition, possible ESOP sale [D5, ¶5], and the guaranty."
+      },
+      {
+        "item": "Scope of \"purchase-money Liens\" and capital lease Liens under §7.5(b)",
+        "judgment_needed": "Refer to legal for the scope of these permitted Lien terms."
+      },
+      {
+        "item": "Whether to carry waiver W-25-0388 into the memo narrative",
+        "judgment_needed": "Underwriter to decide whether to include it and how to treat it."
+      },
+      {
+        "item": "Covenant-headroom analysis for Section 4",
+        "judgment_needed": "Underwriter to decide whether to provide headroom analysis. None has been calculated here."
+      },
+      {
+        "item": "\"Reasonable credit judgment\" standard for Borrowing Base reserves in D2 §1.1",
+        "judgment_needed": "Legal and underwriter to review how the standard applies to reserves."
+      },
+      {
+        "item": "Whether the Excess Availability covenant is tested, since certificates do not report it [D1, §7]",
+        "judgment_needed": "Underwriter to confirm whether the covenant is tested and how."
+      }
+    ],
+    "sections_to_write": [
+      {
+        "section": "3.5 Underwriter Commentary",
+        "what_it_needs": "Reserved for the underwriter to write."
+      },
+      {
+        "section": "7",
+        "what_it_needs": "Customer concentration discussion required by [D4, §4.2.4], addressing the 23% figure in [D1, §5]."
+      }
+    ],
+    "suggested_edits": [
+      {
+        "section": "1",
+        "suggestion": "Complete the header fields: Underwriter, Senior reviewer and Date."
+      },
+      {
+        "section": "1",
+        "suggestion": "Confirm the request type label taken from D5, and any wording the bank template requires, since D5 ¶5 records no facility change requested."
+      },
+      {
+        "section": "3",
+        "suggestion": "State plainly that Q1 2026 and Q2 2026 figures are internally prepared, not audited [D1, §3 Note to Table 3]."
+      },
+      {
+        "section": "3.4",
+        "suggestion": "Confirm whether any pro forma presentation is wanted; otherwise say it is not applicable because no facility change is proposed."
+      },
+      {
+        "section": "4",
+        "suggestion": "List the repeated FY2025 EBITDA conflict and Borrowing Base Certificate request once, with a pointer to Section 3."
+      },
+      {
+        "section": "6",
+        "suggestion": "Combine the repeated Excess Availability and Borrowing Base Certificate gaps into one request line, with a pointer from other sections."
+      }
+    ],
+    "dropped": [
+      {
+        "item": 17,
+        "reason": "merged item",
+        "text": "Any \"Request type\" wording the bank's template convention requires.",
+        "sections": [
+          "1"
+        ]
+      },
+      {
+        "item": 19,
+        "reason": "merged item",
+        "text": "\"control\"",
+        "sections": [
+          "2"
+        ]
+      },
+      {
+        "item": 20,
+        "reason": "merged item",
+        "text": "\"primary responsibility for the operations\"",
+        "sections": [
+          "2"
+        ]
+      },
+      {
+        "item": 21,
+        "reason": "merged item",
+        "text": "\"reasonably satisfactory\"",
+        "sections": [
+          "2"
+        ]
+      },
+      {
+        "item": 22,
+        "reason": "merged item",
+        "text": "\"a reasonable period\" Refer to the underwriter and legal how these terms apply to the CEO transition and the possible ESOP sale described in D5 ¶5.",
+        "sections": [
+          "2"
+        ]
+      },
+      {
+        "item": 23,
+        "reason": "merged item",
+        "text": "**FY2025 revolver availability and liquidity:** the December 31, 2025 Borrowing Base Certificate is needed [D1, §2 Footnote *]. Excess Availability against the $1,000,000 minimum [D2, §7.3] is not reported in the certificates [D1, §7].",
+        "sections": [
+          "3"
+        ]
+      },
+      {
+        "item": 27,
+        "reason": "merged item",
+        "text": "Resolve the FY2025 EBITDA conflict (4,100 in D1 Table 1 against \"about $4.5 million\" in D1 §6) and confirm which figure the FY2025 compliance certificate used.",
+        "sections": [
+          "4"
+        ]
+      },
+      {
+        "item": 28,
+        "reason": "merged item",
+        "text": "Obtain the Borrowing Base Certificates and confirm Excess Availability against §7.3, including whether the December 31, 2025 certificate was delivered.",
+        "sections": [
+          "4"
+        ]
+      },
+      {
+        "item": 30,
+        "reason": "duplicate item",
+        "text": "Refer the following §7.6 wording to the underwriter and legal. I have not interpreted it: \"cease to control,\" \"primary responsibility for the operations,\" \"successor reasonably satisfactory to the Lender,\" and \"within a reasonable period.\" Legal should also advise on how the planned CEO transition and the ESOP discussion relate to these terms. [D5, ¶5].",
+        "sections": [
+          "4"
+        ]
+      },
+      {
+        "item": 34,
+        "reason": "duplicate item",
+        "text": "Legal and underwriter review of the following terms in D2 §7.6, which are quoted and not interpreted: \"control,\" \"primary responsibility for the operations,\" \"a successor reasonably satisfactory to the Lender,\" and \"a reasonable period.\" Whether a transition to Megan Ostrander-Kolb or a sale of up to 30% of the membership interests to an ESOP engages §7.6, and how either affects the guaranty, is a question for the underwriter and legal.",
+        "sections": [
+          "5"
+        ]
+      },
+      {
+        "item": 38,
+        "reason": "duplicate item",
+        "text": "**Missing availability data:** The December 31, 2025 Borrowing Base Certificate and the Excess Availability figures against the $1,000,000 minimum are not in the provided documents. Credit Administration would normally hold them.",
+        "sections": [
+          "6"
+        ]
+      }
+    ]
+  }
+}

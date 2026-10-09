@@ -1,0 +1,3 @@
+Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.
+
+Not in provided documents: Larkspur's current stock price and market capitalization. The bank's licensed market data feed would normally hold this. Larkspur is described only as privately held [D5, ¶1], and D1-D5 contain no share price or market valuation.

@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 7372,
+  "stop_reason": "end_turn",
+  "session_id": "3584c7a8-27aa-4a6a-9325-a17e4c72813f",
+  "total_cost_usd": 0.0516304,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9698,
+    "cache_read_input_tokens": 1322,
+    "output_tokens": 1257,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9698,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1257,
+        "cache_read_input_tokens": 1322,
+        "cache_creation_input_tokens": 9698,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9698
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 1257,
+      "cacheReadInputTokens": 1322,
+      "cacheCreationInputTokens": 9698,
+      "webSearchRequests": 0,
+      "costUSD": 0.0516304,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nRisk rating and recommendation are set by the underwriter [D4, \u00a74.2.5]. I can list the cited facts relevant to that judgment.\n\n**Cited facts relevant to the underwriter's judgment**\n\n*Earnings and coverage*\n- FY2025 revenue was 72,500 and EBITDA was 10,400, an EBITDA margin of 14.3% [D1, Table 1: Revenue, EBITDA, EBITDA margin; FY2025].\n- FY2025 total leverage was 1.90x and DSCR was 1.61x [D1, Table 2: Total leverage, DSCR; FY2025].\n- Pro forma for the proposed facility (FY2025 basis), total funded debt is 26,200, total leverage is 2.52x, debt service is 5,600 and DSCR is 1.38x [D1, Table 3].\n\n*Policy thresholds*\n- Pro forma total leverage may not exceed 3.50x at origination [D4, \u00a74.2.1].\n- Pro forma DSCR must be at least 1.25x [D4, \u00a74.2.2].\n- Senior underwriter review and Senior Loan Committee approval are required where total commitment exceeds $15.0 million, pro forma total leverage exceeds 3.00x, or any policy exception is present [D4, \u00a74.2.3]. The proposed facility is $18.0M in total [D1, Table 3 note].\n\n*Proposed covenants*\n- Maximum Total Leverage Ratio of 3.25 to 1.00, stepping to 3.00 to 1.00 for fiscal quarters ending on or after December 31, 2027 [D2, \u00a77.1].\n- Minimum Debt Service Coverage Ratio of 1.25 to 1.00 [D2, \u00a77.2].\n\n*Concentration*\n- Customer A accounted for 31% of FY2025 revenue, and the top five customers accounted for 64% [D1, \u00a75]. Policy requires concentration to be addressed in Section 7 where a single customer exceeds 25% [D4, \u00a74.2.4].\n\n*Liquidity and data gaps*\n- FY2025 year-end cash was not provided, and FY2025 liquidity is shown as n/a [D1, Table 2: Cash, Liquidity; FY2025].\n- Revolver availability was 1,800 in FY2025 [D1, Table 2: Revolver availability; FY2025].\n\n*Conflicts and items needing attention*\n- **CONFLICT (net income):** FY2025 net income is 3,900 [D1, Table 1: Net income; FY2025], while management commentary states \"Net income rose to $4.2 million\" [D1, \u00a76].\n- **Reporting history:** The Q4 2024 compliance certificate arrived 18 days late and the reporting covenant was waived (waiver W-25-0117) [D5, \u00b63].\n- **Ownership and management:** Erik Halvorsen plans to hand the CEO role to Anders Halvorsen within three years, and the family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, \u00b65].\n- **Change of control language:** The Event of Default refers to Founders ceasing to own \"a meaningful portion\" of voting equity or ceasing to be \"actively involved in the management.\" Both terms are undefined in the excerpt and are referred to the underwriter and legal [D2, \u00a77.6].\n- **Timing:** The borrower wants to close by November 30, 2026, and said a national bank has offered to deliver a term sheet within 10 business days [D5, \u00b64].\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 7440,
+  "type": "result",
+  "duration_ms": 10642,
+  "uuid": "0e179995-7575-4049-896b-c69b4f0c21ff",
+  "ttft_stream_ms": 931,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 931,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

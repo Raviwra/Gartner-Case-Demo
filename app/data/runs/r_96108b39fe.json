@@ -1,0 +1,24 @@
+{
+  "run_id": "r_96108b39fe",
+  "chat_id": "c_3e99e616d8",
+  "chat_name": "Move 1 run",
+  "at": "2026-10-07T23:56:58",
+  "prompt": "Add a paragraph to Section 3 on the outlook for the US agricultural equipment industry.",
+  "response": "Not in provided documents: the outlook for the US agricultural equipment industry. The bank's licensed industry research feed would normally hold it.\n",
+  "response_chars": 150,
+  "duration_ms": 5771,
+  "model": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)",
+  "ok": true,
+  "error": null,
+  "system_prompt_version": "20261007-222726",
+  "documents": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5"
+  ],
+  "cleanup_status": "applied",
+  "cleanup_model": "claude-haiku-5-5",
+  "draft": "Not in provided documents: the outlook for the US agricultural equipment industry. The bank's licensed industry research feed would normally hold it."
+}

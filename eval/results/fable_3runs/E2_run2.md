@@ -1,0 +1,5 @@
+Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.
+
+Not in provided documents: the appraised value of the Rockford plant. This figure would normally be contained in a third-party real estate appraisal report (and summarized in the collateral file or Section 5 of the credit memo), none of which is included in D1-D5.
+
+What the documents do state about the plant as collateral: the obligations under the draft agreement are secured by, among other things, "a first mortgage on the Borrower's plant located in Rockford, Illinois" [D2, §2.2]. The plant is the company's single plant [D5, ¶1]. The proposed expansion is a 60,000 sq ft expansion of the Rockford plant at $6.0 million [D5, ¶4]. No appraised value, loan-to-value, or appraisal date appears in any provided document.

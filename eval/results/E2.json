@@ -1,0 +1,101 @@
+{
+  "duration_api_ms": 8386,
+  "stop_reason": "end_turn",
+  "session_id": "df75b954-b8e8-4798-bc85-97a5af0bf8fc",
+  "total_cost_usd": 0.16103875,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7088,
+    "cache_read_input_tokens": 1235,
+    "output_tokens": 379,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7088,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 379,
+        "cache_read_input_tokens": 1235,
+        "cache_creation_input_tokens": 7088,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7088
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 379,
+      "cacheReadInputTokens": 1235,
+      "cacheCreationInputTokens": 7088,
+      "webSearchRequests": 0,
+      "costUSD": 0.16103875,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nNot in provided documents: the appraised value of the Rockford plant (or any appraisal date, appraiser, or valuation method); an independent real estate appraisal report or a collateral valuation summary would normally contain this.\n\nWhat the documents do state about the plant as collateral:\n\n- The obligations are secured by, among other things, \"a first mortgage on the Borrower's plant located in Rockford, Illinois\" [D2, \u00a72.2].\n- The security package also includes a first-priority security interest in all present and future assets of the Borrower and a limited guaranty from Erik Halvorsen capped at $3,000,000 in the aggregate [D2, \u00a72.2].\n- The borrower operates from one plant [D5, \u00b61]; the proposed expansion is a 60,000 sq ft addition to the Rockford plant at a stated cost of $6.0 million [D5, \u00b64].\n\nNo appraised value, loan-to-value, or collateral coverage figure appears in D1\u2013D5. I cannot calculate or estimate one.",
+  "ttft_ms": 8472,
+  "type": "result",
+  "duration_ms": 10798,
+  "uuid": "d2d9d6ad-0c58-4d04-a9bc-08d86f162041",
+  "ttft_stream_ms": 2215,
+  "time_to_request_ms": 110,
+  "first_content_frame_ms": 2215,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0
+}

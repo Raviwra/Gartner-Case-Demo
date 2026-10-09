@@ -1,0 +1,5 @@
+Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.
+
+Not in provided documents: the appraised value of the Rockford plant. An appraised value would normally appear in a third-party real estate appraisal report ordered by the bank, or in a collateral valuation summary in the credit file.
+
+What the documents do state: the obligations are secured by (a) a first-priority security interest in all present and future assets of the Borrower, (b) a first mortgage on the Borrower's plant located in Rockford, Illinois, and (c) a limited guaranty from Erik Halvorsen, with recourse to the guarantor capped at $3,000,000 in the aggregate [D2, §2.2]. The borrower operates about 310 employees and one plant [D5, ¶1]. The requested facility would fund a 60,000 sq ft expansion of the Rockford plant ($6.0 million) [D5, ¶4]. No appraisal date, appraiser, appraised value, or loan-to-value figure is stated in D1-D5.

@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 15414,
+  "stop_reason": "end_turn",
+  "session_id": "a7510541-bd88-46af-9b82-565a69d32e0a",
+  "total_cost_usd": 0.053353,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7352,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 2368,
+    "output_tokens_details": {
+      "thinking_tokens": 939
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7352,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 2368,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7352,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7352
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2368,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7352,
+      "webSearchRequests": 0,
+      "costUSD": 0.053353,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 939,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\n## Section 2: Borrower Overview and Relationship History\n\n### Borrower Overview\nLarkspur Precision Components, Inc. is privately held. [D5, \u00b61] It was founded in 1994 in Rockford, Illinois, by Erik and Maria Halvorsen. [D5, \u00b61] The company makes precision-machined components and welded assemblies for agricultural and construction equipment OEMs. [D5, \u00b61] It has about 310 employees and one plant. [D5, \u00b61]\n\nOwnership is Erik Halvorsen 55%, Maria Halvorsen 25% and Anders Halvorsen (COO) 20%. [D5, \u00b61] The draft credit agreement defines \"Founders\" as Erik Halvorsen and Maria Halvorsen. [D2, \u00a71.1]\n\n### Relationship History\nLarkspur has been a deposit and treasury management customer of Meridian since 2019. [D5, \u00b62] Average operating deposits were $4.1 million over the trailing 12 months to August 2026. [D5, \u00b62] A $12.0 million facility ($7.0M term loan, $5.0M revolver) was approved in June 2023. [D5, \u00b62] The relationship notes record that the facility was paid as agreed with no past dues. [D5, \u00b62]\n\nThe Q4 2024 compliance certificate arrived 18 days late. [D5, \u00b63] Credit Administration waived the reporting covenant (waiver W-25-0117). [D5, \u00b63] All later certificates arrived on time. [D5, \u00b63]\n\n### Current Request and Ownership Developments\nOn the August 19, 2026 call, Erik and Anders Halvorsen asked to increase the facility to $18.0 million. [D5, \u00b64] The expansion is a 60,000 sq ft expansion of the Rockford plant ($6.0 million), tied to a new multi-year Customer A program. [D5, \u00b64] They want to close by November 30, 2026, so construction can start before winter. [D5, \u00b64] They said a national bank has offered to deliver a term sheet within 10 business days. [D5, \u00b64]\n\nOn the September 2, 2026 call, Erik Halvorsen (64) said he plans to hand the CEO role to Anders within three years. [D5, \u00b65] The family has discussed \"informally\" selling a minority stake to a private equity firm. [D5, \u00b65] There is no timeline and no LOI. [D5, \u00b65]\n\n**Sources used:** D5 \u00b61, \u00b62, \u00b63, \u00b64, \u00b65; D2 \u00a71.1 (definition of \"Founders\").\n\n**Underwriter to complete:**\n- Not in provided documents: the borrower's legal form and state of organization; the normal source is the full credit agreement or KYC file.\n- Not in provided documents: biographies or tenure of management other than the ages and roles in D5 \u00b65; the normal source is the management bios or KYC file.\n- Not in provided documents: the date of the \"informal\" private equity discussions and any terms; D5 \u00b65 states there is no timeline and no LOI.\n- Not in provided documents: the date of the term sheet the borrower said a national bank would deliver, and any confirmation that it exists. D5 \u00b64 reports only the borrower's statement.\n- Legal and underwriter review: D2 \u00a77.6 makes it an Event of Default if the Founders cease to own \"a meaningful portion of the voting equity interests of the Borrower, or cease to be actively involved in the management of the Borrower.\" The terms \"meaningful portion\" and \"actively involved\" are undefined in the excerpt. Anders Halvorsen holds 20% [D5, \u00b61] but is not a \"Founder\" under D2 \u00a71.1. Whether the planned CEO transition or a minority sale touches \u00a77.6 is an interpretation for the underwriter and legal. It is not drafted here.\n- Policy item: D4 \u00a74.2.4 requires customer concentration to be addressed in Section 7. D1 \u00a75 holds the concentration facts, and Section 7 is underwriter-authored.\n- Section 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 7986,
+  "type": "result",
+  "duration_ms": 17829,
+  "uuid": "bdc88597-071b-469a-bf1a-f9ced4499cfa",
+  "ttft_stream_ms": 1019,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 1019,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

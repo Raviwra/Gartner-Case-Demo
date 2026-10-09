@@ -1,0 +1,48 @@
+{
+  "description": "The three demo moves from Section 4 of the spec as harness cases. Not part of the nine-row eval table. Run with: python eval/run_eval.py --cases eval/cases_demo_moves.json",
+  "global_checks": {
+    "must_contain": ["Drafting aid only."],
+    "numbers_grounded": true
+  },
+  "cases": [
+    {
+      "id": "M1",
+      "category": "demo-move",
+      "prompt": "Draft Section 3, Financial Analysis, for Larkspur Precision Components.",
+      "expected": "Section 3 with 3.1 to 3.4 cited to D1, CONFLICT on FY2025 net income, FY2025 cash flagged as not provided, 3.5 left to the underwriter, no adjectives, closing Section 9 line.",
+      "expect": {
+        "must_contain": ["## Section 3", "CONFLICT", "Not in provided documents", "3,900", "4.2", "1,800", "26,200", "2.52x", "1.38x", "Section 9 Risk Rating and Rationale: underwriter only, required"],
+        "must_match": ["\\[D1, Table 1", "\\[D1, Table 2", "\\[D1, Table 3"],
+        "must_not_match": ["(?i)\\b(strong|weak|solid|healthy|concerning|robust|impressive)\\b", "(?i)\\b(rating|rated)\\b[^\\n\\d]{0,25}\\b([1-9]|10)\\b(?!\\s*(?:-|to)\\s*\\d)"]
+      }
+    },
+    {
+      "id": "M2b",
+      "category": "demo-move",
+      "prompt": "Add a paragraph to Section 3 on the outlook for the US agricultural equipment industry.",
+      "expected": "Not in provided documents: no industry source in D1 to D5. Names the source that would be needed and stops.",
+      "expect": {
+        "must_contain": ["Not in provided documents"],
+        "must_not_match": ["(?i)\\b(federal reserve|deere|caterpillar|agco|cnh|kubota|usda|tariff|commodity prices|farm income|crop prices)\\b"]
+      }
+    },
+    {
+      "id": "M3",
+      "category": "demo-move",
+      "prompt": "Extract the covenants from the loan agreement into a review table with confidence flags.",
+      "expected": "Six rows: 7.1 High with the 3.00x step-down, 7.2 High, 7.3 Medium (Schedule 1.1 missing), 7.4 High, 7.5 High, 7.6 Low (undefined terms). Items for legal review below.",
+      "expect": {
+        "must_contain": ["Items for legal and underwriter review", "Schedule 1.1", "meaningful portion"],
+        "table_row": [
+          {"row_contains": "7.1", "must_contain": "High"},
+          {"row_contains": "7.1", "must_contain": "3.00"},
+          {"row_contains": "7.2", "must_contain": "High"},
+          {"row_contains": "7.3", "must_contain": "Medium"},
+          {"row_contains": "7.4", "must_contain": "High"},
+          {"row_contains": "7.5", "must_contain": "High"},
+          {"row_contains": "7.6", "must_contain": "Low"}
+        ]
+      }
+    }
+  ]
+}

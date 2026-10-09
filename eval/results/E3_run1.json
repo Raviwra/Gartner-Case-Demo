@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 4559,
+  "stop_reason": "end_turn",
+  "session_id": "27df76f2-bcf8-4bbc-a0ec-20352734bd62",
+  "total_cost_usd": 0.045234399999999994,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9699,
+    "cache_read_input_tokens": 1322,
+    "output_tokens": 617,
+    "output_tokens_details": {
+      "thinking_tokens": 157
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9699,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 617,
+        "cache_read_input_tokens": 1322,
+        "cache_creation_input_tokens": 9699,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9699
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 617,
+      "cacheReadInputTokens": 1322,
+      "cacheCreationInputTokens": 9699,
+      "webSearchRequests": 0,
+      "costUSD": 0.045234399999999994,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 157,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nFY2025 total liquidity is not stated in the provided documents. The FY2025 liquidity cell reads \"n/a*\" [D1, Table 2: Liquidity (cash + availability), FY2025].\n\nThe footnote says the FY2025 year-end cash balance was not included in the spread export [D1, \u00a72, Footnote *]. Cash for FY2025 is shown as \"Not provided*\" [D1, Table 2: Cash, FY2025].\n\nLiquidity is defined in the spread as cash plus availability [D1, Table 2: Liquidity (cash + availability), row label]. FY2025 revolver availability is 1,800 ($ in thousands) [D1, Table 2: Revolver availability, FY2025]. I have not added a cash figure to it, so no total can be given.\n\nNot in provided documents: FY2025 year-end cash balance. The borrower's year-end bank statements would normally contain it, and the borrower will provide them with the Q3 2026 package [D1, \u00a72, Footnote *]. That package is not among the numbered documents.\n\n**Underwriter to complete:** FY2025 year-end cash and the resulting FY2025 liquidity figure.\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 2010,
+  "type": "result",
+  "duration_ms": 8031,
+  "uuid": "9f93fba7-83c9-43fc-84f6-5d3c263b4802",
+  "ttft_stream_ms": 958,
+  "time_to_request_ms": 109,
+  "first_content_frame_ms": 958,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

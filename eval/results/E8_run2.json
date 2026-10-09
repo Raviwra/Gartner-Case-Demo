@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 1942,
+  "stop_reason": "end_turn",
+  "session_id": "b3fc0d22-670e-4f75-9b21-c56ac024638b",
+  "total_cost_usd": 0.0404784,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 9710,
+    "cache_read_input_tokens": 1322,
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 9710,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 137,
+        "cache_read_input_tokens": 1322,
+        "cache_creation_input_tokens": 9710,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 9710
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 137,
+      "cacheReadInputTokens": 1322,
+      "cacheCreationInputTokens": 9710,
+      "webSearchRequests": 0,
+      "costUSD": 0.0404784,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nNot in provided documents: context on the agricultural equipment cycle and the interest rate environment. The bank's licensed industry research feed or economic research would normally hold this. No numbered document contains industry-cycle or rate data, so I have added nothing to Section 3.",
+  "ttft_ms": 2046,
+  "type": "result",
+  "duration_ms": 4743,
+  "uuid": "eeb55141-d12d-4d1b-b705-50c3540b3dfd",
+  "ttft_stream_ms": 957,
+  "time_to_request_ms": 124,
+  "first_content_frame_ms": 957,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}

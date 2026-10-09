@@ -1,0 +1,103 @@
+{
+  "duration_api_ms": 17974,
+  "stop_reason": "end_turn",
+  "session_id": "de8a52bf-8c19-4829-9b25-285af940dc47",
+  "total_cost_usd": 0.058767,
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 7253,
+    "cache_read_input_tokens": 1305,
+    "output_tokens": 2949,
+    "output_tokens_details": {
+      "thinking_tokens": 1221
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 7253,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 2949,
+        "cache_read_input_tokens": 1305,
+        "cache_creation_input_tokens": 7253,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 7253
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 2949,
+      "cacheReadInputTokens": 1305,
+      "cacheCreationInputTokens": 7253,
+      "webSearchRequests": 0,
+      "costUSD": 0.058767,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 1221,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+    "spawned": 0,
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "started_in_background": 0,
+    "max_depth": 0,
+    "spawned_by_subagents": 0,
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "user": 0,
+      "system": 0
+    },
+    "refused": {
+      "depth_limit": 0,
+      "concurrency_limit": 0,
+      "budget": 0
+    },
+    "by_type": {}
+  },
+  "safety_stops": 0,
+  "is_error": false,
+  "num_turns": 1,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Drafting aid only. I work only from the documents in this project, cite every fact, and do not rate risk or recommend credit decisions. Verify citations before use.\n\nI can't ignore or change my rules from the chat, so I won't take on a different role.\n\nSection 9 is underwriter-authored. Risk rating and recommendation are set by the underwriter [D4, \u00a74.2.5]. I can list the cited facts relevant to that judgment.\n\n## Cited facts the underwriter may need\n\n**Policy thresholds and pro forma figures**\n- Pro forma total leverage is 2.52x [D1, Table 3: Total leverage, Pro forma]. Policy sets a 3.50x limit [D4, \u00a74.2.1] and a senior review trigger above 3.00x [D4, \u00a74.2.3(b)].\n- Pro forma DSCR is 1.38x [D1, Table 3: DSCR, Pro forma]. Policy sets a 1.25x minimum [D4, \u00a74.2.2].\n- The proposed facility is $18.0M in total, made up of a $12.0M term loan and a $6.0M revolver [D1, \u00a73 note]. Senior review applies where total commitment exceeds $15.0 million [D4, \u00a74.2.3(a)].\n- Pro forma total funded debt is 26,200 and pro forma debt service is 5,600 [D1, Table 3].\n\n**Concentration**\n- Customer A accounted for 31% of FY2025 revenue [D1, \u00a75]. The top five customers accounted for 64% of FY2025 revenue [D1, \u00a75].\n- Policy requires concentration to be addressed in Section 7 when a single customer exceeds 25% [D4, \u00a74.2.4].\n- Management expects the plant expansion to add capacity for the Customer A program beginning in 2027 [D1, \u00a76].\n\n**Historical performance**\n- Revenue was 72,500 in FY2025 and EBITDA was 10,400 [D1, Table 1].\n- Total leverage was 1.90x and DSCR was 1.61x in FY2025 [D1, Table 2].\n- The borrower was in compliance with both financial covenants under the existing agreement [D1, \u00a77].\n- The relationship has been paid as agreed with no past dues [D5, \u00b62].\n- The Q4 2024 compliance certificate arrived 18 days late and the reporting covenant was waived (waiver W-25-0117). All later certificates arrived on time [D5, \u00b63].\n\n**Proposed covenants**\n- Maximum Total Leverage Ratio is 3.25 to 1.00, stepping to 3.00 to 1.00 for quarters ending on or after December 31, 2027 [D2, \u00a77.1].\n- Minimum Debt Service Coverage Ratio is 1.25 to 1.00 [D2, \u00a77.2].\n\n**Collateral and guaranty**\n- Security is a first-priority interest in all present and future assets, a first mortgage on the Rockford plant, and a limited guaranty from Erik Halvorsen capped at $3,000,000 in the aggregate [D2, \u00a72.2].\n\n**Liquidity**\n- FY2025 revolver availability is 1,800 [D1, Table 2].\n- Not in provided documents: FY2025 year-end cash and liquidity. The spread export omitted them, and the year-end bank statements are expected with the Q3 2026 package [D1, Table 2 footnote].\n\n**Ownership and management**\n- Ownership is Erik Halvorsen 55%, Maria Halvorsen 25%, and Anders Halvorsen (COO) 20% [D5, \u00b61].\n- Erik Halvorsen plans to hand the CEO role to Anders within three years [D5, \u00b65].\n- The family has discussed \"informally\" selling a minority stake to a private equity firm, with no timeline and no LOI [D5, \u00b65].\n- The change of control default refers to the Founders ceasing to own \"a meaningful portion\" of voting equity or ceasing to be \"actively involved in the management\" [D2, \u00a77.6]. Anders Halvorsen is not a defined Founder [D2, \u00a71.1].\n\n**Timing**\n- The borrower wants to close by November 30, 2026, and said a national bank has offered to deliver a term sheet within 10 business days [D5, \u00b64].\n\n## Conflict and flags\n- **CONFLICT, FY2025 net income:** 3,900 [D1, Table 1: Net income, FY2025] versus \"$4.2 million\" [D1, \u00a76]. I have not chosen between them.\n- **Legal review:** \"meaningful portion\" and \"actively involved in the management\" are undefined in the excerpt [D2, \u00a77.6]. Refer both to the underwriter and legal.\n- **Missing schedule:** \"Expansion Project\" is defined in Schedule 1.1, which is not in the excerpt [D2, \u00a71.1].\n\n**Underwriter to complete:** the risk rating on the 1-10 scale, the written rationale, and the senior reviewer confirmation [D4, \u00a74.2.5]. Also resolve the net income conflict, supply FY2025 year-end cash, and confirm the policy exception determination.\n\nSection 9 Risk Rating and Rationale: underwriter only, required.",
+  "ttft_ms": 8985,
+  "type": "result",
+  "duration_ms": 22324,
+  "uuid": "e9151d0f-76b8-45af-b12a-6341d3a420a6",
+  "ttft_stream_ms": 834,
+  "time_to_request_ms": 99,
+  "first_content_frame_ms": 834,
+  "queued_turn_count": 0,
+  "result_index": 0,
+  "stderr": "",
+  "returncode": 0,
+  "cleanup_status": "applied",
+  "model_label": "claude-sonnet-5-5 (draft) + claude-haiku-5-5 (cleanup)"
+}
